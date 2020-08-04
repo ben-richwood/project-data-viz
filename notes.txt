@@ -1,0 +1,391 @@
+
+Technos
+https://awesomeopensource.com/
+https://roadmap.sh/
+Text editor
+
+GApps 186
+
+CMS f586b740-07d0-0138-304d-245e60e6453d
+
+Umbraco https://umbraco.com/
+ With Umbraco, you get a content management system known and loved for its flexibility and great editing experience. Use the open source version of Umbraco for free and install, setup, and host it yourself or let us take care of it all for you on Umbraco Cloud. You get a free 14-day trial and if you get hooked, prices start from just $39/month.
+ "level":3,
+"pricing": "FOSS",
+"languages": ["ASP.NET"]
+
+FlyWheel
+https://getflywheel.com/
+Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business!
+"pricing": "paid",
+
+Documentation ad88a5a0-077f-0138-5b9e-245e60e6453d
+
+HackMD https://hackmd.io/home#
+Real-time collaborate on project team technical personal documentation in markdown. Capture fleeting ideas and formalize tribal knowledge.
+
+Wikum - http://wikum.csail.mit.edu/
+Summarize disucssion threads. By harnessing the power of people backed by state-of-the-art human-computer interaction and machine learning techniques, users get 
+
+Deployment -> d0c39220-9e56-48ec-a24b-658e51336d66
+Render https://render.com/
+Render is a unified platform to build and run all your apps and websites with free SSL, a global CDN, private networks and auto deploys from Git. Static website, webapp, API, Cron jobs, Docker containers...
+"pricing": "paid",
+"price": "Starting at 0 for static website"
+
+CloudFlare https://workers.cloudflare.com/
+Deploy serverless code to data centers across 200 cities in 90 countries to give it exceptional performance and reliability.
+
+
+pritunl https://pritunl.com/
+Enterprise Distributed OpenVPN, IPsec and WireGuard Server. Virtualize your private networks across datacenters and provide simple remote access in minutes. Open source BeyondCorp server from Pritunl providing zero trust security for privileged access to ssh and web applications
+
+Google Function https://cloud.google.com/functions
+Scalable pay as you go Functions-as-a-Service (FaaS) to run your code with zero server management.
+
+Payment
+Braintree https://www.braintreepayments.com/
+Reach more buyers and drive higher conversion with the only payments platform that delivers PayPal, Venmo (in the US), credit and debit cards, and popular digital wallets like Apple Pay and Google Pay in a single, seamless integration.
+
+Foxy https://www.foxy.io/
+Flexible Ecommerce for Your Website. Foxy’s hosted cart & payment page allow you to sell anything, using your existing website or platform.
+
+ReDoc https://github.com/Redocly/redoc
+OpenAPI/Swagger-generated API Reference Documentation
+
+
+Square squareup.com
+
+AmazonPay https://pay.amazon.com/
+Connect your business to new shoppers
+Ignite your summer strategy and get up to speed for peak shopping
+with the Amazon Pay Business Accelerator Campaign.
+
+CMS
+
+Sulu https://sulu.io/
+Deliver awesome, robust, reliable websites with Sulu CMS (based on Symfony). The ideal combination of PHP developer experience and agency platform. Deliver complex sites and great user experiences for the content teams who work on your site every day.
+
+
+IDE
+
+Tab Nine https://www.tabnine.com/
+TabNine uses deep learning to help you write code faster. TabNine uses documentation to infer this function's name, return type, and arguments. TabNine recognizes common patterns from libraries like React.
+
+Kite https://kite.com/
+Kite is the AI assistant giving developers superpowers.
+
+IMG
+
+Imagemin https://imagemin.saasify.sh/
+Reduce image sizes by up to 60%
+Lightning-fast API to serve optimized versions of any image asset, in any environment.
+
+Gumlet https://docs.gumlet.com/quick-start-guides/getting-started
+Gumlet a cloud based image optimization and delivery service. We help thousands of websites and mobile apps deliver the most optimised images to their users. We want to empower every developer to deliver best looking images to their end users while reducing the page weight.
+
+SVGO
+https://github.com/svg/svgo
+https://jakearchibald.github.io/svgomg/
+SVG Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files.
+
+API
+Sassify https://docs.saasify.sh/#/resources
+The easiest way to monetize your API. 
+
+Autocode https://autocode.com/
+An online code editor with API autocomplete, instant hosting, and a Standard Library anybody can contribute to. Sync data, build bots and customize workflows. When AWS is overkill, use Autocode.
+"pricing": "freemium",
+Price: "100,000 Requests to Projects/mo"
+
+Okta - https://developer.okta.com/pricing/
+Everything you need to build or integrate authentication and user management. Authentication, Authorization, Token Authentication, OpenID Connect, Single Sign-On, MFA, Social login
+
+
+DATAVIZ
+Tableau https://public.tableau.com/en-us/s/
+Your data has a story. Share it with the world.
+Visualize and publish data on topics you care about. Explore and be inspired by creations from like-minded data enthusiasts.
+
+
+PDF
+lightweightpdf https://lightweightpdf.com/
+Reduce the file size of your scanned PDF documents by up to 90%.
+"pricing": "free",
+
+markdowntopdf https://www.markdowntopdf.com/
+Select and upload your file containing markdown markup and we'll convert it to a PDF for you in an instant. 
+online service
+
+Anvil https://www.useanvil.com/pdf-filling-api/
+PDFs are complicated. Have your website or app filling PDFs in minutes with the Anvil PDF Filling API. Leave the infrastructure to us. 
+$0.10/ filled PDF
+
+Html to Pdf https://html2pdf.app/
+Most realistic, high quality html to pdf api service for developers!
+"pricing": "freemium",
+1000 conversions / month
+
+JotForm https://www.jotform.com/products/pdf-editor/
+Whether you need to create a contract, generate an invoice for payments, document event attendee registration information, or prepare an inspection report, JotForm PDF Editor helps you edit PDF files and automatically create polished documents with the data you collect.
+
+https://www.signaturit.com/
+Envoyez et signez des documents
+depuis n'importe quel dispositif et sans télécharger d'application. Facilitez la tâche de signature des contrats à vos clients en utilisant notre solution de signature électronique, optimisée pour les dispositifs mobiles, et ce en toute sécurité et avec une pleine valeur juridique.
+
+## PRCESS MANAGER
+
+pm2 - http://pm2.keymetrics.io/
+PM2 is a process manager for Node.js applications. It’s written in Node.js (JavaScript) itself and Shell. The utility also integrates a load balancer. You can keep application server processes alive and reload/restart them with zero downtime.
+
+node-supervisor - https://github.com/petruisfan/node-supervisor
+A little supervisor script for nodejs. It runs your program, and watches for code changes, so you can have hot-code reloading-ish behavior, without worrying about memory leaks and making sure you clean up all the inter-module references, and without a whole new require system.
+
+Forever - https://github.com/foreversd/forever
+A simple CLI tool for ensuring that a given script runs continuously (i.e. forever).
+
+
+
+
+JS Player
+https://www.jwplayer.com/pricing/ Paid
+https://www.omnivirt.com/ Paid
+https://github.com/videojs/videojs-vr/ FOSS
+
+Android Studio
+Kotlin -> Java and JVM. Also to JS and native code (LLVM)
+Xcode
+
+API abstraction
+- SOAP
+- REST
+- GraphQL
+- Falcor (Netflix) frontend 
+Falcor is the innovative data platform that powers the Netflix UIs. Falcor allows you to model all your backend data as a single Virtual JSON object on your Node server. On the client you work with your remote JSON object using familiar JavaScript operations like get, set, and call. If you know your data, you know your API.
+https://netflix.github.io/falcor/starter/what-is-falcor.html
+
+
+
+machine learning
+https://devopscube.com/list-best-frameworks-data-scientists/
+
+DevOps
+https://devopscube.com/best-opensource-monitoring-tools/
+
+
+
+https://zencoder.com/en/
+Zencoder consistently delivers the fastest encoding times in the cloud. Even HD Quality video is encoded faster than realtime.
+
+export and print map
+http://fieldpapers.org/compose#4/25.36/-11.03
+
+MyOSMatic
+https://print.get-map.org/new/
+This is a free software web service that allows you to generate maps of cities using OpenStreetMap data. The generated maps are available in PNG, PDF and SVG formats and are ready to be printed. 
+
+box https://www.box.com/
+Transformation starts with Cloud Content Management. Today’s digital-first world demands you work in an entirely new way. You have to securely collaborate with partners and customers, deliver innovation faster than the rest, and manage the content at the heart of it all. Box gives you a single platform to accelerate your business processes and increase employee productivity, all while protecting your most valuable information. It’s called Cloud Content Management, and it's the ultimate business advantage.
+
+Ghost https://ghost.org/
+Ghost is the platform your team has been asking for — it’s the platform editors need, built with technology developers prefer, and it works with all your other tools.\nGhost is a powerful platform for creating an online blog or publication
+starts at $29/month
+
+
+
+-------------------------
+
+CI/CL
+https://www.oracle.com/corporate/acquisitions/wercker/
+https://readme.drone.io/ (d65ec060-6a5a-0138-e99e-245e60e6453d)
+
+
+---------------------------
+
+
+
+Social media manager
+CrowdFire https://www.crowdfireapp.com/ $7.48/mo
+dlvrit https://dlvrit.com/ freemium $8.29/mo
+hootsuite https://hootsuite.com/
+
+## Learning
+
+Egghead
+codeschool / Pluralsight (https://www.pluralsight.com/)
+https://subscription.packtpub.com/ (Paid subscription)
+Udemy (https://www.udemy.com/)
+Udacity https://www.udacity.com/
+Khan Academy https://www.khanacademy.org/ (free)
+packtpub https://subscription.packtpub.com/
+codecademy https://www.codecademy.com/
+
+edX
+FutureLearn
+France Universite Numerique
+Coursera
+
+OpenClassRoom (https://openclassrooms.com/en/)
+tuto.com https://fr.tuto.com/
+
+
+
+## Project management tools
+
+timeliner, dreamlr, SmartSheet, Trello, Elegantt, Trellogant, Zenkit, Zendesk, Zoho
+OpenProject (https://www.openproject.org) - GANTT, list view, Kanban, bug tracking, wiki
+Weekdone https://weekdone.com/
+
+Shape https://www.shape.space/
+Collaborate to tackle tough challenges using customer-centered, creative problem-solving methods.
+
+bloodhound https://bloodhound.apache.org/
+Manage software products. Keep track of features, tasks and bugs
+
+Allura https://allura.apache.org/
+Apache Allura is an open source implementation of a software forge, a web site that manages source code repositories, bug reports, discussions, wiki pages, blogs, and more for any number of individual projects.
+
+Teamwork https://www.teamwork.com/
+Work management software that
+lets your team do more. Teamwork is a work and project management tool that helps teams improve collaboration, visibility, accountability and ultimately results
+
+Axosoft https://www.axosoft.com/project-management
+Axosoft is the Scrum software for agile teams. A powerful and comprehensive set of tools for software developers
+
+
+redbooth https://redbooth.com/
+Organized Work, Better Teams. Redbooth helps teams manage tasks and communication so projects gets completed faster and easier.
+
+NetSuite https://www.netsuite.com/portal/home.shtml
+Oracle
+The #1 Cloud ERP. One unified business management suite, encompassing ERP/Financials, CRM and ecommerce for more than 19,000 organizations.
+
+
+
+Prototyping
+Framer, invision, MarvelApp, Artboart, Origami(by Facebook), moqups, wireframe.cc, whimsical, zeppelin
+Adobe XD, Sketch (+SketchCloud), Balsamiq, UX Pin
+
+
+Pencil https://pencil.evolus.vn/
+An open-source GUI prototyping tool that's available for ALL platforms. Pencil is built for the purpose of providing a free and open-source GUI prototyping tool that people can easily install and use to create mockups in popular desktop platforms.
+
+
+Automation
+Zapier, RapidAPI
+Parabola https://parabola.io
+Your computer should work for you. Hand off your routine data tasks by describing them in Parabola. Build once, reuse infinitely.
+
+IOT
+https://mongoose-os.com/mos.html
+Arduino & Processing
+cyclonJS https://cylonjs.com/ JavaScript Robotics, By Your Command Next generation robotics framework with support for 43 different platforms
+Johnny Five http://johnny-five.io/ Johnny-Five is the JavaScript Robotics & IoT Platform. Released by Bocoup in 2012, Johnny-Five is maintained by a community of passionate software developers and hardware engineers. Over 75 developers have made contributions towards building a robust, extensible and composable ecosystem.
+   
+
+
+
+3d assets
+turbosquid, quixel, 3dsquirel
+Unity store
+3d archive
+sketchfab store
+
+
+Serializer
+- ZeroMQ (ØMQ) high-performance asynchronous messaging library, aimed at use in distributed or concurrent applications
+- Protocol Buffer (serialization)
+
+Marvelous Designer
+https://marvelousdesigner.com/product/overview
+Marvelous Designer allows you to create beautiful 3D virtual clothing with our cutting-edge design software.
+
+
+After effect
+layer-based VFX software
+
+Nuke
+https://www.foundry.com/products/nuke
+Foundry
+Node-based compositing, editorial and review software
+Starting at $4,988.00
+
+
+reCaptcha
+https://www.hcaptcha.com/
+Do you use a captcha to keep out bots? hCaptcha is a drop-in replacement for reCAPTCHA that earns websites money and helps companies get their data labeled.
+
+CRM
+https://www.blogduwebdesign.com/logiciels-crm-gratuits/
+
+GPU farm
+
+ranch computing - https://www.ranchcomputing.com/en
+Get your 3D projects rendered in record time. Upload your 3D projects on our CPU and GPU renderfarms and get them rendered for the best value.
+Available for 3ds Max, Cinema 4D, Maya, Blender, Indigo, Houdini, LightWave, Maxwell and Vue
+
+PixelPlow https://www.pixelplow.net/
+During our search for a good render farm service, we began taking a critical look at how other farms operated. We quickly discovered several ways to increase accessibility, affordability, and security in every aspect of your render farm experience. Pixel Plow is the continuation of our effort to provide this experience in a simple, competitive package.  With thousands of clients in over 90 countries around the world, Pixel Plow is quickly becoming a dominant force in the cloud rendering industry.
+
+
+
+----------------------
+
+Framework MVC - 5
+Cake - 4
+Express 7
+Ruby on Rails - 33345570-24e4-0138-edd5-245e60e6453d
+Sinatra - 254
+
+## Python
+Django - 545ac040-24e4-0138-edd6-245e60e6453d
+Flask - 68f0c2e0-24e4-0138-edd7-245e60e6453d
+Bottle - 241
+TurboGear - 242
+Web2py - 243
+
+## PHP
+Laravel - 244
+Symfony - 245
+Lumen - 246
+Silex - 247
+CodeIgniter - 248
+
+## Node
+Meteor 249
+Sails 250
+Hapi.js 251
+Total.js 252
+
+## C#
+.NET 253
+
+## Rust
+Rocket 255
+
+## Java
+Spring 256
+JSF 257
+Vaadin 258
+GWT (Google) 259
+Grails 260
+Play 261
+
+## Haskell
+Yesob 262
+
+## Haxe
+PureMVC 263
+Hails 264
+
+## F#
+Suave 265
+Fable 266
+WebSharper 267
+
+## Go
+Revel 268
+Beego 269
+Martini 270
+Gin Gonic 271
+Buffalo 272
