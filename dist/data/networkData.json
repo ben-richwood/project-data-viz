@@ -1,0 +1,3756 @@
+{
+  "itemList":[
+    {
+      "id":1,
+      "label":"Backend\nServer-side",
+      "size":150,
+      "level":2,
+      "description":"description"
+    },
+    {
+      "id":2,
+      "label":"Frontend",
+      "color":"#FFCFCF",
+      "x":0,
+      "level":2
+    }, {
+      "id":4,
+      "label":"CakePHP",
+      "link": "https://cakephp.org/",
+      "group":"framework",
+      "level":2
+    }, {
+      "id":5,
+      "label":"Framework MVC",
+      "group":"folder",
+      "x": 529,
+      "y": 47,
+      "level":2
+    }, {
+      "id":6,
+      "label":"NodeJS",
+      "link": "https://nodejs.org/en/",
+      "group":"stack",
+      "level":2,
+      "languages": ["JS"]
+    }, {
+      "id":7,
+      "label":"Express",
+      "link": "https://expressjs.com/",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["JS"]
+    }, {
+      "id": "e6c3a620-4ed6-0138-fba5-245e60e6453d",
+      "label":"koa",
+      "link": "https://koajs.com/",
+      "description": "Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. By leveraging async functions, Koa allows you to ditch callbacks and greatly increase error-handling. Koa does not bundle any middleware within its core, and it provides an elegant suite of methods that make writing servers fast and enjoyable.",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["JS"]
+    }, {
+      "id":"34a8a6d0-06b8-0138-5b94-245e60e6453d",
+      "label":"Game engine",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":"06585690-06b8-0138-5b93-245e60e6453d",
+      "label":"Unreal Engine",
+      "link": "https://www.unrealengine.com/en-US/",
+      "group":"software",
+      "level":2,
+      "company":"Epic Games"
+    }, {
+      "id":9,
+      "label":"Unity 3d",
+      "link": "https://unity.com/",
+      "group":"software",
+      "level":2,
+      "company":"Unity",
+      "languages": ["C#", "shader"]
+    }, {
+      "id":"618fb410-06b8-0138-5b95-245e60e6453d",
+      "label":"Lumberyard",
+      "link": "https://aws.amazon.com/lumberyard/",
+      "group":"software",
+      "description": "a game engine with no royalties or seat fees, frictionless integration with Twitch and AWS, plus much more on the horizon.",
+      "level":2,
+      "company":"Unity"
+    }, {
+      "id":10,
+      "label":"Adobe Creative Cloud",
+      "level":1,
+      "company":"Adobe"
+    }, {
+      "id":"140dba7a-3f8a-4dba-a828-834117c4b787",
+      "label":"Illustrator",
+      "description": "Vector drawing",
+      "group":"software",
+      "level":2,
+      "company":"Adobe",
+      "languages": ["JSX"]
+    }, {
+      "id":"80578604-53be-4d97-9267-f892be4dfc38",
+      "label":"Indesign",
+      "description": "Layout and print",
+      "group":"software",
+      "level":2,
+      "company":"Adobe",
+      "languages": ["JSX"]
+    }, {
+      "id":"2a6dd5ce-34e8-4250-a2e9-9c3384cdca4a",
+      "label":"Photoshop",
+      "description": "Photo and raster image editing",
+      "group":"software",
+      "level":2,
+      "company":"Adobe",
+      "languages": ["JSX"]
+    }, {
+      "id":"4781fc95-0eb7-4dfe-8f10-1d48b2898c27",
+      "label":"Spark",
+      "description": "Create impactful social graphics, web pages, and short videos in minutes with Adobe Spark",
+      "group":"software",
+      "level":2,
+      "company":"Adobe"
+    }, {
+      "id":"0e11edd0-06ad-0138-5b8d-245e60e6453d",
+      "label":"Bridge",
+      "group":"software",
+      "description": "Window & image xplorer",
+      "level":2,
+      "company":"Adobe"
+    }, {
+      "id":"49f7ed80-06ad-0138-5b8e-245e60e6453d",
+      "label":"Dimension",
+      "group":"software",
+      "description": "Adobe Dimension is the fastest way to bring your designs to life in 3D",
+      "link": "https://www.adobe.com/products/dimension.html",
+      "level":2,
+      "company":"Adobe"
+    }, {
+      "id":"9441d850-06ad-0138-5b90-245e60e6453d",
+      "label":"Premiere",
+      "group":"software",
+      "description": "Video editing",
+      "level":2,
+      "company":"Adobe"
+    }, {
+      "id":"a557e9f0-06ad-0138-5b91-245e60e6453d",
+      "label":"Prelude",
+      "link": "https://www.adobe.com/products/prelude.html",
+      "description": "Rapidly tag and transcode video footage and quickly create a rough cut with Prelude — a video logging and ingest tool designed for intuitive, efficient media organization and metadata entry.",
+      "level":2,
+      "group":"software",
+      "company":"Adobe"
+    }, {
+      "id":"d217dcb0-06ad-0138-5b92-245e60e6453d",
+      "label":"After Effect",
+      "description": "VFX",
+      "group":"software",
+      "level":2,
+      "company":"Adobe"
+    }, {
+      "id":"3815a3e0-06b9-0138-5b96-245e60e6453d",
+      "label":"XD - Experience",
+      "description": "Where teams create the world’s best experiences at scale, powered by the leader in creative tools.",
+      "link": "https://www.adobe.com/products/xd.html",
+      "group":"software",
+      "level":2,
+      "company":"Adobe"
+    }, {
+      "id":"064cadb0-077e-0138-5b9b-245e60e6453d",
+      "label":"Server",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":11,
+      "label":"Ngnix",
+      "group":"stack",
+      "level":2
+    }, {
+      "id":12,
+      "label":"Puma",
+      "description": "small library that provides a very fast and concurrent HTTP 1.1 server for Ruby web applications",
+      "group":"stack",
+      "level":2
+    },
+    {
+      "id":13,
+      "label":"Apache",
+      "group":"stack",
+      "level":1
+    }, {
+      "id":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "label":"Cloud services",
+      "x": -51,
+      "y": -743,
+      "level":1
+    }, {
+      "id":14,
+      "label":"AWS",
+      "group":"folder",
+      "link": "https://aws.amazon.com/",
+      "level":2,
+      "company":"Amazon"
+    }, {
+      "id":15,
+      "label":"Google Cloud",
+      "link": "https://cloud.google.com/",
+      "group":"online service",
+      "level":2,
+      "comapny":"Google Inc."
+    }, {
+      "id":16,
+      "label":"Azure",
+      "group":"online service",
+      "link": "https://azure.microsoft.com/en-us/overview/",
+      "level":2,
+      "company":"Microsoft",
+      "connections": [15, 17]
+    }, {
+      "id":17,
+      "label":"Linode",
+      "group":"online service",
+      "level":2,
+      "company":"Linode",
+      "connections": [15, 16]
+    }, {
+      "id":"768d79d0-0f5a-0138-7a97-245e60e6453d",
+      "label":"Packet",
+      "link": "https://www.packet.com/",
+      "description": "Makes infrastructure your competitive advantage with fully automated bare metal that can be deployed anywhere.",
+      "group":"online service",
+      "level":2
+    }, {
+      "id":"9d3ae3d0-0f5a-0138-7a98-245e60e6453d",
+      "label":"Wasabi",
+      "link": "https://wasabi.com/",
+      "description": "Claimed as being 80% cheaper than AWS S3 and faster too",
+      "group":"online service",
+      "level":2
+    }, {
+      "id":18,
+      "label":"TomCat",
+      "level":2,
+      "company":"Apache",
+      "description": "implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies"
+    }, {
+      "id":19,
+      "label":"Ant",
+      "level":2,
+      "company":"Apache"
+    }, {
+      "id":"c50c3f70-81ea-0138-7aca-245e60e6453d",
+      "label":"Couchdb",
+      "description": "Apache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang. Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability.",
+      "level":2,
+      "link": "https://couchdb.apache.org/",
+      "company":"Apache"
+    }, {
+      "id":20,
+      "label":"Mozilla projects",
+      "level":1,
+      "title":"https://developer.mozilla.org/en-US/docs/Mozilla/Projects",
+      "company":"Mozilla Foundation"
+    }, {
+      "id":21,
+      "label":"Thunderbird",
+      "group":"software",
+      "level":2,
+      "company":"Mozilla Foundation",
+      "languages": ["JS", "XUL"]
+    }, {
+      "id":"87c02670-077e-0138-5b9c-245e60e6453d",
+      "label":"Firefox",
+      "group":"software",
+      "level":2,
+      "company":"Mozilla Foundation",
+      "pricing": "FOSS",
+      "languages": ["Rust"]
+    }, {
+      "id":22,
+      "label":"Spidermonkey",
+      "level":2,
+      "company":"Mozilla Foundation"
+    }, {
+      "id":23,
+      "label":"Rhino",
+      "level":2,
+      "description":"Rhino is an open-source implementation of JavaScript written entirely in Java. It is typically embedded into Java applications to provide scripting to end users.",
+      "link":"https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino",
+      "company":"Mozilla Foundation"
+    }, {
+      "id":24,
+      "label":"JSHydra",
+      "level":2,
+      "description":"JSHydra is a static analysis tool that is capable of performing analysis of general JavaScript code. It is inspired by the Dehydra and Treehydra tools.",
+      "company":"Mozilla Foundation"
+    }, {
+      "id":25,
+      "label":"Talos",
+      "level":2,
+      "description":"Talos is a python performance testing framework that is usable on Windows, Mac and Linux.",
+      "link":"https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Talos",
+      "company":"Mozilla Foundation"
+    }, {
+      "id":26,
+      "label":"Midas",
+      "level":2,
+      "description":"Midas is the code name for Gecko's built-in rich text editor.",
+      "company":"Mozilla Foundation"
+    }, {
+      "id":27,
+      "label":"Gecko",
+      "level":2
+    }, {
+      "id":"aa5ec01f-dbe2-4604-a208-c7aee700913b",
+      "label":"Container",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":28,
+      "label":"Docker",
+      "description": "Docker works on the concept of process-level virtualization. Docker creates isolated environments for applications called containers. These containers can be shipped to any other server without making changes to the application. Docker is considered to be the next step in virtualization. Docker has a huge developer community and it is gaining huge popularity among Devops practitioners and pioneers in cloud computing.",
+      "level":2
+    }, {
+      "id":29,
+      "label":"Rkt",
+      "level":2
+    }, {
+      "id":30,
+      "label":"Kubernet",
+      "level":2
+    }, {
+      "id":31,
+      "label":"AWS ECS",
+      "company": "AWS",
+      "pricing": "paid",
+      "level":2
+    }, {
+      "id":32,
+      "label":"Lighttpd",
+      "link": "http://www.lighttpd.net/",
+      "description": "Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments.\nbrew install lighttpd\nlighttpd -f lighttpd.conf",
+      "pricing": "FOSS",
+      "level":2
+    }, {
+      "id":"cf326d70-077e-0138-5b9d-245e60e6453d",
+      "label":"simple-http-server",
+      "description": "This is a simple http server, use MVC like design.\nusage: python -m http.server",
+      "link": "https://pypi.org/project/simple-http-server/",
+      "group": "CLI",
+      "pricing": "FOSS",
+      "level":2
+    }, {
+      "id":33,
+      "label":"Vagrant",
+      "description": "Vagrant is a great tool for configuring virtual machines for a development environment. Vagrant runs on top of VM solutions like VirtualBox, VMware, Hyper-V, etc. It uses a configuration file called Vagrantfile, which contains all the configurations needed for the VM.  Once a virtual machine is created, it can be shared with other developers to have the same development environment. vagrant has plugins for cloud provisioning, configuration management tools (chef, puppet etc,) and  Docker.",
+      "level":2
+    }, {
+      "id":"d65ec060-6a5a-0138-e99e-245e60e6453d",
+      "label":"Drone",
+      "link": "https://readme.drone.io/",
+      "description": "Drone is a modern Continuous Integration and Continuous Delivery platform that empowers busy teams to automate their build, test and release workflows. Teams that harness Drone release software more frequently and with fewer bugs.",
+      "level":2
+    }, {
+      "id":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "label":"Build tool",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":34,
+      "label":"Maven",
+      "company": "Apache",
+      "level":2
+    }, {
+      "id":35,
+      "label":"Gradle",
+      "level":2
+    }, {
+      "id":36,
+      "label":"Jenkins",
+      "level":2
+    }, {
+      "id":37,
+      "label":"Grunt",
+      "level":2
+    }, {
+      "id":38,
+      "label":"Gulp",
+      "level":2
+    }, {
+      "id":39,
+      "label":"Travis CI",
+      "level":2
+    }, {
+      "id":40,
+      "label":"Circle CI",
+      "level":2
+    }, {
+      "id":41,
+      "label":"GitLab Deploy",
+      "company": "gitlab",
+      "level":2
+    }, {
+      "id":42,
+      "label":"Ansible",
+      "company": "Redhat",
+      "description": "Ansible delivers simple IT automation that ends repetitive tasks and frees up DevOps teams. Ansible is agent-less configuration management as well as an orchestration tool. In Ansible, the configuration modules are called “Playbooks”. Playbooks are written in YAML format and it is relatively easy to write when compared to other configuration management tools. Like other tools, Ansible can be used for cloud provisioning. ",
+      "level":2,
+      "languages": ["Go", "YAML"]
+    }, {
+      "id":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "label":"Package managers",
+      "group": "folder",
+      "x": 32,
+      "y": 1275,
+      "level":1
+    }, {
+      "id":43,
+      "label":"Browserify",
+      "level":2
+    }, {
+      "id":44,
+      "label":"jspm",
+      "level":2
+    }, {
+      "id":45,
+      "label":"Webpack",
+      "level":2
+    }, {
+      "id":46,
+      "label":"npm",
+      "level":2
+    }, {
+      "id":47,
+      "label":"Rollup",
+      "level":2
+    }, {
+      "id":48,
+      "label":"Brunch/Brocolli",
+      "level":2
+    }, {
+      "id":49,
+      "label":"Sproket",
+      "level":2
+    }, {
+      "id":51,
+      "label":"composer",
+      "level":2
+    }, {
+      "id":52,
+      "label":"pip",
+      "level":2
+    }, {
+      "id":53,
+      "label":"gem",
+      "level":2
+    }, {
+      "id": "d0c39220-9e56-48ec-a24b-658e51336d66",
+      "label":"deployment",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":54,
+      "label":"DeployHQ",
+      "level":2
+    }, {
+      "id":55,
+      "label":"Deploybot",
+      "level":2
+    }, {
+      "id":56,
+      "label":"IBM Cloud",
+      "level":2
+    }, {
+      "id":57,
+      "label":"Alibaba",
+      "level":2
+    }, {
+      "id":58,
+      "label":"Digital Ocean",
+      "level":2
+    }, {
+      "id":59,
+      "label":"Netlify",
+      "level":2
+    }, {
+      "id":60,
+      "label":"Cloud9",
+      "level":2
+    }, {
+      "id":61,
+      "label":"Now(zeit.co)",
+      "level":2
+    }, {
+      "id":62,
+      "label":"Heroku",
+      "level":2
+    }, {
+      "id":63,
+      "label":"AWS Lightsail",
+      "level":2
+    }, {
+      "id":64,
+      "label":"Vulter",
+      "level":2
+    }, {
+      "id":65,
+      "label":"Firebase",
+      "level":2
+    }, {
+      "id":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "label":"Hosting",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":66,
+      "label":"SiteGround",
+      "level":2
+    }, {
+      "id":67,
+      "label":"A2hosting",
+      "level":2
+    }, {
+      "id":68,
+      "label":"BlueHosting",
+      "level":2
+    }, {
+      "id":69,
+      "label":"OVH",
+      "level":2
+    }, {
+      "id":70,
+      "label":"Ionos",
+      "level":2
+    }, {
+      "id":71,
+      "label":"Kinsta (for Wordpress)",
+      "level":2
+    }, {
+      "id":72,
+      "label":"Phusion Passenger",
+      "description": "Passenger® is an app server that runs and automanages your web apps with ease",
+      "level":2
+    }, {
+      "id":73,
+      "label":"Rack",
+      "description": "Rack provides a minimal interface between webservers that support Ruby and Ruby frameworks",
+      "level":2
+    }, {
+      "id":74,
+      "label":"WSGE",
+      "level":2,
+      "languages": ["Python"]
+    }, {
+      "id":75,
+      "label":"TurboGear",
+      "level":2
+    }, {
+      "id":76,
+      "label":"Gunicor",
+      "level":2
+    }, {
+      "id":77,
+      "label":"GraphCMS",
+      "level":2
+    }, {
+      "id":"f586b740-07d0-0138-304d-245e60e6453d",
+      "label":"CMS",
+      "group": "folder",
+      "x": -1751,
+      "y":-1401,
+      "level":2
+    }, {
+      "id":78,
+      "label":"Wagtail",
+      "group": "framework",
+      "level":3,
+      "languages": ["Python"]
+    }, {
+      "id":79,
+      "label":"Refinery (Rails)",
+      "group": "framework",
+      "level":3,
+      "languages": ["Ruby"]
+    }, {
+      "id":80,
+      "label":"Camaleon (Rails)",
+      "link": "camaleon.tuzitio.com",
+      "group": "framework",
+      "level":3,
+      "languages": ["Ruby"]
+    }, {
+      "id":"21104ae0-07d1-0138-304e-245e60e6453d",
+      "label":"WordPress",
+      "link": "https://wordpress.org",
+      "company": "Automattic",
+      "group": "framework",
+      "level":3,
+      "pricing": "FOSS",
+      "languages": ["PHP", "MySQL"]
+    }, {
+      "id":"65509930-0e8c-0138-8cf2-245e60e6453d",
+      "label":"dato CMS",
+      "link": "https://www.datocms.com/",
+      "group": "framework",
+      "level":3,
+      "languages": ["GraphQL"],
+      "pricing": "paid",
+      "price": "€15 per project/month"
+    }, {
+      "id":"eb3d6040-4bc0-0138-77b7-245e60e6453d",
+      "label":"Craft CMS",
+      "link": "https://craftcms.com/",
+      "description": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. It's a self-hosted PHP 7 application, built on Yii 2. It can connect to MySQL and PostgreSQL for content storage. Templating is powered by Twig.",
+      "group": "framework",
+      "level":3
+    }, {
+      "id":"0fb5e3a0-7c61-0138-466b-245e60e6453d",
+      "label":"October",
+      "link": "https://octobercms.com/","languages": ["PHP"],
+      "pricing": "freemium",
+      "price": "€299 per project",
+      "description": "October is a free, open-source, self-hosted CMS platform based on the Laravel PHP Framework. Thousands of digital studios and freelancers all over the world love October for its simplicity, flexibility and modern design. Their clients are happy, because October saves them both time and money.",
+      "group": "framework",
+      "level":3,
+      "languages": ["PHP"],
+      "pricing": "FOSS"
+    }, {
+      "id":"c09e8670-0e8d-0138-8cf3-245e60e6453d",
+      "label":"Redaxscript",
+      "link": "https://www.redaxscript.com/",
+      "description": "A modern, ultra lightweight and rocket fast Content Management System for SQLite, MSSQL, MySQL and PostgreSQL.",
+      "group": "framework",
+      "level":3,
+      "languages": ["PHP"],
+      "pricing": "FOSS"
+    }, {
+      "id":"090f783e-0eea-4eaa-8b96-262387b188dc",
+      "label":"Cloud storage",
+      "level":1
+    }, {
+      "id":81,
+      "label":"backblaze",
+      "level":2
+    }, {
+      "id":82,
+      "label":"AWS glacier",
+      "level":3
+    }, {
+      "id":83,
+      "label":"Lima",
+      "link": "meetlima.fr",
+      "level":2
+    }, {
+      "id":84,
+      "label":"Nextcloud",
+      "level":2
+    }, {
+      "id":85,
+      "label":"TinyFileManager (PHP)",
+      "level":2
+    }, {
+      "id":86,
+      "label":"Protonmail",
+      "level":2
+    }, {
+      "id":87,
+      "label":"MailFast",
+      "level":2
+    }, {
+      "id":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "label":"ESP",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":88,
+      "label":"Sendgrid",
+      "level":2
+    }, {
+      "id":89,
+      "label":"Mailchimp",
+      "level":2
+    }, {
+      "id":90,
+      "label":"Mandrill",
+      "level":2
+    }, {
+      "id":91,
+      "label":"Mailgun",
+      "level":2
+    }, {
+      "id":92,
+      "label":"AWS SES",
+      "level":3
+    }, {
+      "id":93,
+      "label":"Mailjet",
+      "level":2
+    }, {
+      "id":94,
+      "label":"SendinBlue",
+      "level":2
+    }, {
+      "id":95,
+      "label":"Postmark",
+      "level":2
+    }, {
+      "id":96,
+      "label":"mxtoolbox",
+      "level":2
+    }, {
+      "id":97,
+      "label":"mail-tester",
+      "link":"www.mail-tester.com",
+      "level":2
+    }, {
+      "id":98,
+      "label":"mjml",
+      "level":2
+    }, {
+      "id":"e7bae763-aa7a-447a-9f39-6b1b8b4d8f70",
+      "label":"Registar",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":99,
+      "label":"Google domains",
+      "level":2
+    }, {
+      "id":100,
+      "label":"GoDaddy",
+      "level":2
+    }, {
+      "id":101,
+      "label":"OnlyDomain",
+      "level":2
+    }, {
+      "id":102,
+      "label":"Namecheap",
+      "level":2
+    }, {
+      "id":103,
+      "label":"haddp",
+      "company": "Apache",
+      "description": "distributed processing of large data sets across clusters of computers using simple programming models",
+      "level":2
+    }, {
+      "id":104,
+      "label":"Spark",
+      "company": "Apache",
+      "description": "unified analytics engine for large-scale data processing",
+      "level":2
+    }, {
+      "id":105,
+      "label":"Cassandra",
+      "company": "Apache",
+      "description": "db",
+      "level":2
+    }, {
+      "id":106,
+      "label":"HBase",
+      "company": "Apache",
+      "description": "random, realtime read/write access to your Big Data (billions of rows X millions of columns",
+      "level":2
+    }, {
+      "id":107,
+      "label":"Thrift",
+      "company": "Apache",
+      "level":2
+    }, {
+      "id":108,
+      "label":"Hashicorp",
+      "company": "redhat",
+      "level":2
+    }, {
+      "id":109,
+      "label":"Consult",
+      "company": "redhat",
+      "level":2
+    }, {
+      "id":110,
+      "label":"Nomad",
+      "company": "redhat",
+      "level":2
+    }, {
+      "id":111,
+      "label":"Vault",
+      "company": "Redhat",
+      "description": "vault is an open-source tool for storing and retrieving secret data. It provides many functionalities to store your secret key in an encrypted way. You can create ACLs, policies, and roles to manage how the secrets will be accessed by end-users",
+      "level":4
+    }, {
+      "id":112,
+      "label":"Terraform",
+      "company": "Redhat",
+      "description": "Terraform is an Infra provisioning tool which is cloud-agnostic. It is created by Hashicorp and written in Go. It supports all public and private cloud infrastructure provisioning. Unlike other configuration management tools, terraform does a great job in maintaining the state of your infrastructure using a concept called state files.",
+      "level":2
+    }, {
+      "id":"8977ef00-077d-0138-5b9a-245e60e6453d",
+      "label":"API testing",
+      "group": "folder",
+      "level":2
+    }, {
+      "id":113,
+      "label":"Postman",
+      "level":2
+    }, {
+      "id":114,
+      "label":"Insomnia",
+      "level":2
+    }, {
+      "id":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+      "label":"Documentation",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":"61d682c0-0780-0138-5ba0-245e60e6453d",
+      "label":"Swagger",
+      "level":3,
+      "languages": ["YAML", "JSON"]
+    }, {
+      "id":"ba8af720-077f-0138-5b9f-245e60e6453d",
+      "label":"documenter.getpostman.com",
+      "level":3
+    }, {
+      "id": "23b15020-0b44-0138-86df-245e60e6453d",
+      "label":"Read the Docs",
+      "link": "https://readthedocs.org/",
+      "group": "online service",
+      "level":3
+    }, {
+      "id": "9587f380-1719-0138-fb1b-245e60e6453d",
+      "label":"GitBook",
+      "link": "https://readthedocs.org/",
+      "group": "online service",
+      "level": 3
+    }, {
+      "id": "9faaa410-1719-0138-fb1c-245e60e6453d",
+      "label":"Book Stack",
+      "link": "bookstackapp",
+      "description": "BookStack is a simple, self-hosted, easy-to-use platform for organising and storing information.",
+      "group": "online service",
+      "level": 3
+    }, {
+      "id": "5c9ceab0-0b49-0138-86e1-245e60e6453d",
+      "label":"Coda",
+      "group": "online service",
+      "level": 3
+    }, {
+      "id": "6e55aa70-0b49-0138-86e2-245e60e6453d",
+      "label":"Notion",
+      "group": "online service",
+      "level": 3
+    }, {
+      "id": "6442e0c0-85e7-0138-b426-245e60e6453d",
+      "label":"Nuclino",
+      "link": "https://www.nuclino.com/",
+      "group": "online service",
+      "priciing": "freemium",
+      "level": 3
+    }, {
+      "id": "32940fd0-85e9-0138-b428-245e60e6453d",
+      "label":"Slite",
+      "link": "https://slite.com/",
+      "group": "online service",
+      "priciing": "freemium",
+      "price": "Starting at $6.67 /user /month",
+      "level": 3
+    }, {
+      "id": "848e9540-0b49-0138-86e3-245e60e6453d",
+      "label":"Dropbox Paper",
+      "description": "formely Hackpad",
+      "company": "Dropbox",
+      "group": "online service",
+      "level":2
+    }, {
+      "id": "dbad6f70-0db6-0138-c9a7-245e60e6453d",
+      "label":"WikiMedia",
+      "description": "The MediaWiki software is used by tens of thousands of websites and thousands of companies and organizations. It powers Wikipedia and also this website. MediaWiki helps you collect and organize knowledge and make it available to people. It's powerful, multilingual, free and open, extensible, customizable, reliable, and free of charge. Find out more and if MediaWiki is right for you. ",
+      "link": "https://www.mediawiki.org/wiki/MediaWiki",
+      "company": "Wikipedia",
+      "group": "framework",
+      "level":2
+    }, {
+      "id": "c8d863b0-077c-0138-5b99-245e60e6453d",
+      "label":"Payment platform",
+      "group": "folder",
+      "level":2
+    }, {
+      "id":115,
+      "label":"Stripe",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":116,
+      "label":"Paypal",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":117,
+      "label":"Mollie",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":118,
+      "label":"Monetico",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":119,
+      "label":"Ingenico",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":120,
+      "label":"PayZen",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":"442b0b70-27c7-0138-e8a8-245e60e6453d",
+      "label":"Square UP",
+      "link": "https://squareup.com/us/en",
+      "description": "From payments to payroll, there are Square solutions for almost everything.",
+      "pricing": "Price: 2.9% + 30¢ per transaction",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":121,
+      "label":"ngrok",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":122,
+      "label":"Sqreen",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":123,
+      "label":"MixPanel",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":124,
+      "label":"FlowXD",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":125,
+      "label":"Putty",
+      "level":2
+    }, {
+      "id":126,
+      "label":"TinyMCE",
+      "level":2
+    }, {
+      "id":127,
+      "label":"CKEditor",
+      "level":2,
+      "languages": ["JS"],
+      "group": "lib"
+    }, {
+      "id":128,
+      "label":"DraftTail",
+      "link": "https://www.draftail.org/",
+      "description": "A configurable rich text editor built with Draft.js. Used by Wagtail",
+      "level":2,
+      "languages": ["JS"],
+      "group": "lib"
+    }, {
+      "id":129,
+      "label":"TensorFlow",
+      "level":2
+    }, {
+      "id":130,
+      "label":"Keras",
+      "level":2,
+      "languages": ["Python"],
+      "group": "lib"
+    }, {
+      "id":131,
+      "label":"Theano",
+      "level":2
+    }, {
+      "id":132,
+      "label":"MS CNTK",
+      "level":2
+    }, {
+      "id":133,
+      "label":"Dialog Flow",
+      "company": "Google Inc.",
+      "level":2
+    }, {
+      "id":134,
+      "label":"React",
+      "company": "Facebook",
+      "group": "framework",
+      "level":2,
+      "languages": ["JS"]
+    }, {
+      "id":135,
+      "label":"Relay",
+      "company": "Facebook",
+      "level":2
+    }, {
+      "id":136,
+      "label":"Redux",
+      "company": "Facebook",
+      "level":2
+    }, {
+      "id":137,
+      "label":"GraphQL",
+      "company": "Facebook",
+      "level":2
+    }, {
+      "id":"07d12880-07ce-0138-304b-245e60e6453d",
+      "label":"VueJS",
+      "group": "framework",
+      "level":3
+    }, {
+      "id":"2bd6cd00-07ce-0138-304c-245e60e6453d",
+      "label":"Angular",
+      "group": "framework",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":138,
+      "label":"S3",
+      "company": "Amazon",
+      "level":3
+    }, {
+      "id":139,
+      "label":"EC2",
+      "company": "Amazon",
+      "level":3
+    }, {
+      "id":140,
+      "label":"DBS",
+      "company": "Amazon",
+      "level":3
+    }, {
+      "id":"1677abb0-81e9-0138-7ac2-245e60e6453d",
+      "label":"Aurora",
+      "company": "Amazon",
+      "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. Amazon Aurora is up to five times faster than standard MySQL databases and three times faster than standard PostgreSQL databases. It provides the security, availability, and reliability of commercial databases at 1/10th the cost. Amazon Aurora is fully managed by Amazon Relational Database Service (RDS), which automates time-consuming administration tasks like hardware provisioning, database setup, patching, and backups.",
+      "level":3
+    }, {
+      "id":"30d2b0b0-81e9-0138-7ac3-245e60e6453d",
+      "label":"Neptune",
+      "company": "Amazon",
+      "description": "Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. The core of Amazon Neptune is a purpose-built, high-performance graph database engine optimized for storing billions of relationships and querying the graph with milliseconds latency. Amazon Neptune supports popular graph models Property Graph and W3C's RDF, and their respective query languages Apache TinkerPop Gremlin and SPARQL, allowing you to easily build queries that efficiently navigate highly connected datasets. Neptune powers graph use cases such as recommendation engines, fraud detection, knowledge graphs, drug discovery, and network security.",
+      "level":3
+    }, {
+      "id":"38876590-81e9-0138-7ac4-245e60e6453d",
+      "label":"ElastiCache",
+      "company": "Amazon",
+      "description": "Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud. Build data-intensive apps or boost the performance of your existing databases by retrieving data from high throughput and low latency in-memory data stores. Amazon ElastiCache is a popular choice for real-time use cases like Caching, Session Stores, Gaming, Geospatial Services, Real-Time Analytics, and Queuing.",
+      "level":3
+    }, {
+      "id":"42869cd0-81e9-0138-7ac5-245e60e6453d",
+      "label":"CodeBuild",
+      "company": "Amazon",
+      "description": "AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy.",
+      "level":3
+    }, {
+      "id":"5a416650-81e8-0138-7ac0-245e60e6453d",
+      "label":"CloudWatch",
+      "company": "Amazon",
+      "level":3
+    }, {
+      "id":"607a0dd0-81e8-0138-7ac1-245e60e6453d",
+      "label":"Lambda",
+      "company": "Amazon",
+      "description": "AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just upload your code and Lambda takes care of everything required to run and scale your code with high availability. You can set up your code to automatically trigger from other AWS services or call it directly from any web or mobile app.",
+      "level":3
+    }, {
+      "id":"6e7627f0-81e9-0138-7ac6-245e60e6453d",
+      "label":"SgeMaker",
+      "company": "Amazon",
+      "description": "Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models.",
+      "link": "https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm",
+      "level":3
+    }, {
+      "id":"9b5eef70-81e9-0138-7ac7-245e60e6453d",
+      "label":"ElasticTranscoder",
+      "company": "Amazon",
+      "description": "AWS Elemental MediaConvert is a new file-based video transcoding service that provides a comprehensive suite of advanced transcoding features, with on-demand rates starting at $0.0075/minute. Read more.",
+      "link": "https://aws.amazon.com/elastictranscoder/?nc2=h_ql_prod_ms_et",
+      "level":3
+    }, {
+      "id":"c0160ca0-81e9-0138-7ac8-245e60e6453d",
+      "label":"CloudFront",
+      "company": "Amazon",
+      "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment. CloudFront is integrated with AWS – both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services. CloudFront works seamlessly with services including AWS Shield for DDoS mitigation, Amazon S3, Elastic Load Balancing or Amazon EC2 as origins for your applications, and Lambda@Edge to run custom code closer to customers’ users and to customize the user experience. Lastly, if you use AWS origins such as Amazon S3, Amazon EC2 or Elastic Load Balancing, you don’t pay for any data transferred between these services and CloudFront.",
+      "link": "https://aws.amazon.com/cloudfront/?nc2=h_ql_prod_nt_cf",
+      "level":3
+    }, {
+      "id":"0cb13fa0-81ef-0138-7acc-245e60e6453d",
+      "label":"Road 53",
+      "company": "Amazon",
+      "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.",
+      "link": "https://aws.amazon.com/route53/?nc2=h_ql_prod_nt_r53",
+      "level":3
+    }, {
+      "id":"37843cf0-81ea-0138-7ac9-245e60e6453d",
+      "label":"Cognito",
+      "company": "Amazon",
+      "description": "Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. Amazon Cognito scales to millions of users and supports sign-in with social identity providers, such as Facebook, Google, and Amazon, and enterprise identity providers via SAML 2.0.",
+      "link": "https://aws.amazon.com/cognito/?nc2=h_ql_prod_se_cog",
+      "level":3
+    }, {
+      "id":141,
+      "label":"Manuskrit",
+      "link": "http://www.theologeek.ch/manuskript/",
+      "description": "Open-source tool for writers",
+      "level":2
+    }, {
+      "id":142,
+      "label":"Scribus",
+      "link": "https://www.scribus.net/",
+      "description": "Open-source page layout program",
+      "level":2
+    }, {
+      "id":143,
+      "label":"LibreOffice",
+      "link": "https://www.libreoffice.org/",
+      "description": "LibreOffice is a powerful office suite – its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity. LibreOffice includes several applications that make it the most powerful Free and Open Source office suite on the market. Include Writer, Calc, Impress (presentation), Draw (diagram), Base (db) and Math",
+      "company": "libreoffice",
+      "level":2
+    }, {
+      "id":"efda4a00-0f57-0138-7a91-245e60e6453d",
+      "label":"Write",
+      "link": "https://www.libreoffice.org/",
+      "description": "Word processing",
+      "company": "libreoffice",
+      "level":3
+    }, {
+      "id":"35525e70-0f58-0138-7a92-245e60e6453d",
+      "label":"Calc",
+      "link": "https://www.libreoffice.org/",
+      "description": "Spreadsheet",
+      "company": "libreoffice",
+      "level":3
+    }, {
+      "id":"46e1eb90-0f58-0138-7a93-245e60e6453d",
+      "label":"Draw",
+      "link": "https://www.libreoffice.org/",
+      "description": "Diagram",
+      "company": "libreoffice",
+      "level":3
+    }, {
+      "id":"82be1db0-0f58-0138-7a94-245e60e6453d",
+      "label":"Base",
+      "link": "https://www.libreoffice.org/",
+      "description": "Database",
+      "company": "libreoffice",
+      "level":3
+    }, {
+      "id":"99f30680-0f58-0138-7a95-245e60e6453d",
+      "label":"Math",
+      "link": "https://www.libreoffice.org/",
+      "description": "Math formulas",
+      "company": "libreoffice",
+      "level":3
+    }, {
+      "id":"a6bd4560-0f58-0138-7a96-245e60e6453d",
+      "label":"Charts",
+      "link": "https://www.libreoffice.org/",
+      "description": "Charts",
+      "company": "libreoffice",
+      "level":3
+    }, {
+      "id":144,
+      "label":"Wireshark",
+      "link": "https://www.wireshark.org/",
+      "description": "Wireshark is the world’s foremost and widely-used network protocol analyzer",
+      "level":2
+    }, {
+      "id":145,
+      "label":"Harmony",
+      "company": "ToonBoom",
+      "link": "https://www.toonboom.com/",
+      "description": "Harmony levels the playing field with its production animation software by bringing 2D animation and full production capabilities",
+      "level":2
+    }, {
+      "id":146,
+      "label":"Storyboard Pro",
+      "company": "ToonBoom",
+      "link": "https://www.toonboom.com/products/storyboardpro",
+      "description": "Storyboard Pro 7 is an all-in-one storyboard solution that combines drawing, scripting, camera controls, animatic creation capabilities and sound. Seamlessly integrating with Harmony, Storyboard Pro is the way to get your content off the ground quickly and easily.",
+      "level":2
+    }, {
+      "id":147,
+      "label":"Affinity Publisher",
+      "company": "Affinity",
+      "link": "https://affinity.serif.com/en-gb/",
+      "description": "Experience next-level professional publishing with this groundbreaking creative software.",
+      "level":2
+    }, {
+      "id":148,
+      "label":"Affinity Photo",
+      "company": "Affinity",
+      "link": "https://affinity.serif.com/en-gb/",
+      "description": "Create the perfect images with the fastest, smoothest and most precise photo editor around.",
+      "level":2
+    }, {
+      "id":149,
+      "label":"Affinity Designer",
+      "company": "Affinity",
+      "link": "https://affinity.serif.com/en-gb/",
+      "description": "Bring your visions to life with the ultimate graphic design and illustration app.",
+      "level":2
+    }, {
+      "id":"cc29f4e0-0762-0138-5b98-245e60e6453d",
+      "label":"Substance Painter",
+      "company": "Adobe",
+      "link": "https://www.substance3d.com/products/substance-painter",
+      "description": "All the tools you need to texture your 3D assets in one application. Substance Painter has smart materials, smart masks and integrated bakers, and a state of the art real-time viewport.",
+      "level":2
+    }, {
+      "id":150,
+      "label":"Substance Designer",
+      "company": "Adobe",
+      "link": "https://www.substance3d.com/products/substance-designer/",
+      "description": "The industry standard for creating custom materials, Substance Designer gives you complete authoring control. Design tileable textures and patterns, and edit complete texture sets. Use pre-made resources or create materials from scratch in this non-destructive, node-based environment, and take advantage of Designer’s ever-expanding scripting capabilities.",
+      "level":2
+    }, {
+      "id":151,
+      "label":"AirCrack",
+      "link": "https://www.aircrack-ng.org/",
+      "description": "Aircrack-ng is a complete suite of tools to assess WiFi network security.",
+      "level":2
+    }, {
+      "id":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+      "label":"3D modeling",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":152,
+      "label":"3DSMax",
+      "company": "Autodesk",
+      "link": "https://www.autodesk.com/products/3ds-max/overview",
+      "description": "3D modeling and rendering software for design visualization, games, and animation ",
+      "price": "$1,545/year",
+      "level":2
+    }, {
+      "id":153,
+      "label":"Maya",
+      "company": "Autodesk",
+      "link": "https://www.autodesk.com/products/maya/overview",
+      "description": "3D computer animation, modeling, simulation, and rendering software",
+      "price": "$1,545/year",
+      "level":2
+    }, {
+      "id":154,
+      "label":"Cinema4D",
+      "company": "Maxon",
+      "link": "https://www.maxon.net/en-us/",
+      "description": "3D computer animation, modeling, simulation, and rendering software",
+      "group": "software",
+      "price": "€599,88/year",
+      "level":2
+    }, {
+      "id":155,
+      "label":"Houdini",
+      "company": "SideFX",
+      "link": "https://www.sidefx.com/products/houdini/",
+      "description": "3D computer animation, modeling, simulation, and rendering software. Houdini is built from the ground up to be a procedural system that empowers artists to work freely, create multiple iterations and rapidly share workflows with colleagues. ",
+      "group": "software",
+      "price": "Starts at $269/year",
+      "level":2
+    }, {
+      "id":156,
+      "label":"Lightwave",
+      "company": "NewTek Inc.",
+      "link": "https://www.lightwave3d.com/",
+      "description": "3D computer animation, modeling, simulation, and rendering software.",
+      "group": "software",
+      "price": "$995.00",
+      "level":2
+    }, {
+      "id":157,
+      "label":"Rendering engine",
+      "group": "folder",
+      "x": 43,
+      "y": -1928,
+      "level":1
+    }, {
+      "id":158,
+      "label":"Vray",
+      "company": "Chaos Group",
+      "link": "http://www.chaosgroup.com/en/2/index.html",
+      "level":2
+    }, {
+      "id":159,
+      "label":"OctaneRender",
+      "company": "Refractive Software",
+      "link": "http://render.otoy.com/index.php",
+      "level":2
+    }, {
+      "id":160,
+      "label":"Cycle",
+      "company": "Blender Foundation",
+      "level":2
+    }, {
+      "id":161,
+      "label":"MentalRay",
+      "company": "Nvidia",
+      "link": "http://www.nvidia-arc.com/products/nvidia-mental-ray/",
+      "level":2
+    }, {
+      "id":162,
+      "label":"Iray",
+      "company": "Nvidia",
+      "link": "http://www.nvidia.com/object/nvidia-iray.html",
+      "level":2
+    }, {
+      "id":163,
+      "label":"RenderMan",
+      "company": "Pixar",
+      "link": "http://renderman.pixar.com/view/renderman",
+      "group": "software",
+      "level":2
+    }, {
+      "id":164,
+      "label":"Tractor",
+      "company": "Pixar",
+      "description": "Tractor is a modern and robust solution for network rendering, capable of scaling up to the largest render farms",
+      "link": "https://renderman.pixar.com/tractor",
+      "group": "software",
+      "level":2
+    }, {
+      "id":165,
+      "label":"Keyshot",
+      "company": "Luxion",
+      "link": "https://www.keyshot.com/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":166,
+      "label":"Corona Render",
+      "company": "Render Legion",
+      "link": "https://corona-renderer.com/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":167,
+      "label":"Maxwell Render",
+      "company": "Next Limit",
+      "link": "http://www.maxwellrender.com/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":168,
+      "label":"Toolbag",
+      "company": "Marmoset",
+      "link": "http://www.marmoset.co/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":169,
+      "label":"Indigo Renderer",
+      "company": "Glare Technologies",
+      "link": "http://www.indigorenderer.com/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":170,
+      "label":"Arnold",
+      "company": "Autodesk",
+      "link": "https://www.arnoldrenderer.com/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":171,
+      "label":"Civil3D",
+      "company": "Autodesk",
+      "description": "Civil engineering design and construction documentation",
+      "link": "https://www.autodesk.com/products",
+      "group": "software",
+      "level":2
+    }, {
+      "id":172,
+      "label":"AutoCAD",
+      "company": "Autodesk",
+      "description": "AutoCAD® is computer-aided design (CAD) software that architects, engineers, and construction professionals rely on to create precise 2D and 3D drawings",
+      "link": "https://www.autodesk.com/products/autocad/overview",
+      "group": "software",
+      "level":2
+    }, {
+      "id":173,
+      "label":"Revit",
+      "company": "Autodesk",
+      "description": "Industrial design software for sketching, concept modeling, surfacing, and visualization",
+      "link": "https://www.autodesk.com/products",
+      "group": "software",
+      "level":2
+    }, {
+      "id":174,
+      "label":"Alias",
+      "company": "Autodesk",
+      "description": "Plan, design, construct, and manage buildings with powerful tools for Building Information Modeling",
+      "link": "https://www.autodesk.com/products",
+      "group": "software",
+      "level":2
+    }, {
+      "id":175,
+      "label":"Shotgun",
+      "company": "Autodesk",
+      "description": "A review and production tracking toolset for VFX, games, and animation teams",
+      "link": "https://www.autodesk.com/products",
+      "group": "software",
+      "level":2
+    }, {
+      "id":176,
+      "label":"FreeCAD",
+      "description": "FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size.",
+      "link": "https://www.freecadweb.org/",
+      "group": "software",
+      "level":2
+    }, {
+      "id":177,
+      "label":"Blender",
+      "company": "Blender Foundation",
+      "group": "software",
+      "level":2,
+      "languages": ["Python"]
+    }, {
+      "id":178,
+      "label":"Webdev",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":179,
+      "label":"CasperJS",
+      "description": "Headless browser",
+      "group": "lib",
+      "level":3
+    }, {
+      "id":180,
+      "label":"NightmareJS",
+      "description": "Headless browser",
+      "group": "lib",
+      "level":3
+    }, {
+      "id":181,
+      "label":"Image/File processing",
+      "group": "folder",
+      "level":1
+    }, {
+      "id":182,
+      "label":"OpenCV",
+      "group": "lib",
+      "level":2
+    }, {
+      "id":183,
+      "label":"ImageMagick",
+      "description": "+MiniMagick +RMagick",
+      "group": "CLI",
+      "level":2
+    }, {
+      "id":184,
+      "label":"GraphicsMagick",
+      "group": "CLI",
+      "level":2
+    }, {
+      "id":185,
+      "label":"GhostScript",
+      "group": "CLI",
+      "level":2
+    }, {
+      "id":186,
+      "label":"Google App",
+      "group": "folder",
+      "company": "Google Inc.",
+      "level":2
+    }, {
+      "id":187,
+      "label":"Google Docs",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":188,
+      "label":"Google Sheet",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":189,
+      "label":"Google App Script",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":190,
+      "label":"Google Slides",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+      "label":"Presentation",
+      "group": "folder",
+      "x": -1067,
+      "y": -244,
+      "level":3
+    }, {
+      "id":191,
+      "label":"Impress.js",
+      "link": "https://github.com/impress/impress.js",
+      "group": "lib",
+      "level":3
+    }, {
+      "id":192,
+      "label":"Slides.js",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":193,
+      "label":"Prezi",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":194,
+      "label":"Powerpoint",
+      "group": "software",
+      "company": "Microsoft",
+      "level":3
+    }, {
+      "id":195,
+      "label":"Zoho Show",
+      "group": "online service",
+      "company": "Zoho",
+      "level":3
+    }, {
+      "id":196,
+      "label":"Canva",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":197,
+      "label":"LibreOffice Impress",
+      "group": "software",
+      "level":3
+    }, {
+      "id":198,
+      "label":"Visme",
+      "link": "https://www.visme.co/presentation-software/",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":199,
+      "label":"Beautiful.AI",
+      "link": "https://www.beautiful.ai/",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":200,
+      "label":"Sway",
+      "link": "https://www.office.com/launch/sway?auth=2",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":"d5c16950-0b5a-0138-86e4-245e60e6453d",
+      "label":"Genial.ly",
+      "link": "https://www.genial.ly",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":"df9b3700-0b5a-0138-86e5-245e60e6453d",
+      "label":"Focusky",
+      "link": "http://focusky.com/",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":"e4f084d0-0b5a-0138-86e6-245e60e6453d",
+      "label":"Haiku Deck",
+      "link": "https://www.haikudeck.com/",
+      "group": "online service",
+      "level":3
+
+    }, {
+      "id":201,
+      "label":"Big Query",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":202,
+      "label":"Cloud Shell",
+      "description": "Console",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":203,
+      "label":"Maps",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":204,
+      "label":"DataStudio",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":205,
+      "label":"Compute Engine",
+      "description": "AWS EC2 equivalent",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":206,
+      "label":"PubSub",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":207,
+      "label":"Analytics",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":208,
+      "label":"Tag Manager",
+      "group": "online service",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":209,
+      "label":"Google Fonts",
+      "group": "online service",
+      "link": "https://fonts.google.com",
+      "company": "Google Inc.",
+      "level":3
+    }, {
+      "id":210,
+      "label":"Adobe Fonts",
+      "group": "online service",
+      "link": "https://fonts.adobe.com/",
+      "company": "Adobe",
+      "level":3
+    }, {
+      "id":211,
+      "label":"CSS preprocessor",
+      "group": "folder",
+      "x": 1605,
+      "y": -445,
+      "level":3
+    }, {
+      "id":212,
+      "label":"PostCSS",
+      "group": "CLI",
+      "link": "https://postcss.org/",
+      "description": "CSS preprocessor",
+      "level":3
+    }, {
+      "id":213,
+      "label":"Preprosterous",
+      "group": "software",
+      "description": "CSS preprocessor",
+      "level":3
+    }, {
+      "id":214,
+      "label":"SASS",
+      "group": "CLI",
+      "description": "CSS preprocessor",
+      "level":3
+    }, {
+      "id":215,
+      "label":"LESS",
+      "group": "CLI",
+      "description": "CSS preprocessor",
+      "level":3
+    }, {
+      "id":216,
+      "label":"Compass",
+      "group": "CLI",
+      "link": "http://compass-style.org/",
+      "description": "CSS preprocessor",
+      "level":3
+    }, {
+      "id":217,
+      "label":"Bootstrap",
+      "group": "lib",
+      "link": "http://getbootstrap.com/",
+      "description": "CSS framework",
+      "level":3
+    }, {
+      "id":218,
+      "label":"Tailwind",
+      "group": "lib",
+      "link": "https://tailwindcss.com/",
+      "description": "CSS framework",
+      "level":3
+    }, {
+      "id":219,
+      "label":"Bulma",
+      "group": "lib",
+      "description": "CSS framework",
+      "level":3
+    }, {
+      "id":220,
+      "label":"CSSinJS",
+      "group": "lib",
+      "description": "CSS framework",
+      "level":3
+    }, {
+      "id":221,
+      "label":"ecommerce platform",
+      "group": "forlder",
+      "level":2
+    }, {
+      "id":222,
+      "label":"Pagefly",
+      "link": "https://pagefly.io/",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":223,
+      "label":"Shopify",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":224,
+      "label":"WooCommerce",
+      "group": "online service",
+      "level":3
+    }, {
+      "id":225,
+      "label":"Datavisualization",
+      "group": "folder",
+      "level":2
+    }, {
+      "id":226,
+      "label":"BokehJS",
+      "description": "Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. Bokeh can help anyone who would like to quickly and easily make interactive plots, dashboards, and data applications.",
+      "link": "https://docs.bokeh.org/en/latest/index.html",
+      "group": "lib",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":227,
+      "label":"visJS",
+      "description": "A dynamic, browser based visualization library. The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data. The library consists of the components DataSet, Timeline, Network, Graph2d and Graph3d.",
+      "link": "https://visjs.org/",
+      "group": "online service",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":228,
+      "label":"D3",
+      "description": "D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.",
+      "link": "https://d3js.org/",
+      "group": "online service",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":229,
+      "label":"ColaJS",
+      "description": "Constraint-Based Layout in the Browser",
+      "link": "https://ialab.it.monash.edu/webcola/",
+      "group": "online service",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":230,
+      "label":"Database",
+      "description": "Database",
+      "group": "folder",
+      "level":2
+    }, {
+      "id":231,
+      "label":"MySQL",
+      "description": "Database",
+      "languages": ["SQL"],
+      "level":3
+    }, {
+      "id":232,
+      "label":"PostgtresQL",
+      "description": "Database",
+      "languages": ["SQL"],
+      "level":3
+    }, {
+      "id":233,
+      "label":"MangoDB",
+      "description": "NoSQL",
+      "level":3
+    }, {
+      "id":234,
+      "label":"MariaDB",
+      "description": "database",
+      "languages": ["SQL"],
+      "link": "https://mariadb.org/",
+      "level":3
+    }, {
+      "id":235,
+      "label":"FlyWay",
+      "description": "Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.",
+      "group": "onlie service",
+      "link": "https://flywaydb.org/",
+      "level":3
+    }, {
+      "id":236,
+      "label":"RethinkDB",
+      "description": "RethinkDB pushes JSON to your apps in realtime. When your app polls for data, it becomes slow, unscalable, and cumbersome to maintain. RethinkDB is the open-source, scalable database that makes building realtime apps dramatically easier.",
+      "link": "https://rethinkdb.com/",
+      "level":3
+    }, {
+      "id":237,
+      "label":"Cross platform appliction",
+      "company": "Facebook Inc",
+      "group": "folder",
+      "level":2
+    }, {
+      "id":238,
+      "label":"React Native",
+      "company": "Facebook Inc",
+      "languages": ["JS", "JSX"],
+      "group": "framework",
+      "level":3
+    }, {
+      "id":239,
+      "label":"Flatter",
+      "company": "Google Inc",
+      "group": "framework",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":240,
+      "label":"Ionic",
+      "company": "GitHub",
+      "group": "framework",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":"33345570-24e4-0138-edd5-245e60e6453d",
+      "label":"Ruby on Rails",
+      "link": "https://ruby-on-rails.com/",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Ruby"]
+    }, {
+      "id":"545ac040-24e4-0138-edd6-245e60e6453d",
+      "label":"Django",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Python"]
+    }, {
+      "id":"68f0c2e0-24e4-0138-edd7-245e60e6453d",
+      "label":"Flask",
+      "description": "Micro framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Python"]
+    }, {
+      "id":241,
+      "label":"Bottle",
+      "description": "Micro framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Python"]
+    }, {
+      "id":242,
+      "label":"TurboGear",
+      "description": "Micro framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Python"]
+    }, {
+      "id":243,
+      "label":"Web2py",
+      "description": "Micro framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Python"]
+    }, {
+      "id":244,
+      "label":"Laravel",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["PHP"]
+    }, {
+      "id":245,
+      "label":"Symfony",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["PHP"]
+    }, {
+      "id":246,
+      "label":"Lumen",
+      "description": "Micro Framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["PHP"]
+    }, {
+      "id":247,
+      "label":"Silex",
+      "description": "Micro Framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["PHP"]
+    }, {
+      "id":248,
+      "label":"Code Igniter",
+      "description": "Framework",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["PHP"]
+    }, {
+      "id":249,
+      "label":"Meteor",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["JS"]
+    }, {
+      "id":250,
+      "label":"Sails",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["JS"]
+    }, {
+      "id":251,
+      "label":"Hapi.js",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["JS"]
+    }, {
+      "id":252,
+      "label":"Total.js",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["JS"]
+    }, {
+      "id":253,
+      "label":".NET",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["C#"]
+    }, {
+      "id":254,
+      "label":"Sinatra",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Ruby"]
+    }, {
+      "id":255,
+      "label":"Rocket",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Rust"]
+    }, {
+      "id":256,
+      "label":"Spring",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Java"]
+    }, {
+      "id":257,
+      "label":"JSF",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Java"]
+    }, {
+      "id":258,
+      "label":"Vaadin",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Java"]
+    }, {
+      "id":259,
+      "label":"GWT",
+      "description": "Framework MVC",
+      "company": "Google Inc",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Java"]
+    }, {
+      "id":260,
+      "label":"Grails",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Java"]
+    }, {
+      "id":261,
+      "label":"Play",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Java"]
+    }, {
+      "id":262,
+      "label":"Yesob",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Haskell"]
+    }, {
+      "id":263,
+      "label":"PureMVC",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Haxe"]
+    }, {
+      "id":264,
+      "label":"Hails",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Haxe"]
+    }, {
+      "id":265,
+      "label":"Suave",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["F#"]
+    }, {
+      "id":266,
+      "label":"Fable",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["F#"]
+    }, {
+      "id":267,
+      "label":"WebSharper",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["F#"]
+    }, {
+      "id":268,
+      "label":"Revel",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Go"]
+    }, {
+      "id":269,
+      "label":"Beego",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Go"]
+    }, {
+      "id":270,
+      "label":"Martini",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Go"]
+    }, {
+      "id":271,
+      "label":"Gin Gonic",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Go"]
+    }, {
+      "id":272,
+      "label":"Buffalo",
+      "description": "Framework MVC",
+      "group":"framework",
+      "level":3,
+      "tags":["framework"],
+      "languages": ["Go"]
+    }, {
+      "id":273,
+      "label":"3D libs - in browser",
+      "group":"folder",
+      "x": -2279,
+      "y": -14,
+      "level":2
+    }, {
+      "id":274,
+      "label":"ThreeJS",
+      "description": "3D in browser",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":275,
+      "label":"PakoJS",
+      "description": "Zlib port to javascript, very fast! High speed zlib port to javascript, works in browser & node.js",
+      "link": "http://nodeca.github.io/pako/",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":276,
+      "label":"AmmoJS",
+      "description": "ammo.js is a direct port of the Bullet physics engine to JavaScript, using Emscripten. The source code is translated directly to JavaScript, without human rewriting, so functionality should be identical to the original Bullet.",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":277,
+      "label":"AmmoJS",
+      "description": "ammo.js is a direct port of the Bullet physics engine to JavaScript, using Emscripten. The source code is translated directly to JavaScript, without human rewriting, so functionality should be identical to the original Bullet.",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":278,
+      "label":"CannonJS",
+      "description": "A lightweight and simple 3D physics engine for the web. Inspired by three.js and ammo.js, and driven by the fact that the web lacks a physics engine, here comes cannon.js.",
+      "link": "http://schteppe.github.io/cannon.js/",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":279,
+      "label":"Emscripten",
+      "description": "Emscripten is a toolchain for compiling to asm.js and WebAssembly, built using LLVM, that lets you run C and C++ on the web at near-native speed without plugins.",
+      "link": "https://emscripten.org/",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":280,
+      "label":"A-Frame",
+      "description": "VR/AR in-browser. Developped by Mozilla.",
+      "company": "Mozilla",
+      "group":"lib",
+      "level":3,
+      "languages": ["JS"]
+    }, {
+      "id":281,
+      "label":"Map",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":282,
+      "label":"Google Maps",
+      "group":"online service",
+      "company": "Google Inc",
+      "level":3
+    }, {
+      "id":283,
+      "label":"Open Street Maps",
+      "group":"lib",
+      "link": "https://www.openstreetmap.org/",
+      "description": "OpenStreetMap is a collaborative project to create a free editable map of the world. The geodata underlying the map is considered the primary output of the project. The creation and growth of OSM has been motivated by restrictions on use or availability of map data across much of the world, and the advent of inexpensive portable satellite navigation devices",
+      "level":3
+    }, {
+      "id":284,
+      "label":"Leaflet",
+      "group":"lib",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":285,
+      "label":"Mapbox",
+      "company":"Mapbox Inc.",
+      "group":"lib",
+      "languages": ["JS", "OpenGL"],
+      "level":3
+    }, {
+      "id":286,
+      "label":"Terria",
+      "link":"https://terria.io/",
+      "description": "An open-source framework for web-based geospatial catalogue explorers",
+      "group":"lib",
+      "languages": ["JS", "OpenGL"],
+      "level":3
+    }, {
+      "id":287,
+      "label":"Tangram",
+      "link":"https://github.com/tangrams/simple-demo",
+      "description": "Tangram is a JavaScript library for rendering 2D & 3D maps live in a web browser with WebGL. It is tuned for OpenStreetMap but supports any source of GeoJSON/TopoJSON or binary vector data, including tilesets and single files.",
+      "group":"lib",
+      "languages": ["JS", "OpenGL"],
+      "level":3
+    }, {
+      "id":288,
+      "label":"Boot loader",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":289,
+      "label":"BalenaEtcher",
+      "group":"software",
+      "level":3
+    }, {
+      "id":290,
+      "label":"BootLoader",
+      "group":"software",
+      "level":3
+    }, {
+      "id":291,
+      "label":"Etcher",
+      "group":"software",
+      "level":3
+    }, {
+      "id":292,
+      "label":"DevOps",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":293,
+      "label":"Infrastructure",
+      "group":"folder"
+    }, {
+      "id":294,
+      "label":"Config/secret management",
+      "group":"folder",
+      "level":3
+    }, {
+      "id":295,
+      "label":"Chef",
+      "group":"online service",
+      "level":4
+    }, {
+      "id":297,
+      "label":"Puppet",
+      "group":"online service",
+      "description": "Puppet is also a ruby based configuration management tool like chef. The configuration code is written using puppet DSL’s and wrapped in modules. While chef cookbooks are more developer-centric while puppet is developed by keeping system administrators in mind.",
+      "link": "https://puppet.com/",
+      "level":4
+    }, {
+      "id":298,
+      "label":"Saltstack",
+      "group":"online service",
+      "description": "Saltstack is a python based opens configuration management tool. Unlike chef and puppet, Saltstack supports remote execution of commands. Normally in chef and puppet, the code for configuration will be pulled from the server while, in Saltstack, the code can be pushed to many nodes simultaneously. The compilation of code and configuration is very fast in Saltstack.",
+      "link": "https://www.saltstack.com/",
+      "level":4
+    }, {
+      "id":299,
+      "label":"CI/CL",
+      "group":"folder",
+      "level":3
+    }, {
+      "id":300,
+      "label":"Consult",
+      "company": "Redhat",
+      "group":"online service",
+      "description": "Consul is an opensource highly-available key-value store. It is mainly used for service discovery purposes. If you have a use case to store and retrieve configurations in real-time, consul is the right fit.",
+      "level":4
+    }, {
+      "id":301,
+      "label":"etcd",
+      "group":"online service",
+      "description": "etcd is another opensource key-value store created by the CoreOS team. It is one of the key components used in Kubernetes for storing the state of cluster operations and management.",
+      "level":4
+    }, {
+      "id":302,
+      "label":"Sonarqube",
+      "group":"online service",
+      "description": "SonarQube empowers all developers to write cleaner and safer code.",
+      "link": "https://www.sonarqube.org/",
+      "level":4
+    }, {
+      "id":303,
+      "label":"Monitoring",
+      "group":"folder",
+      "level":3
+    }, {
+      "id":304,
+      "label":"Prometheus & Alert Manager",
+      "group":"online service",
+      "description": "Prometheus is an open-source monitoring system. It is very lightweight and specifically built for modern application monitoring. It supports Linux server and container monitoring.\nIt has out of the box support for Kubernetes and Openshift monitoring. Alert manager manages all the alerting set up for the monitoring metrics.\nPrometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.",
+      "link": "https://prometheus.io/docs/introduction/overview/",
+      "level":4
+    }, {
+      "id":305,
+      "label":"New relic",
+      "group":"online service",
+      "description": "New Relic is a cloud-based (SaaS) solution for application monitoring. It supports monitoring of various applications like Php, Ruby, Java, NodeJS etc. It gives you real-time insights about your running application. A new relic agent should be configured in your application to get the real-time data. New relic uses various metrics to provide valuable insights about the application it is monitoring.",
+      "level":4
+    }, {
+      "id":306,
+      "label":"Sensu",
+      "group":"online service",
+      "description": "Sensu is an open source monitoring framework written in Ruby. Sensu is a monitoring tool specifically built for cloud environments. It can be easily deployed using tools like chef and puppet. It also has an enterprise edition for monitoring.",
+      "level":4
+    }, {
+      "id":307,
+      "label":"Datalog",
+      "group":"online service",
+      "description": "Datadog is also a cloud-based (Saas) application and server monitoring solutions. You can monitor docker containers and other applications using Datadog.",
+      "level":4
+    }, {
+      "id":"451f07c0-4d8e-0138-d5fb-245e60e6453d",
+      "label":"Log Rocket",
+      "group":"online service",
+      "link": "https://logrocket.com/",
+      "description": "LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster.",
+      "level":4
+    }, {
+      "id":"696cb360-4d8e-0138-d5fc-245e60e6453d",
+      "label":"Sentry",
+      "group":"online service",
+      "link": "https://sentry.io/welcome/",
+      "description": "Sentry provides self-hosted and cloud-based error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.",
+      "level":4
+    }, {
+      "id":"46e19980-81eb-0138-7acb-245e60e6453d",
+      "label":"Grafana",
+      "group":"online service",
+      "link": "https://grafana.com/",
+      "description": "Grafana is the open source analytics and monitoring solution for every database",
+      "pricing": "freemium",
+      "level":4
+    }, {
+      "id":308,
+      "label":"Version Control System",
+      "group":"Allows to go back in history and control code quality",
+      "level":2
+    }, {
+      "id":309,
+      "label":"Git",
+      "group":"CLI",
+      "level":3
+    }, {
+      "id":310,
+      "label":"Mercury (Hg)",
+      "group":"CLI",
+      "level":3
+    }, {
+      "id":311,
+      "label":"SVN",
+      "group":"CLI",
+      "level":3
+    }, {
+      "id":"f1da30c0-6a5b-0138-e99f-245e60e6453d",
+      "label":"VCS GUI",
+      "group":"folder",
+      "level":3
+    }, {
+      "id":312,
+      "label":"GitUp",
+      "group":"software",
+      "level":4
+    }, {
+      "id":313,
+      "label":"GitKraken",
+      "company": "Axosoft",
+      "group":"software",
+      "level":4
+    }, {
+      "id":314,
+      "label":"GitHub Desktop",
+      "group":"software",
+      "level":4
+    }, {
+      "id":315,
+      "label":"gitk",
+      "group":"CLI",
+      "level":4
+    }, {
+      "id":316,
+      "label":"SourceTree",
+      "group":"CLI",
+      "company": "Atlassian",
+      "level":4
+    }, {
+      "id":317,
+      "label":"VCS repository",
+      "group":"folder",
+      "level":3
+    }, {
+      "id":318,
+      "label":"GitHub",
+      "group":"online service",
+      "level":4
+    }, {
+      "id":319,
+      "label":"GitLab",
+      "group":"online service",
+      "level":4
+    }, {
+      "id":320,
+      "label":"BitBucket",
+      "group":"online service",
+      "company": "Atlassian",
+      "level":4
+    }, {
+      "id":"eb87df70-7dfe-0138-ffba-245e60e6453d",
+      "label":"CodeCommit",
+      "group":"online service",
+      "company": "AWS",
+      "level":4
+    }, {
+      "id":321,
+      "label":"FE Sandbox",
+      "group":"folder",
+      "x": 1992,
+      "y": 600,
+      "level":2
+    }, {
+      "id":322,
+      "label":"Repl",
+      "group":"online service",
+      "link": "https://repl.it",
+      "level":3
+    }, {
+      "id":323,
+      "label":"codepen",
+      "group":"online service",
+      "link": "https://codepen.io",
+      "level":3
+    }, {
+      "id":324,
+      "label":"codesandbox",
+      "group":"online service",
+      "link": "https://codesandbox.io/",
+      "description": "CodeSandbox is an online editor with a focus on creating, sharing and importing new React projects",
+      "level":3
+    }, {
+      "id":325,
+      "label":"jsFidde",
+      "group":"online service",
+      "link": "https://jsfiddle.net/",
+      "description": "jsFiddle lets one easily test snippets of JavaScript/CSS/HTML code on-the-fly, adding optional libraries like jQuery.",
+      "level":3
+    }, {
+      "id":326,
+      "label":"Plunkr",
+      "group":"online service",
+      "link": "https://plnkr.co/",
+      "description": "Plunker is an online community for creating, collaborating on and sharing your web development ideas",
+      "level":3
+    }, {
+      "id":327,
+      "label":"JSitor",
+      "group":"online service",
+      "link": "https://jsitor.com/",
+      "level":3
+    }, {
+      "id":"b2185c70-85e7-0138-b427-245e60e6453d",
+      "label":"Codeanywhere",
+      "group":"online service",
+      "link": "https://codeanywhere.com/",
+      "level":3
+    }, {
+      "id":328,
+      "label":"Dates",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":329,
+      "label":"Dates",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":330,
+      "label":"Moment.JS",
+      "group":"lib",
+      "languages": ["JS"],
+      "level":3
+    }, {
+      "id":331,
+      "label":"Date-fn",
+      "group":"lib",
+      "languages": ["JS"],
+      "link": "https://date-fns.org/",
+      "description": "date-fns provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js.",
+      "level":3
+    }, {
+      "id":332,
+      "label":"Static site generator",
+      "group":"folder",
+      "description": "A static-site generator, often abbreviated as SSG, is a tool that transforms content from one format, such as Markdown or AsciiDoc, into another format, usually HTML, and lays out pages so that the site’s look and feel is consistent across all pages. Static sites can be deployed to any web server. Static files can be served fast. There is no database or templating layer that slows requests down. Additionally, web servers will automatically set caching headers (such as Last-Modified) for static files, which reduce bandwidth usage. Static sites do not contain dynamic content, and are therefore immune to most common attacks. Because static sites are developed locally, you can play around with the site to your heart’s content without affecting the live site. Static-site generators commonly store their content in flat text files. This makes them ideal to be used with version control system, such as Git. Because of this, many sites built with static-site generators are open-source.",
+      "level":2
+    }, {
+      "id":333,
+      "label":"Nanoc",
+      "link": "https://nanoc.ws/",
+      "group":"online service",
+      "description": "Nanoc is suitable for a wide variety of sites, including personal blogs, portfolios, and product websites. Some unique features of Nanoc include: support for free-form metadata, support for various markup languages (Markdown, AsciiDoc, Textile, …), support for various templating languages (eRuby, Haml, Mustache, …), ability to write custom filters and helpers, ability to pull in data from other sources (databases, web APIs, …), integration with various deployment mechanisms, ability to run pre-deployment checks",
+      "level":3
+    }, {
+      "id":334,
+      "label":"Headless CMS / Content delivery",
+      "group":"folder",
+      "description": "For JamStack",
+      "level":2
+    }, {
+      "id":335,
+      "label":"Stackbit",
+      "link":"https://www.stackbit.com/",
+      "group":"online service",
+      "description": "Stackbit enables teams to edit on-page, share previews and monitor builds without ever leaving their site. Best of all, it takes only minutes to integrate - no code changes required!",
+      "level":3
+    }, {
+      "id":336,
+      "label":"Prismic",
+      "link":"https://prismic.io/",
+      "group":"online service",
+      "description": "Prismic is a Content Management System, a tool for editing online content. Basically we've built a tool that lets you choose your technology, framework, and language and then easily manage your content.",
+      "level":3
+    }, {
+      "id":337,
+      "label":"Sanity",
+      "link":"https://www.sanity.io/",
+      "group":"online service",
+      "description": "Distribute a single source of truth to any channel, device or product. Sanity lets you treat content as structured data so you can flow it across APIs to power experiences wherever you might need them.",
+      "level":3
+    }, {
+      "id":338,
+      "label":"Forestry",
+      "link":"https://forestry.io/",
+      "group":"online service",
+      "level":3
+    }, {
+      "id":339,
+      "label":"StaticGen",
+      "link":"https://www.staticgen.com/",
+      "group":"online service",
+      "level":3
+    }, {
+      "id":340,
+      "label":"11ty",
+      "link":"https://www.11ty.dev/",
+      "group":"online service",
+      "level":3
+    }, {
+      "id":341,
+      "label":"Staticman",
+      "group":"online service",
+      "level":3
+    }, {
+      "id":342,
+      "label":"Caching",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":343,
+      "label":"Squid Proxy",
+      "link": "http://www.squid-cache.org/",
+      "group":"online service",
+      "description": "Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.\nSquid is a fully-featured HTTP/1.0 proxy which is almost (but not quite - we're getting there!) a fully-featured HTTP/1.1 proxy. Squid offers a rich access control, authorization and logging environment to develop web proxy and content serving applications. Squid offers a rich set of traffic optimization options, most of which are enabled by default for simpler installation and high performance.",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":344,
+      "label":"Redis",
+      "link": "https://redis.io/",
+      "company": "redisLab",
+      "group":"lib",
+      "description": "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":345,
+      "label":"Bash",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":346,
+      "label":"zsh",
+      "group":"software",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":347,
+      "label":"fish",
+      "group":"software",
+      "link": "https://fishshell.com/",
+      "description": "fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family.",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":348,
+      "label":"powershell",
+      "group":"software",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":349,
+      "label":"oh-my-zsh",
+      "group":"software",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":350,
+      "label":"Tiling window manager",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":351,
+      "label":"Awesome Window Manager",
+      "group":"software",
+      "language": ["Lua"],
+      "level":3
+    }, {
+      "id":352,
+      "label":"xmonad",
+      "group":"software",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":353,
+      "label":"phoenixJS",
+      "group":"software",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":354,
+      "label":"Sway",
+      "group":"software",
+      "link": "https://swaywm.org/",
+      "description": "Sway is a tiling Wayland compositor and a drop-in replacement for the i3 window manager for X11. It works with your existing i3 configuration and supports most of i3's features, plus a few extras.",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":355,
+      "label":"i3",
+      "group":"software",
+      "link": "https://i3wm.org/",
+      "description": "i3 is a tiling window manager, completely written from scratch. The target platforms are GNU/Linux and BSD operating systems, our code is Free and Open Source Software (FOSS) under the BSD license. i3 is primarily targeted at advanced users and developers.",
+      "pricing": "FOSS",
+      "level":3
+    }, {
+      "id":356,
+      "label":"Desktop manager",
+      "group":"folder",
+      "level":2
+    }, {
+      "id":357,
+      "label":"Gnome",
+      "group":"software",
+      "level":3
+    }, {
+      "id":358,
+      "label":"xcfe",
+      "group":"software",
+      "level":3
+    }, {
+      "id":359,
+      "label":"Unity",
+      "group":"software",
+      "level":3
+    }, {
+      "id":360,
+      "label":"Commander",
+      "group":"software",
+      "level":3
+    }, {
+      "id":361,
+      "label":"KDE Plasma",
+      "group":"software",
+      "level":3
+    }, {
+      "id":362,
+      "label":"Ramda",
+      "group":"Lib",
+      "link": "https://ramdajs.com/",
+      "description": "There are already several excellent libraries with a functional flavor. Typically, they are meant to be general-purpose toolkits, suitable for working in multiple paradigms. Ramda has a more focused goal. We wanted a library designed specifically for a functional programming style, one that makes it easy to create functional pipelines, one that never mutates user data.",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":363,
+      "label":"Lodash",
+      "group":"Lib",
+      "link": "https://lodash.com/",
+      "description": "A modern JavaScript utility library delivering modularity, performance & extras. Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc. Lodash’s modular methods are great for: Iterating arrays, objects, & strings, Manipulating & testing values, Creating composite functions",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":364,
+      "label":"RFDC",
+      "description": "Copy prototype properties as well as own properties into the new object. It's marginally faster to allow enumerable properties on the prototype to be copied into the cloned object (not onto it's prototype, directly onto the object).",
+      "group":"Lib",
+      "link": "https://github.com/davidmarkclements/rfdc#readme",
+      "description": "Stands for Really Fast Deep Copy",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":365,
+      "label":"Draco",
+      "group":"Lib",
+      "company": "Google Inc.",
+      "description": "open-source library for compressing and decompressing 3D geometric meshes and point clouds",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":366,
+      "label":"Handsontable",
+      "group":"Lib",
+      "link": "https://handsontable.com/",
+      "description": "JavaScript data grid that looks and feels like a spreadsheet. Minimalistic, Excel-like grid component for web apps. Available for pure JavaScript, React, Vue, and Angular.",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":367,
+      "label":"FuseJS",
+      "group":"Lib",
+      "link": "https://fusejs.io/",
+      "description": "Fuse.js is a powerful, lightweight fuzzy-search library, with zero dependencies.",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":368,
+      "label":"Draggable",
+      "group":"Lib",
+      "link": "https://shopify.github.io/draggable/",
+      "description": "Draggable is a modular drag & drop library, allowing you to start small and build up with the features you need. At its most basic, Draggable gives you drag & drop functionality, fast DOM reordering, accessible markup, and a bundle of events to grab on to.",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":369,
+      "label":"Displace.JS",
+      "group":"Lib",
+      "link": "https://catc.github.io/displace/#demo",
+      "description": "A minimal javascript library for creating moveable DOM elements.",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":370,
+      "label":"Dragula",
+      "group":"Lib",
+      "link": "https://bevacqua.github.io/dragula/",
+      "description": "Drag and drop so simple it hurts",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":371,
+      "label":"FFmpeg",
+      "group":"CLI",
+      "description": "Video encoding",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":372,
+      "label":"Cwebp",
+      "group":"CLI",
+      "company": "Google Inc.",
+      "description": "Image encoding to webp",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":373,
+      "label":"potrace",
+      "group":"CLI",
+      "link": "http://potrace.sourceforge.net/",
+      "description": "Potrace(TM) is a tool for tracing a bitmap, which means, transforming a bitmap into a smooth, scalable image. The input is a bitmap (PBM, PGM, PPM, or BMP format), and the output is one of several vector file formats. A typical use is to create SVG or PDF files from scanned data, such as company or university logos, handwritten notes, etc. The resulting image is not 'jaggy' like a bitmap, but smooth. It can then be rendered at any resolution.",
+      "language": ["bash"],
+      "level":3
+    }, {
+      "id":374,
+      "label":"PhantomJS",
+      "group":"Lib",
+      "link": "https://phantomjs.org/",
+      "description": "PhantomJS is a headless web browser scriptable with JavaScript. It runs on Windows, macOS, Linux, and FreeBSD.",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":375,
+      "label":"CasperJS",
+      "group":"Lib",
+      "link": "https://casperjs.org/",
+      "description": "Navigation scripting & testing for PhantomJS and SlimerJS",
+      "language": ["JS"],
+      "level":3
+    }, {
+      "id":376,
+      "label":"htop",
+      "group":"CLI",
+      "link": "https://hisham.hm/htop/",
+      "description": "This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.",
+      "language": ["bash"],
+      "level":3
+    }, {
+      "id":377,
+      "label":"httpie",
+      "group":"CLI",
+      "link": "https://httpie.org/",
+      "description": "HTTPie—aitch-tee-tee-pie—is a command line HTTP client with an intuitive UI, JSON support, syntax highlighting, wget-like downloads, plugins, and more. ",
+      "language": ["bash"],
+      "level":3
+    }, {
+      "id":378,
+      "label":"Machine learning",
+      "group":"folder",
+      "description": "Solutions related to Machine Learning (ML), AI, deep learning and neural network",
+      "level":2
+    }, {
+      "id":379,
+      "label":"Kaggle",
+      "group":"online service",
+      "link": "https://www.kaggle.com/",
+      "description": "Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data & code.",
+      "languages": ["python"],
+      "level":3
+    }, {
+      "id":380,
+      "label":"PerceptiLabs",
+      "group":"online service",
+      "link": "https://www.perceptilabs.com/plans",
+      "description": "PerceptiLabs is a tool to visually build and interpret models. Transform your data into production-ready models that you can trust.",
+      "languages": ["python"],
+      "pricing": "freemium",
+      "level":3
+    }
+  ],
+
+
+
+  "edges":[
+    {
+      "from":1,
+      "to":4
+    },
+    {
+      "from":1,
+      "to":6
+    },
+    {
+      "from":6,
+      "to":7
+    }, {
+      "from":13,
+      "to":18
+    }, {
+      "from":13,
+      "to":19
+    }, {
+      "from":13,
+      "to":34
+    }, {
+      "from":13,
+      "to":103
+    }, {
+      "from":13,
+      "to":104
+    }, {
+      "from":13,
+      "to":105
+    }, {
+      "from":13,
+      "to":106
+    }, {"from":13, "to":107
+    }, {"from":13, "to":"c50c3f70-81ea-0138-7aca-245e60e6453d"
+    }, {
+      "from":20,
+      "to":21
+    }, {
+      "from":20,
+      "to":22
+    }, {
+      "from":20,
+      "to":23
+    }, {
+      "from":20,
+      "to":24
+    }, {
+      "from":20,
+      "to":25
+    }, {
+      "from":20,
+      "to":26
+    }, {
+      "from":20,
+      "to":27
+    }, {
+      "from":"d0c39220-9e56-48ec-a24b-658e51336d66",
+      "to": 54
+    }, {
+      "from":"d0c39220-9e56-48ec-a24b-658e51336d66",
+      "to": 55
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 14
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 15
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 16
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 17
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 56
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 57
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 58
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 59
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 60
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 61
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 62
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": 63
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": "768d79d0-0f5a-0138-7a97-245e60e6453d"
+    }, {
+      "from":"3adda534-62b2-44b0-a7ff-1e558bcc0472",
+      "to": "9d3ae3d0-0f5a-0138-7a98-245e60e6453d"
+    }, {
+      "from":"aa5ec01f-dbe2-4604-a208-c7aee700913b",
+      "to": 28
+    }, {
+      "from":"aa5ec01f-dbe2-4604-a208-c7aee700913b",
+      "to": 29
+    }, {
+      "from":"aa5ec01f-dbe2-4604-a208-c7aee700913b",
+      "to": 30
+    }, {
+      "from":"aa5ec01f-dbe2-4604-a208-c7aee700913b",
+      "to": 31
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 34
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 35
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 36
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 37
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 38
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 39
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 40
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 41
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 42
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 46
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 43
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 44
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 45
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 46
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 47
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 48
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 49
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 50
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 51
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 52
+    }, {
+      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
+      "to": 53
+    }, {
+      "from":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "to": 66
+    }, {
+      "from":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "to": 67
+    }, {
+      "from":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "to": 68
+    }, {
+      "from":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "to": 69
+    }, {
+      "from":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "to": 70
+    }, {
+      "from":"9eca72c5-7d05-4c59-80e1-1771416676a8",
+      "to": 71
+    }, {
+      "from":14,
+      "to": 82
+    }, {
+      "from":14,
+      "to": 92
+    }, {
+      "from":14,
+      "to": 138
+    }, {
+      "from":14,
+      "to": 139
+    }, {
+      "from":14,
+      "to": 140
+    }, {
+      "from":14,
+      "to": "618fb410-06b8-0138-5b95-245e60e6453d"
+    }, {"from":14, "to": "5a416650-81e8-0138-7ac0-245e60e6453d"
+    }, {"from":14, "to": "607a0dd0-81e8-0138-7ac1-245e60e6453d"
+    }, {"from":14, "to": "1677abb0-81e9-0138-7ac2-245e60e6453d"
+    }, {"from":14, "to": "30d2b0b0-81e9-0138-7ac3-245e60e6453d"
+    }, {"from":14, "to": "38876590-81e9-0138-7ac4-245e60e6453d"
+    }, {"from":14, "to": "42869cd0-81e9-0138-7ac5-245e60e6453d"
+    }, {"from":14, "to": "6e7627f0-81e9-0138-7ac6-245e60e6453d"
+    }, {"from":14, "to": "9b5eef70-81e9-0138-7ac7-245e60e6453d"
+    }, {"from":14, "to": "c0160ca0-81e9-0138-7ac8-245e60e6453d"
+    }, {"from":14, "to": "0cb13fa0-81ef-0138-7acc-245e60e6453d"
+    }, {"from":14, "to": "37843cf0-81ea-0138-7ac9-245e60e6453d"
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 88
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 89
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 90
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 91
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 92
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 93
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 94
+    }, {
+      "from":"1d4a9a94-0ade-4922-8a83-2ac2bed34a7a",
+      "to": 95
+    }, {
+      "from":"090f783e-0eea-4eaa-8b96-262387b188dc",
+      "to": 81
+    }, {
+      "from":"090f783e-0eea-4eaa-8b96-262387b188dc",
+      "to": 82
+    }, {
+      "from":"090f783e-0eea-4eaa-8b96-262387b188dc",
+      "to": 83
+    }, {
+      "from":"e7bae763-aa7a-447a-9f39-6b1b8b4d8f70",
+      "to": 99
+    }, {
+      "from":"e7bae763-aa7a-447a-9f39-6b1b8b4d8f70",
+      "to": 100
+    }, {
+      "from":"e7bae763-aa7a-447a-9f39-6b1b8b4d8f70",
+      "to": 101
+    }, {
+      "from":"e7bae763-aa7a-447a-9f39-6b1b8b4d8f70",
+      "to": 102
+    }, {
+    	"from":10,
+    	"to": "140dba7a-3f8a-4dba-a828-834117c4b787"
+    }, {
+    	"from":10,
+    	"to": "80578604-53be-4d97-9267-f892be4dfc38"
+    }, {
+    	"from":142,
+    	"to": "80578604-53be-4d97-9267-f892be4dfc38",
+    	"label": "equivalent",
+      "arrows": {
+        "from": { "enabled": true },
+        "to": { "enabled": true }
+      },
+    	"color": {
+    		"color": "#F3A121"
+    	}
+    }, {
+    	"from":147,
+    	"to": "80578604-53be-4d97-9267-f892be4dfc38",
+    	"label": "equivalent",
+    	"color": {
+    		"color": "#F3A121"
+    	}
+    }, {
+    	"from":148,
+    	"to": "2a6dd5ce-34e8-4250-a2e9-9c3384cdca4a",
+    	"label": "equivalent",
+    	"color": {
+    		"color": "#F3A121"
+    	}
+    }, {
+    	"from":149,
+    	"to": "140dba7a-3f8a-4dba-a828-834117c4b787",
+    	"label": "equivalent",
+      "arrows": {
+        "from": { "enabled": true },
+        "to": { "enabled": true }
+      },
+    	"color": {
+    		"color": "#F3A121"
+    	}
+    }, {
+    	"from":10,
+    	"to": "2a6dd5ce-34e8-4250-a2e9-9c3384cdca4a"
+    }, {
+    	"from":10,
+    	"to": "4781fc95-0eb7-4dfe-8f10-1d48b2898c27"
+    }, {
+    	"from":10,
+    	"to": "0e11edd0-06ad-0138-5b8d-245e60e6453d"
+    }, {
+    	"from":10,
+    	"to": "49f7ed80-06ad-0138-5b8e-245e60e6453d"
+    }, {
+    	"from":10,
+    	"to": "9441d850-06ad-0138-5b90-245e60e6453d"
+    }, {
+    	"from":10,
+    	"to": "a557e9f0-06ad-0138-5b91-245e60e6453d"
+    }, {
+    	"from":10,
+    	"to": "d217dcb0-06ad-0138-5b92-245e60e6453d"
+    }, {
+    	"from":10,
+    	"to": "3815a3e0-06b9-0138-5b96-245e60e6453d"
+    }, {
+    	"from":"34a8a6d0-06b8-0138-5b94-245e60e6453d",
+    	"to": "06585690-06b8-0138-5b93-245e60e6453d"
+    }, {
+    	"from":"34a8a6d0-06b8-0138-5b94-245e60e6453d",
+    	"to": 9
+    }, {
+    	"from":"34a8a6d0-06b8-0138-5b94-245e60e6453d",
+    	"to": "618fb410-06b8-0138-5b95-245e60e6453d"
+    }, {
+    	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+    	"to": 152
+    }, {
+    	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+    	"to": 153
+    }, {
+    	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+    	"to": 154
+    }, {
+    	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+    	"to": 155
+    }, {
+    	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+    	"to": 156
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": 115
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": 116
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": 117
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": 118
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": 119
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": 120
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": "442b0b70-27c7-0138-e8a8-245e60e6453d"
+    }, {
+    	"from":172,
+    	"to": 176,
+    	"label": "equivalent",
+    	"color": {
+    		"color": "#F3A121"
+    	}
+  	}, {
+    	"from":157,
+    	"to": 158
+  	}, {
+    	"from":157,
+    	"to": 159
+  	}, {
+    	"from":157,
+    	"to": 160
+  	}, {
+    	"from":157,
+    	"to": 161
+  	}, {
+    	"from":157,
+    	"to": 162
+  	}, {
+    	"from":157,
+    	"to": 163
+  	}, {
+    	"from":157,
+    	"to": 164
+  	}, {
+    	"from":157,
+    	"to": 165
+  	}, {
+    	"from":157,
+    	"to": 166
+  	}, {
+    	"from":157,
+    	"to": 167
+  	}, {
+    	"from":157,
+    	"to": 168
+  	}, {
+    	"from":157,
+    	"to": 169
+  	}, {
+    	"from":157,
+    	"to": 170
+  	}, {
+    	"from":"8977ef00-077d-0138-5b9a-245e60e6453d",
+    	"to": 113
+  	}, {
+    	"from":113,
+    	"to": "ba8af720-077f-0138-5b9f-245e60e6453d"
+  	}, {
+    	"from":"8977ef00-077d-0138-5b9a-245e60e6453d",
+    	"to": 114
+  	}, {
+    	"from":"8977ef00-077d-0138-5b9a-245e60e6453d",
+    	"to": "23b15020-0b44-0138-86df-245e60e6453d"
+  	}, {
+    	"from":"8977ef00-077d-0138-5b9a-245e60e6453d",
+    	"to": "dbad6f70-0db6-0138-c9a7-245e60e6453d"
+  	}, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": 11
+  	}, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": 12
+  	}, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": 32
+  	}, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": "cf326d70-077e-0138-5b9d-245e60e6453d"
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "61d682c0-0780-0138-5ba0-245e60e6453d"
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "ba8af720-077f-0138-5b9f-245e60e6453d"
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "9587f380-1719-0138-fb1b-245e60e6453d"
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "9faaa410-1719-0138-fb1c-245e60e6453d"
+  	}, {
+    	"from":178,
+    	"to": 1
+  	}, {
+    	"from":177,
+    	"to": 160
+  	}, {
+    	"from":178,
+    	"to": 2
+  	}, {
+    	"from":2,
+    	"to": 134
+  	}, {
+    	"from":2,
+    	"to": "07d12880-07ce-0138-304b-245e60e6453d"
+  	}, {
+    	"from":2,
+    	"to": "2bd6cd00-07ce-0138-304c-245e60e6453d"
+  	}, {
+    	"from":181,
+    	"to": 182
+  	}, {
+    	"from":181,
+    	"to": 183
+  	}, {
+    	"from":181,
+    	"to": 184
+  	}, {
+    	"from":181,
+    	"to": 185
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": "eb3d6040-4bc0-0138-77b7-245e60e6453d"
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": 78
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": 79
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": 80
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": "21104ae0-07d1-0138-304e-245e60e6453d"
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": "65509930-0e8c-0138-8cf2-245e60e6453d"
+  	}, {
+    	"from":"f586b740-07d0-0138-304d-245e60e6453d",
+    	"to": "c09e8670-0e8d-0138-8cf3-245e60e6453d"
+  	}, {
+    	"from":186,
+    	"to": 99
+  	}, {
+    	"from":186,
+    	"to": 187
+  	}, {
+    	"from":186,
+    	"to": 188
+  	}, {
+    	"from":186,
+    	"to": 189
+  	}, {
+    	"from":186,
+    	"to": 190
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 190
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 191
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 192
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 193
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 194
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 195
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 196
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 197
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 198
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 199
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": 200
+  	}, {
+    	"from":15,
+    	"to": 201
+  	}, {
+    	"from":15,
+    	"to": 202
+  	}, {
+    	"from":15,
+    	"to": 203
+  	}, {
+    	"from":15,
+    	"to": 204
+  	}, {
+    	"from":15,
+    	"to": 205
+  	}, {
+    	"from":15,
+    	"to": 206
+  	}, {
+    	"from":15,
+    	"to": 207
+  	}, {
+    	"from":15,
+    	"to": 208
+  	}, {
+    	"from":15,
+    	"to": 209
+  	}, {
+    	"from":10,
+    	"to": 210
+  	}, {
+    	"from":15,
+    	"to": 186
+  	}, {
+    	"from":209,
+    	"to": 210,
+      "arrows": {
+        "from": { "enabled": true },
+        "to": { "enabled": true }
+      },
+    	"label": "equivalent",
+    	"color": {
+    		"color": "#F3A121"
+    	}
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "5c9ceab0-0b49-0138-86e1-245e60e6453d"
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "6e55aa70-0b49-0138-86e2-245e60e6453d"
+  	}, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "848e9540-0b49-0138-86e3-245e60e6453d"
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": "d5c16950-0b5a-0138-86e4-245e60e6453d"
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": "df9b3700-0b5a-0138-86e5-245e60e6453d"
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": "e4f084d0-0b5a-0138-86e6-245e60e6453d"
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": "6442e0c0-85e7-0138-b426-245e60e6453d"
+  	}, {
+    	"from":"45a6d8d0-0b48-0138-86e0-245e60e6453d",
+    	"to": "32940fd0-85e9-0138-b428-245e60e6453d"
+  	}, {
+    	"from":143,
+    	"to": 197
+  	}, {
+    	"from":143,
+    	"to": "efda4a00-0f57-0138-7a91-245e60e6453d"
+  	}, {
+    	"from":143,
+    	"to": "35525e70-0f58-0138-7a92-245e60e6453d"
+  	}, {
+    	"from":143,
+    	"to": "46e1eb90-0f58-0138-7a93-245e60e6453d"
+  	}, {
+    	"from":143,
+    	"to": "82be1db0-0f58-0138-7a94-245e60e6453d"
+  	}, {
+    	"from":143,
+    	"to": "99f30680-0f58-0138-7a95-245e60e6453d"
+  	}, {
+    	"from":143,
+    	"to": "a6bd4560-0f58-0138-7a96-245e60e6453d"
+  	}, {
+    	"from":211,
+    	"to": 212
+  	}, {
+    	"from":211,
+    	"to": 213
+  	}, {
+    	"from":211,
+    	"to": 214
+  	}, {
+    	"from":211,
+    	"to": 215
+  	}, {
+    	"from":211,
+    	"to": 216
+  	}, {
+    	"from":211,
+    	"to": 217
+  	}, {
+    	"from":211,
+    	"to": 218
+  	}, {
+    	"from":211,
+    	"to": 219
+  	}, {
+    	"from":211,
+    	"to": 220
+  	}, {
+    	"from":221,
+    	"to": 222
+  	}, {
+    	"from":221,
+    	"to": 223
+  	}, {
+    	"from":221,
+    	"to": 224
+  	}, {
+    	"from":225,
+    	"to": 226
+  	}, {
+    	"from":225,
+    	"to": 227
+  	}, {
+    	"from":225,
+    	"to": 228
+  	}, {
+    	"from":225,
+    	"to": 229
+  	}, {
+    	"from":230,
+    	"to": 137
+  	}, {
+    	"from":230,
+    	"to": 231
+  	}, {
+    	"from":230,
+    	"to": 232
+  	}, {
+    	"from":230,
+    	"to": 233
+  	}, {
+    	"from":230,
+    	"to": 234
+  	}, {
+    	"from":230,
+    	"to": 235
+  	}, {
+    	"from":230,
+    	"to": 236
+  	}, {
+    	"from":237,
+    	"to": 238
+  	}, {
+    	"from":237,
+    	"to": 239
+  	}, {
+    	"from":237,
+    	"to": 240
+  	}, {
+    	"from":5,
+    	"to": 4
+  	}, {
+    	"from":5,
+    	"to": 7
+  	}, {
+    	"from":5,
+    	"to": "e6c3a620-4ed6-0138-fba5-245e60e6453d"
+  	}, {
+    	"from":5,
+    	"to": "33345570-24e4-0138-edd5-245e60e6453d"
+  	}, {
+    	"from":5,
+    	"to": 254
+  	}, {
+    	"from":5,
+    	"to": "545ac040-24e4-0138-edd6-245e60e6453d"
+  	}, {
+    	"from":5,
+    	"to": "68f0c2e0-24e4-0138-edd7-245e60e6453d"
+  	}, {
+    	"from":5,
+    	"to": 241
+  	}, {
+    	"from":5,
+    	"to": 242
+  	}, {
+    	"from":5,
+    	"to": 243
+  	}, {
+    	"from":5,
+    	"to": 244
+  	}, {
+    	"from":5,
+    	"to": 245
+  	}, {
+    	"from":5,
+    	"to": 246
+  	}, {
+    	"from":5,
+    	"to": 247
+  	}, {
+    	"from":5,
+    	"to": 248
+  	}, {
+    	"from":5,
+    	"to": 249
+  	}, {
+    	"from":5,
+    	"to": 250
+  	}, {
+    	"from":5,
+    	"to": 251
+  	}, {"from":5, "to": 252
+  	}, {"from":5, "to": 253
+  	}, {"from":5, "to": 254
+  	}, {"from":5, "to": 255
+  	}, {"from":5, "to": 256
+  	}, {"from":5, "to": 257
+  	}, {"from":5, "to": 258
+  	}, {"from":5, "to": 259
+  	}, {"from":5, "to": 260
+  	}, {"from":5, "to": 261
+  	}, {"from":5, "to": 262
+  	}, {"from":5, "to": 263
+  	}, {"from":5, "to": 264
+  	}, {"from":5, "to": 265
+  	}, {"from":5, "to": 266
+  	}, {"from":5, "to": 267
+  	}, {"from":5, "to": 268
+  	}, {"from":5, "to": 269
+  	}, {"from":5, "to": 270
+  	}, {"from":5, "to": 271
+  	}, {"from":5, "to": 272
+  	}, {"from":273, "to": 274
+  	}, {"from":273, "to": 275
+  	}, {"from":273, "to": 276
+  	}, {"from":273, "to": 277
+  	}, {"from":273, "to": 278
+  	}, {"from":273, "to": 279
+  	}, {"from":273, "to": 280
+  	}, {"from":186, "to": 282
+  	}, {"from":281, "to": 282
+  	}, {"from":281, "to": 283
+  	}, {"from":281, "to": 284
+  	}, {"from":281, "to": 285
+  	}, {"from":281, "to": 286
+  	}, {"from":281, "to": 287
+  	}, {"from":292, "to": 293
+  	}, {"from":292, "to": 299
+  	}, {"from":292, "to": 294
+  	}, {"from":292, "to": 302
+  	}, {"from":293, "to": 112
+  	}, {"from":293, "to": 42
+  	}, {"from":293, "to": 295
+  	}, {"from":293, "to": 297
+  	}, {"from":293, "to": 298
+  	}, {"from":299, "to": 36
+  	}, {"from":299, "to": 33
+  	}, {"from":299, "to": 28
+  	}, {"from":294, "to": 300
+  	}, {"from":294, "to": 111
+  	}, {"from":294, "to": 301
+  	}, {"from":302, "to": 304
+  	}, {"from":302, "to": 305
+  	}, {"from":302, "to": 306
+  	}, {"from":302, "to": 307
+  	}, {"from":302, "to": "46e19980-81eb-0138-7acb-245e60e6453d"
+  	}, {"from":308, "to": 309
+  	}, {"from":308, "to": 310
+  	}, {"from":308, "to": 311
+  	}, {"from":308, "to": 312
+  	}, {"from":308, "to": 317
+  	}, {"from":312, "to": 313
+  	}, {"from":312, "to": 314
+  	}, {"from":312, "to": 315
+  	}, {"from":312, "to": 316
+  	}, {"from":317, "to": 318
+  	}, {"from":317, "to": 319
+  	}, {"from":317, "to": 320
+  	}, {"from":317, "to": "eb87df70-7dfe-0138-ffba-245e60e6453d"
+  	}, {"from":303, "to": 304
+  	}, {"from":303, "to": 305
+  	}, {"from":303, "to": 306
+  	}, {"from":303, "to": 307
+  	}, {"from":303, "to": "451f07c0-4d8e-0138-d5fb-245e60e6453d"
+  	}, {"from":303, "to": "696cb360-4d8e-0138-d5fc-245e60e6453d"
+  	}, {"from":350, "to": 351
+  	}, {"from":350, "to": 352
+  	}, {"from":350, "to": 353
+  	}, {"from":350, "to": 354
+  	}, {"from":350, "to": 355
+  	}, {"from":356, "to": 357
+  	}, {"from":356, "to": 358
+  	}, {"from":356, "to": 359
+  	}, {"from":356, "to": 360
+  	}, {"from":356, "to": 361
+  	}, {"from":321, "to": 322
+  	}, {"from":321, "to": 323
+  	}, {"from":321, "to": 324
+  	}, {"from":321, "to": 325
+  	}, {"from":321, "to": 326
+  	}, {"from":321, "to": 327
+  	}, {"from":321, "to": "b2185c70-85e7-0138-b427-245e60e6453d"
+  	}, {"from":328, "to": 329
+  	}, {"from":328, "to": 330
+  	}, {"from":328, "to": 331
+  	}, {"from":332, "to": 333
+  	}, {"from":334, "to": 335
+  	}, {"from":334, "to": 336
+  	}, {"from":334, "to": 337
+  	}, {"from":334, "to": 338
+  	}, {"from":334, "to": 339
+  	}, {"from":334, "to": 340
+  	}, {"from":334, "to": 341
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": 78
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": 79
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": 80
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "21104ae0-07d1-0138-304e-245e60e6453d"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "65509930-0e8c-0138-8cf2-245e60e6453d"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "eb3d6040-4bc0-0138-77b7-245e60e6453d"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "0fb5e3a0-7c61-0138-466b-245e60e6453d"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "c09e8670-0e8d-0138-8cf3-245e60e6453d"
+  	}, {"from":342, "to": 343
+  	}, {"from":342, "to": 344
+  	}, {"from":"f1da30c0-6a5b-0138-e99f-245e60e6453d", "to": 312
+  	}, {"from":"f1da30c0-6a5b-0138-e99f-245e60e6453d", "to": 313
+  	}, {"from":"f1da30c0-6a5b-0138-e99f-245e60e6453d", "to": 314
+  	}, {"from":"f1da30c0-6a5b-0138-e99f-245e60e6453d", "to": 315
+  	}, {"from":"f1da30c0-6a5b-0138-e99f-245e60e6453d", "to": 316
+  	}, {"from":345, "to": 346
+  	}, {"from":345, "to": 347
+  	}, {"from":345, "to": 348
+  	}, {"from":345, "to": 349
+    }, {"from":378, "to": 379
+    }, {"from":378, "to": 380
+    }
+  ]
+}
