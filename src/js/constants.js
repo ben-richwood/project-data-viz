@@ -1,4 +1,4 @@
-export const DIR = "/assets/images/";
+export const DIR = "../images/";
 
 export const options = {
 	// manipulation: false,
@@ -192,35 +192,35 @@ export const options = {
 		},
 		manipulation: {}
 		/*
-		manipulation: {
-			addNode: function(data, callback) {
-			// filling in the popup DOM elements
-			document.getElementById("node-operation").innerHTML = "Add Node";
+			manipulation: {
+				addNode: function(data, callback) {
+				// filling in the popup DOM elements
+				document.getElementById("node-operation").innerHTML = "Add Node";
 
-			editNode(data, clearNodePopUp, callback);
-		},
-		editNode: function(data, callback) {
-			// filling in the popup DOM elements
-			document.getElementById("node-operation").innerHTML = "Edit Node";
-			editNode(data, cancelNodeEdit, callback);
-		},
-		addEdge: function(data, callback) {
-			if (data.from == data.to) {
-				// var r = confirm("Do you want to connect the node to itself?");
-				// if (r != true) {
-					callback(null);
-					return;
-				// }
-			}
-			document.getElementById("edge-operation").innerHTML = "Add Edge";
-			editEdgeWithoutDrag(data, callback);
-		},
-		editEdge: {
-			editWithoutDrag: function(data, callback) {
-				document.getElementById("edge-operation").innerHTML = "Edit Edge";
+				editNode(data, clearNodePopUp, callback);
+			},
+			editNode: function(data, callback) {
+				// filling in the popup DOM elements
+				document.getElementById("node-operation").innerHTML = "Edit Node";
+				editNode(data, cancelNodeEdit, callback);
+			},
+			addEdge: function(data, callback) {
+				if (data.from == data.to) {
+					// var r = confirm("Do you want to connect the node to itself?");
+					// if (r != true) {
+						callback(null);
+						return;
+					// }
+				}
+				document.getElementById("edge-operation").innerHTML = "Add Edge";
 				editEdgeWithoutDrag(data, callback);
+			},
+			editEdge: {
+				editWithoutDrag: function(data, callback) {
+					document.getElementById("edge-operation").innerHTML = "Edit Edge";
+					editEdgeWithoutDrag(data, callback);
+				}
 			}
 		}
-	}
 	*/
 };

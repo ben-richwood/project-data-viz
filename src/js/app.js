@@ -1,15 +1,17 @@
 import { DataSet, Network } from "vis-network/standalone";
-import { DIR, options } from './constants'
 
 import { Network } from './Network'
 import Vue from 'vue'
 import { default as Dragable } from './Dragable'
+import { readTextFile } from './utilis'
 
 let network = null;
 let edges;
 let nodes;
 let data;
 let container;
+
+let ntw = null;
 
 function Settings() {
 	this.isStabilized = false
@@ -19,15 +21,10 @@ const settings = new Settings();
 
 const domElements = {
 	exportArea: document.getElementById("input_output"),
-	container: document.getElementById('mynetwork'),
+	container: document.getElementById('networkCanvas'),
 	exportButton: document.getElementById("export_button")
 };
 
-let nodesDataset, edgesDataset;
-let highlightActive = false;
-let networkCanvas;
-
-// console.log(domElements);
 
 exportArea = domElements.exportArea;
 container = domElements.container;
@@ -40,8 +37,12 @@ let taxonomy = ["language", "os", "freemium", "tried"];
 // for OS, could use % modulo to determine which platform -> 2 for Windows, 3 for Mac and 5 for Linux.
 // Then 15 means Linux and Mac
 
+
+init()
+
 let itemList = [];
 
+	//////////////////////////////////////////////
 	// Vue components
 	//////////////////////////////////////////////
 	const listContainer = new Vue({
@@ -114,7 +115,7 @@ let itemList = [];
 		let item = listContainer.itemList.find(x => x.id === idx);
 		// console.log(idx);
 		console.log(item);
-		let networkNode = network.body.nodes[idx];
+		let networkNode = ntw.network.body.nodes[idx];
 		extraProps = {x: networkNode.x, y: networkNode.y};
 		itemDetail.content = {
 			...item,
@@ -125,94 +126,10 @@ let itemList = [];
 
 
 
-	function draw() {
-		// destroy();
-		console.log("draw()", container, data, options);
-		network = new Network(container, data, options);
-
-		// get a JSON object
-		// Used for neighbourhoodHighlight()
-		allNodes = nodesDataset.get({ returnType: "Object" });
-
-		networkCanvas = document.getElementById("mynetwork").getElementsByTagName("canvas")[0];
-
-		network.once("beforeDrawing", function() {
-				network.focus(5, { // NodeID
-					scale: 4
-				});
-			});
-		network.once("afterDrawing", function() {
-			network.fit({
-				animation: {
-					duration: 1200,
-					easingFunction: "easeOutQuart"
-				}
-			});
-		});
-
-		network.on("stabilized", function(){
-			console.log("Stabilized");
-			if(!settings.isStabilized){
-				network.fit({
-					animation: {
-						duration: 1200,
-						easingFunction: "easeOutQuart"
-					}
-				});
-				settings.isStabilized = true;
-				let loaderScreen = document.getElementById('loader');
-				if (loaderScreen) {
-					let parentNode = loaderScreen.parentNode;
-					parentNode.removeChild(loaderScreen);
-				}
-			}
-		})
-
-
-		network.on("stabilizationProgress", function(params) {
-			console.log(params);
-		});
-		network.on("hoverNode", function() {
-			networkCanvas.style.cursor = "pointer";
-		});
-
-		network.on("blurNode", function() {
-			networkCanvas.style.cursor = "default";
-			//
-		});
-		network.on("hoverEdge", function() {
-			//
-		});
-		network.on("blurEdge", function() {
-			networkCanvas.style.cursor = "default";
-		});
-		network.on("dragStart", function() {
-			//
-		});
-		network.on("dragging", function() {
-			networkCanvas.style.cursor = "move";
-			//
-		});
-		network.on("dragEnd", function() {
-			networkCanvas.style.cursor = "cursor";
-		});
-		network.on("click", function(e){
-			// console.log(e);
-			// console.log(network.body.nodes);
-			console.log(data);
-			if(e.nodes[0] && e.nodes[0] != undefined){
-				// console.log(getNodeById(network.body.nodes, e.nodes[0]));
-				console.log( network.body.nodes[e.nodes[0]] );
-				displayPopupInfo(e.nodes[0]);
-				neighbourhoodHighlight(e);
-			}
-		});
-	}
-
 	function destroy() {
-		if (network !== null) {
-			network.destroy();
-			network = null;
+		if (ntw !== null) {
+			ntw.network.destroy();
+			ntw.network = null;
 		}
 	}
 
@@ -401,16 +318,23 @@ function saveEdgeData(data, callback) {
 	callback(data);
 }
 
+
+
 window.addEventListener("load", () => {
-	draw();
+	// draw();
 	// init();
-	// networkCanvas = document.getElementById("mynetwork").getElementsByTagName("canvas")[0];
 });
 
+function init() {
+	ntw = new Network(domElements, settings);
 
 	// assets/js/networkDataTest.json
-	readTextFile("/dist/data/networkData.json", function(text){
-		var dataJson = JSON.parse(text);
+	readTextFile("../data/networkData.json", callBackInit)
+}
+
+
+function callBackInit (text){
+	var dataJson = JSON.parse(text);
 	listContainer.itemList = listContainer.itemList.concat(dataJson.itemList);
 	// console.log("dataJson.itemList: ",dataJson.itemList);
 	// console.log("listContainer.itemList: ", listContainer.itemList);
@@ -429,110 +353,20 @@ window.addEventListener("load", () => {
 			id: item.id,
 		};
 	});
-		// create an array with edges
-		// nodes = new vis.DataSet(filteredForVis);
-		// edges = new vis.DataSet(dataJson.edges);
 
-		// console.log("filteredForVis", filteredForVis)
+	data = ntw.setDataSet(filteredForVis, dataJson.edges)
 
-		nodesDataset = new DataSet(filteredForVis);
-		edgesDataset = new DataSet(dataJson.edges);
-		data = {
-				// nodes: nodes,
-				// edges: edges
-				nodes: nodesDataset,
-				edges: edgesDataset
-			};
-			draw();
-		});
+	ntw.draw(data);
 
-	function readTextFile(file, callback) {
-		var rawFile = new XMLHttpRequest();
-		rawFile.overrideMimeType("application/json");
-		rawFile.open("GET", file, true);
-		rawFile.onreadystatechange = function() {
-			if (rawFile.readyState === 4 && rawFile.status == "200") {
-				callback(rawFile.responseText);
-			}
+	ntw.network.on("click", (e) => {
+		// console.log(e);
+		// console.log(network.body.nodes);
+		// console.log(this.data);
+		if(e.nodes[0] && e.nodes[0] != undefined){
+			// console.log(getNodeById(network.body.nodes, e.nodes[0]));
+			// console.log( this.network.body.nodes[e.nodes[0]] );
+			displayPopupInfo(e.nodes[0]);
+			ntw.neighbourhoodHighlight(e);
 		}
-		rawFile.send(null);
-	}
-
-	function neighbourhoodHighlight(params) {
-	// if something is selected:
-	if (params.nodes.length > 0) {
-		highlightActive = true;
-		var i, j;
-		var selectedNode = params.nodes[0];
-		var degrees = 2;
-
-		// mark all nodes as hard to read.
-		for (var nodeId in allNodes) {
-			allNodes[nodeId].color = "rgba(130,130,130,1)";
-		}
-		var connectedNodes = network.getConnectedNodes(selectedNode);
-		var allConnectedNodes = [];
-
-		// get the second degree nodes
-		for (i = 1; i < degrees; i++) {
-			for (j = 0; j < connectedNodes.length; j++) {
-				allConnectedNodes = allConnectedNodes.concat(
-					network.getConnectedNodes(connectedNodes[j])
-					);
-			}
-		}
-
-		// all second degree nodes get a different color and their label back
-		for (i = 0; i < allConnectedNodes.length; i++) {
-			allNodes[allConnectedNodes[i]].color.color = "#58FFFE";
-			allNodes[allConnectedNodes[i]].border = "#58FFFE";
-			allNodes[allConnectedNodes[i]].color.background = '#285352';
-			
-			// if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
-			//   allNodes[allConnectedNodes[i]].label =
-			//     allNodes[allConnectedNodes[i]].hiddenLabel;
-			//   allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
-			// }
-		}
-
-		// all first degree nodes get their own color and their label back
-		for (i = 0; i < connectedNodes.length; i++) {
-			allNodes[connectedNodes[i]].color = undefined;
-			// if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
-			//   allNodes[connectedNodes[i]].label =
-			//     allNodes[connectedNodes[i]].hiddenLabel;
-			//   allNodes[connectedNodes[i]].hiddenLabel = undefined;
-			// }
-		}
-
-		// the main node gets its own color and its label back.
-		allNodes[selectedNode].color = undefined;
-		// if (allNodes[selectedNode].hiddenLabel !== undefined) {
-		//   allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
-		//   allNodes[selectedNode].hiddenLabel = undefined;
-		// }
-	} else if (highlightActive === true) {
-		// reset all nodes
-		for (var nodeId in allNodes) {
-			// allNodes[nodeId].color = undefined;
-			allNodes[nodeId].color = "#58FFFE";
-			allNodes[nodeId].font.color = "#58FFFE";
-			allNodes[nodeId].color.background = '#285352';
-			allNodes[nodeId].border = "#58FFFE";
-			// if (allNodes[nodeId].hiddenLabel !== undefined) {
-			//   allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
-			//   allNodes[nodeId].hiddenLabel = undefined;
-			// }
-		}
-		highlightActive = false;
-	}
-
-	// transform the object into an array
-	var updateArray = [];
-	for (nodeId in allNodes) {
-		if (allNodes.hasOwnProperty(nodeId)) {
-			updateArray.push(allNodes[nodeId]);
-		}
-	}
-	nodesDataset.update(updateArray);
-}
+	});
+};
