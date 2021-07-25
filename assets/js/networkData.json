@@ -606,14 +606,13 @@
       "link": "https://craftcms.com/",
       "description": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. It's a self-hosted PHP 7 application, built on Yii 2. It can connect to MySQL and PostgreSQL for content storage. Templating is powered by Twig.",
       "group": "framework",
-      "level":3,
-      "languages": ["PHP"],
-      "pricing": "freemium",
-      "price": "€299 per project"
+      "level":3
     }, {
       "id":"0fb5e3a0-7c61-0138-466b-245e60e6453d",
       "label":"October",
-      "link": "https://octobercms.com/",
+      "link": "https://octobercms.com/","languages": ["PHP"],
+      "pricing": "freemium",
+      "price": "€299 per project",
       "description": "October is a free, open-source, self-hosted CMS platform based on the Laravel PHP Framework. Thousands of digital studios and freelancers all over the world love October for its simplicity, flexibility and modern design. Their clients are happy, because October saves them both time and money.",
       "group": "framework",
       "level":3,
@@ -1624,7 +1623,7 @@
       "level":3
     }, {
       "id":209,
-      "label":"Fonts",
+      "label":"Google Fonts",
       "group": "online service",
       "link": "https://fonts.google.com",
       "company": "Google Inc.",
@@ -2705,6 +2704,7 @@
     }, {
       "id":364,
       "label":"RFDC",
+      "description": "Copy prototype properties as well as own properties into the new object. It's marginally faster to allow enumerable properties on the prototype to be copied into the cloned object (not onto it's prototype, directly onto the object).",
       "group":"Lib",
       "link": "https://github.com/davidmarkclements/rfdc#readme",
       "description": "Stands for Really Fast Deep Copy",
@@ -2813,8 +2813,30 @@
       "description": "HTTPie—aitch-tee-tee-pie—is a command line HTTP client with an intuitive UI, JSON support, syntax highlighting, wget-like downloads, plugins, and more. ",
       "language": ["bash"],
       "level":3
+    }, {
+      "id":378,
+      "label":"Machine learning",
+      "group":"folder",
+      "description": "Solutions related to Machine Learning (ML), AI, deep learning and neural network",
+      "level":2
+    }, {
+      "id":379,
+      "label":"Kaggle",
+      "group":"online service",
+      "link": "https://www.kaggle.com/",
+      "description": "Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data & code.",
+      "languages": ["python"],
+      "level":3
+    }, {
+      "id":380,
+      "label":"PerceptiLabs",
+      "group":"online service",
+      "link": "https://www.perceptilabs.com/plans",
+      "description": "PerceptiLabs is a tool to visually build and interpret models. Transform your data into production-ready models that you can trust.",
+      "languages": ["python"],
+      "pricing": "freemium",
+      "level":3
     }
-
   ],
 
 
@@ -3100,6 +3122,10 @@
     	"from":142,
     	"to": "80578604-53be-4d97-9267-f892be4dfc38",
     	"label": "equivalent",
+      "arrows": {
+        "from": { "enabled": true },
+        "to": { "enabled": true }
+      },
     	"color": {
     		"color": "#F3A121"
     	}
@@ -3121,6 +3147,10 @@
     	"from":149,
     	"to": "140dba7a-3f8a-4dba-a828-834117c4b787",
     	"label": "equivalent",
+      "arrows": {
+        "from": { "enabled": true },
+        "to": { "enabled": true }
+      },
     	"color": {
     		"color": "#F3A121"
     	}
@@ -3413,6 +3443,10 @@
   	}, {
     	"from":209,
     	"to": 210,
+      "arrows": {
+        "from": { "enabled": true },
+        "to": { "enabled": true }
+      },
     	"label": "equivalent",
     	"color": {
     		"color": "#F3A121"
@@ -3594,9 +3628,7 @@
   	}, {
     	"from":5,
     	"to": 251
-  	}, {
-    	"from":5,
-    	"to": 252
+  	}, {"from":5, "to": 252
   	}, {"from":5, "to": 253
   	}, {"from":5, "to": 254
   	}, {"from":5, "to": 255
@@ -3717,9 +3749,8 @@
   	}, {"from":345, "to": 347
   	}, {"from":345, "to": 348
   	}, {"from":345, "to": 349
-  	}, {"from":288, "to": 389
-  	}, {"from":288, "to": 390
-  	}, {"from":288, "to": 391
+    }, {"from":378, "to": 379
+    }, {"from":378, "to": 380
     }
   ]
 }

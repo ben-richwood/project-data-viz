@@ -4,6 +4,39 @@ https://awesomeopensource.com/
 https://roadmap.sh/
 Text editor
 
+=-=-=-=-=-=-=-=-=--==--=-=-=-=-=-=-=-=-=-
+
+https://akamai.github.io/boomerang/
+boomerang is a JavaScript library that measures the page load time experienced by real users, commonly called RUM (Real User Measurement). It has the ability to send this data back to your server for further analysis. With boomerang, you find out exactly how fast your users think your site is.
+
+https://github.com/filipelinhares/ress
+Modern CSS reset
+open source
+
+BlackFire
+https://www.blackfire.io/
+From development to production, profile, test and monitor Web applications performance. Get actionable insights to prevent and fix issues before they hit your end-users.
+Starts at 29€/mo
+
+platform.sh
+https://platform.sh/
+PaaS
+Frontends. Backends. Websites. Apps. Share. Launch. Run. Scale. Evolve. From one app—to a fleet of thousands. Without thinking about infrastructure. Platform.sh delivers everything your team needs to build, run, and scale sites and apps
+
+Sphinx
+https://www.sphinx-doc.org/
+Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
+FOSS
+
+WireFlow
+https://wireflow.co/
+Wireflow is free, online and open source tool for creating beautiful user flow prototypes. No Photoshop skills required!
+FOSS
+free
+
+=-=-=-=-=-=-=-=-=--==--=-=-=-=-=-=-=-=-=-
+
+
 GApps 186
 
 CMS f586b740-07d0-0138-304d-245e60e6453d
@@ -84,6 +117,9 @@ TabNine uses deep learning to help you write code faster. TabNine uses documenta
 Kite https://kite.com/
 Kite is the AI assistant giving developers superpowers.
 
+Koding - https://www.koding.com/features
+Flawlessly configure dev environments in one click. No matter how complex your project is, Koding for teams makes it easy to share your entire development stack with anyone, anywhere.
+
 IMG
 
 Imagemin https://imagemin.saasify.sh/
@@ -100,7 +136,9 @@ SVG Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files.
 
 API
 Sassify https://docs.saasify.sh/#/resources
-The easiest way to monetize your API. 
+The easiest way to monetize your API.
+
+ 
 
 Autocode https://autocode.com/
 An online code editor with API autocomplete, instant hosting, and a Standard Library anybody can contribute to. Sync data, build bots and customize workflows. When AWS is overkill, use Autocode.
@@ -115,6 +153,7 @@ DATAVIZ
 Tableau https://public.tableau.com/en-us/s/
 Your data has a story. Share it with the world.
 Visualize and publish data on topics you care about. Explore and be inspired by creations from like-minded data enthusiasts.
+
 
 
 PDF
@@ -154,12 +193,34 @@ Forever - https://github.com/foreversd/forever
 A simple CLI tool for ensuring that a given script runs continuously (i.e. forever).
 
 
+Cockpit https://cockpit-project.org/
+Cockpit makes GNU/Linux discoverable. See your server in a web browser and perform system tasks with a mouse. It’s easy to start containers, administer storage, configure networks, and inspect logs
 
 
 JS Player
 https://www.jwplayer.com/pricing/ Paid
 https://www.omnivirt.com/ Paid
 https://github.com/videojs/videojs-vr/ FOSS
+
+Terminal "player"
+termible - https://termible.io/
+Docker-powered terminals for your website. Show, don’t tell. Let people try your product and follow tutorials from the terminal without leaving the browser. 
+$tbd/mo
+
+Terminalizer - https://terminalizer.com/
+Record your terminal and generate animated gif images or share a web player
+FOSS
+
+
+Debug
+
+HTTPie - https://httpie.io/
+HTTPie is a user-friendly command-line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget-like downloads, plugins, and more. 
+FOSS
+
+Laragon - https://laragon.org/docs/
+Laragon is a portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python, Java, Go, Ruby. It is fast, lightweight, easy-to-use and easy-to-extend. Laragon is great for building and managing modern web applications. It is focused on performance - designed around stability, simplicity, flexibility and freedom.
+FOSS
 
 Android Studio
 Kotlin -> Java and JVM. Also to JS and native code (LLVM)
@@ -269,7 +330,9 @@ NetSuite https://www.netsuite.com/portal/home.shtml
 Oracle
 The #1 Cloud ERP. One unified business management suite, encompassing ERP/Financials, CRM and ecommerce for more than 19,000 organizations.
 
-
+Studiobinder - https://www.studiobinder.com/
+The world's leading video, photo, TV & film production management software. We provide customizable solutions for photo and video production companies to better manage their productions, all in one place.
+startting at $30/mo
 
 Prototyping
 Framer, invision, MarvelApp, Artboart, Origami(by Facebook), moqups, wireframe.cc, whimsical, zeppelin
@@ -332,6 +395,13 @@ Foundry
 Node-based compositing, editorial and review software
 Starting at $4,988.00
 
+Natron - https://natrongithub.github.io/
+Open Source Compositing Software For VFX and Motion Graphics. Natron has a powerful keying, roto/rotopaint, 2D tracking tools that are staple for all current film production project that requires visual effects.
+FOSS
+
+Cavalry - https://cavalry.scenegroup.co/
+A brand new motion design and animation application. By motion designers for motion designers. Cavalry is for Motion Design, Generative Art, Character Animation, Data Visualisation, FUI, Visual Effects and much more.
+Freemium
 
 reCaptcha
 https://www.hcaptcha.com/

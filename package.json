@@ -1,0 +1,30 @@
+{
+  "name": "project-data-viz",
+  "version": "0.1.0",
+  "description": "Web & tech technoliges",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-richwood/project-data-viz.git"
+  },
+  "keywords": [
+    "data-viz",
+    "vis",
+    "js",
+    "directed",
+    "force",
+    "graph"
+  ],
+  "author": "Richwood <benn@richebois.fr> (https://richebois.fr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-richwood/project-data-viz/issues"
+  },
+  "homepage": "https://github.com/ben-richwood/project-data-viz#readme",
+  "dependencies": {
+    "vis-network": "^9.0.5"
+  }
+}
