@@ -1,4 +1,6 @@
-export const DIR = "../images/";
+export const BASE_URL = window.location.origin === "https://projets.richebois.fr" ? "https://projets.richebois.fr/techs-data-viz" : "";
+
+export const DIR = BASE_URL + "/images/";
 
 export const options = {
 	// manipulation: false,

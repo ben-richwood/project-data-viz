@@ -1,6 +1,7 @@
 import { DataSet, Network } from "vis-network/standalone";
 
-import { Network } from './Network'
+import { BASE_URL } from './constants.js'
+import { Connection } from './Network.js'
 import Vue from 'vue'
 import { default as Dragable } from './Dragable'
 import { readTextFile } from './utilis'
@@ -326,10 +327,10 @@ window.addEventListener("load", () => {
 });
 
 function init() {
-	ntw = new Network(domElements, settings);
+	ntw = new Connection(domElements, settings);
 
 	// assets/js/networkDataTest.json
-	readTextFile("../data/networkData.json", callBackInit)
+	readTextFile(BASE_URL + "/data/networkData.json", callBackInit)
 }
 
 

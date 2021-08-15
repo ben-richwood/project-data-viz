@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel serve src/js/app.js --dist-dir dist/js --log-level warn",
-    "build": "parcel build src/js/app.js --dist-dir dist/js --no-hot --no-source-maps"
+    "build": "parcel build src/js/app.js --dist-dir dist/js --no-source-maps"
   },
   "repository": {
     "type": "git",

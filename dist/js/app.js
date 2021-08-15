@@ -383,7 +383,8 @@ function hmrAcceptRun(bundle/*: ParcelRequire */ , id/*: string */ ) {
 },{}],"XPJbz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _standalone = require("vis-network/standalone");
-var _network = require("./Network");
+var _constantsJs = require("./constants.js");
+var _networkJs = require("./Network.js");
 var _vue = require("vue");
 var _vueDefault = parcelHelpers.interopDefault(_vue);
 var _dragable = require("./Dragable");
@@ -660,9 +661,9 @@ window.addEventListener("load", ()=>{
 // init();
 });
 function init() {
-    ntw = new _network.Network(domElements, settings);
+    ntw = new _networkJs.Connection(domElements, settings);
     // assets/js/networkDataTest.json
-    _utilis.readTextFile("../data/networkData.json", callBackInit);
+    _utilis.readTextFile(_constantsJs.BASE_URL + "/data/networkData.json", callBackInit);
 }
 function callBackInit(text) {
     var dataJson = JSON.parse(text);
@@ -699,7 +700,7 @@ function callBackInit(text) {
     });
 }
 
-},{"vis-network/standalone":"6Qvza","vue":"5fSbr","@parcel/transformer-js/src/esmodule-helpers.js":"3zvCE","./Dragable":"2RQqp","./Network":"438f1","./utilis":"6eB6s"}],"6Qvza":[function(require,module,exports) {
+},{"vis-network/standalone":"6Qvza","./constants.js":"63143","./Network.js":"438f1","vue":"5fSbr","./Dragable":"2RQqp","./utilis":"6eB6s","@parcel/transformer-js/src/esmodule-helpers.js":"3zvCE"}],"6Qvza":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _esm = require("./esm");
@@ -33135,7 +33136,420 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"5fSbr":[function(require,module,exports) {
+},{}],"63143":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BASE_URL", ()=>BASE_URL
+);
+parcelHelpers.export(exports, "DIR", ()=>DIR
+);
+parcelHelpers.export(exports, "options", ()=>options
+);
+const BASE_URL = window.location.origin === "https://projets.richebois.fr" ? "https://projets.richebois.fr/techs-data-viz" : "";
+const DIR = BASE_URL + "/images/";
+const options = {
+    // manipulation: false,
+    height: '100%',
+    width: '100%',
+    locale: 'en',
+    layout: {
+        improvedLayout: true
+    },
+    nodes: {
+        shape: "box",
+        shapeProperties: {
+            borderRadius: 0
+        },
+        // shape: "image",
+        // image: DIR + "3.png",
+        // imagePadding: { left: 2, top: 10, right: 8, bottom: 20 },
+        color: {
+            border: '#58FFFE',
+            background: '#285352',
+            highlight: {
+                border: '#58FFFE',
+                background: '#58FFFE'
+            },
+            hover: {
+                border: '#58FFFE',
+                background: '#389895'
+            }
+        },
+        font: {
+            face: 'monospace',
+            color: '#58FFFE',
+            align: 'left'
+        },
+        // margin: {
+        //     top: 10,
+        //     left: 15,
+        //     bottom: 10,
+        //     right: 15
+        // },
+        widthConstraint: {
+            maximum: 300
+        },
+        physics: true,
+        chosen: {
+            label: function(values, id, selected, hovering) {
+                if (selected) values.color = '#222';
+                else values.color = '#58FFFE';
+            }
+        }
+    },
+    edges: {
+        // arrows: { to: true },
+        // arrows: {
+        //     to: {
+        //         enabled: true,
+        //         scaleFactor: 1,
+        //         type: "image",
+        //         imageHeight: 12,
+        //         imageWidth: 12,
+        //         src: "https://visjs.org/images/visjs_logo.png",
+        //     }
+        // },
+        color: {
+            color: '#FFF',
+            highlight: '#58FFFE',
+            hover: '#58FFFE',
+            inherit: 'from',
+            opacity: 1
+        },
+        font: {
+            size: 12
+        },
+        widthConstraint: {
+            maximum: 90
+        },
+        width: 2,
+        chosen: {
+            edge: function(values, id, selected, hovering) {
+                values.toArrow = true;
+            }
+        },
+        smooth: {
+            // type: "cubicBezier",
+            // roundness: 0.85
+            type: "discrete",
+            roundness: 0
+        }
+    },
+    groups: {
+        language: {
+            color: {
+                background: "#182026",
+                border: "white"
+            },
+            shape: "diamond"
+        },
+        framework: {
+            color: {
+                background: "#293742",
+                border: "white"
+            }
+        },
+        software: {
+            color: {
+                background: "#394B59",
+                border: "white"
+            }
+        },
+        stack: {
+            color: {
+                background: "#738694",
+                border: "white"
+            }
+        },
+        service: {
+            color: {
+                background: "#A7B6C2",
+                border: "white"
+            }
+        },
+        CLI: {
+            color: {
+                background: "#738694",
+                border: "white"
+            }
+        },
+        lib: {
+            shape: "box",
+            shapeProperties: {
+                borderRadius: 12
+            },
+            color: {
+                background: "#A7B6C2",
+                border: "white"
+            }
+        },
+        folder: {
+            shape: "image",
+            image: DIR + "folder.svg",
+            brokenImage: DIR + "folder.png",
+            color: {
+                background: "#BFCCD6",
+                border: "white"
+            },
+            font: {
+                color: '#58FFFE'
+            }
+        }
+    },
+    physics: {
+        enabled: true,
+        barnesHut: {
+            gravitationalConstant: -500,
+            centralGravity: 0.01,
+            springLength: 95,
+            springConstant: 0.6,
+            damping: 0.1,
+            avoidOverlap: 0.8
+        },
+        hierarchicalRepulsion: {
+            centralGravity: 0,
+            springLength: 100,
+            springConstant: 0.01,
+            nodeDistance: 200,
+            damping: 0.09,
+            avoidOverlap: 0.5
+        },
+        repulsion: {
+            centralGravity: 0.2,
+            springLength: 200,
+            springConstant: 0.05,
+            nodeDistance: 200,
+            damping: 0.09
+        },
+        solver: "repulsion",
+        stabilization: {
+            enabled: true,
+            iterations: 20,
+            updateInterval: 50,
+            onlyDynamicEdges: false,
+            fit: true
+        },
+        maxVelocity: 10
+    },
+    interaction: {
+        hover: true,
+        dragNodes: true,
+        hideEdgesOnDrag: false,
+        hoverConnectedEdges: true,
+        multiselect: true,
+        tooltipDelay: 100,
+        keyboard: {
+            enabled: true,
+            speed: {
+                x: 10,
+                y: 10,
+                zoom: 0.02
+            },
+            bindToWindow: true
+        }
+    },
+    manipulation: {
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"3zvCE"}],"438f1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Connection", ()=>Connection
+);
+var _standalone = require("vis-network/standalone");
+var _constants = require("./constants");
+class Connection {
+    constructor(domElements, settings){
+        this.container = domElements.container;
+        this.networkCanvas = undefined;
+        this._settings = settings;
+        this._highlightActive = false;
+        this.newtork = {
+        };
+        this.data = {
+        };
+        this.nodesDataset = {
+        };
+        this.allNodes = [];
+        this.edgesDataset = {
+        };
+        this.options = _constants.options;
+        this.options.manipulation = {
+            addNode: function(data, callback) {
+                // filling in the popup DOM elements
+                document.getElementById("node-operation").innerHTML = "Add Node";
+                editNode(data, clearNodePopUp, callback);
+            },
+            editNode: function(data, callback) {
+                // filling in the popup DOM elements
+                document.getElementById("node-operation").innerHTML = "Edit Node";
+                editNode(data, cancelNodeEdit, callback);
+            },
+            addEdge: function(data, callback) {
+                if (data.from == data.to) {
+                    // var r = confirm("Do you want to connect the node to itself?");
+                    // if (r != true) {
+                    callback(null);
+                    return;
+                // }
+                }
+                document.getElementById("edge-operation").innerHTML = "Add Edge";
+                editEdgeWithoutDrag(data, callback);
+            },
+            editEdge: {
+                editWithoutDrag: function(data, callback) {
+                    document.getElementById("edge-operation").innerHTML = "Edit Edge";
+                    editEdgeWithoutDrag(data, callback);
+                }
+            }
+        };
+    }
+    setDataSet(filteredForVis, edges) {
+        this.nodesDataset = new _standalone.DataSet(filteredForVis);
+        this.edgesDataset = new _standalone.DataSet(edges);
+        const data = {
+            // nodes: nodes,
+            // edges: edges
+            nodes: this.nodesDataset,
+            edges: this.edgesDataset
+        };
+        return data;
+    }
+    draw(data) {
+        // console.log("draw()", this.container, data, this.options);
+        this.data = data;
+        this.network = new _standalone.Network(this.container, data, this.options);
+        // console.log("this.network", this.network)
+        // get a JSON object
+        // Used for neighbourhoodHighlight()
+        this.allNodes = this.nodesDataset.get({
+            returnType: "Object"
+        });
+        // this.networkCanvas = this.container.getElementsByTagName("canvas")[0];
+        this.network.once("beforeDrawing", ()=>{
+            this.network.focus(5, {
+                scale: 4
+            });
+        });
+        this.network.once("afterDrawing", ()=>{
+            this.network.fit({
+                animation: {
+                    duration: 1200,
+                    easingFunction: "easeOutQuart"
+                }
+            });
+        });
+        this.network.on("stabilized", ()=>{
+            console.log("Stabilized");
+            if (!this._settings.isStabilized) {
+                this.network.fit({
+                    animation: {
+                        duration: 1200,
+                        easingFunction: "easeOutQuart"
+                    }
+                });
+                this._settings.isStabilized = true;
+                let loaderScreen = document.getElementById('loader');
+                if (loaderScreen) {
+                    let parentNode = loaderScreen.parentNode;
+                    parentNode.removeChild(loaderScreen);
+                }
+            }
+        });
+        this.network.on("stabilizationProgress", function(params) {
+            console.log(params);
+        });
+        this.network.on("hoverNode", ()=>{
+            this.container.style.cursor = "pointer";
+        });
+        this.network.on("blurNode", ()=>{
+            this.container.style.cursor = "default";
+        //
+        });
+        this.network.on("hoverEdge", function() {
+        //
+        });
+        this.network.on("blurEdge", ()=>{
+            this.container.style.cursor = "default";
+        });
+        this.network.on("dragStart", ()=>{
+        //
+        });
+        this.network.on("dragging", ()=>{
+            this.container.style.cursor = "move";
+        });
+        this.network.on("dragEnd", ()=>{
+            this.container.style.cursor = "cursor";
+        });
+    /*
+		this.network.on("click", (e) => {
+			// console.log(e);
+			// console.log(network.body.nodes);
+			console.log(this.data);
+			if(e.nodes[0] && e.nodes[0] != undefined){
+				// console.log(getNodeById(network.body.nodes, e.nodes[0]));
+				// console.log( this.network.body.nodes[e.nodes[0]] );
+				displayPopupInfo(e.nodes[0]);
+				this._neighbourhoodHighlight(e);
+			}
+		});
+		*/ }
+    neighbourhoodHighlight(params) {
+        // if something is selected:
+        if (params.nodes.length > 0) {
+            this._highlightActive = true;
+            var i, j;
+            var selectedNode = params.nodes[0];
+            var degrees = 2;
+            // mark all nodes as hard to read.
+            for(var nodeId in this.allNodes)this.allNodes[nodeId].color = "rgba(130,130,130,1)";
+            var connectedNodes = this.network.getConnectedNodes(selectedNode);
+            var allConnectedNodes = [];
+            // get the second degree nodes
+            for(i = 1; i < degrees; i++)for(j = 0; j < connectedNodes.length; j++)allConnectedNodes = allConnectedNodes.concat(this.network.getConnectedNodes(connectedNodes[j]));
+            // all second degree nodes get a different color and their label back
+            for(i = 0; i < allConnectedNodes.length; i++){
+                this.allNodes[allConnectedNodes[i]].color = "#58FFFE";
+                this.allNodes[allConnectedNodes[i]].border = "#58FFFE";
+                this.allNodes[allConnectedNodes[i]].background = '#285352';
+            // if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+            //   allNodes[allConnectedNodes[i]].label =
+            //     allNodes[allConnectedNodes[i]].hiddenLabel;
+            //   allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+            // }
+            }
+            // all first degree nodes get their own color and their label back
+            for(i = 0; i < connectedNodes.length; i++)this.allNodes[connectedNodes[i]].color = undefined;
+            // the main node gets its own color and its label back.
+            this.allNodes[selectedNode].color = undefined;
+        // if (allNodes[selectedNode].hiddenLabel !== undefined) {
+        //   allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+        //   allNodes[selectedNode].hiddenLabel = undefined;
+        // }
+        } else if (this._highlightActive === true) {
+            // reset all nodes
+            for(var nodeId in this.allNodes){
+                // allNodes[nodeId].color = undefined;
+                this.allNodes[nodeId].color = "#58FFFE";
+                this.allNodes[nodeId].font.color = "#58FFFE";
+                this.allNodes[nodeId].color.background = '#285352';
+                this.allNodes[nodeId].border = "#58FFFE";
+            // if (allNodes[nodeId].hiddenLabel !== undefined) {
+            //   allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+            //   allNodes[nodeId].hiddenLabel = undefined;
+            // }
+            }
+            this._highlightActive = false;
+        }
+        // transform the object into an array
+        var updateArray = [];
+        for(nodeId in this.allNodes)if (this.allNodes.hasOwnProperty(nodeId)) updateArray.push(this.allNodes[nodeId]);
+        this.nodesDataset.update(updateArray);
+    }
+}
+
+},{"vis-network/standalone":"6Qvza","./constants":"63143","@parcel/transformer-js/src/esmodule-helpers.js":"3zvCE"}],"5fSbr":[function(require,module,exports) {
 module.exports = require('./vue.common.dev.js');
 
 },{"./vue.common.dev.js":"4ytq5"}],"4ytq5":[function(require,module,exports) {
@@ -41002,416 +41416,6 @@ exports.default = function(elementName, handleName) {
             document.onmouseup = null;
             document.onmousemove = null;
         }
-    }
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"3zvCE"}],"438f1":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Network", ()=>Network
-);
-var _standalone = require("vis-network/standalone");
-var _constants = require("./constants");
-class Network {
-    constructor(domElements, settings){
-        this.container = domElements.container;
-        this.networkCanvas = undefined;
-        this._settings = settings;
-        this._highlightActive = false;
-        this.newtork = {
-        };
-        this.data = {
-        };
-        this.nodesDataset = {
-        };
-        this.allNodes = [];
-        this.edgesDataset = {
-        };
-        this.options = _constants.options;
-        this.options.manipulation = {
-            addNode: function(data, callback) {
-                // filling in the popup DOM elements
-                document.getElementById("node-operation").innerHTML = "Add Node";
-                editNode(data, clearNodePopUp, callback);
-            },
-            editNode: function(data, callback) {
-                // filling in the popup DOM elements
-                document.getElementById("node-operation").innerHTML = "Edit Node";
-                editNode(data, cancelNodeEdit, callback);
-            },
-            addEdge: function(data, callback) {
-                if (data.from == data.to) {
-                    // var r = confirm("Do you want to connect the node to itself?");
-                    // if (r != true) {
-                    callback(null);
-                    return;
-                // }
-                }
-                document.getElementById("edge-operation").innerHTML = "Add Edge";
-                editEdgeWithoutDrag(data, callback);
-            },
-            editEdge: {
-                editWithoutDrag: function(data, callback) {
-                    document.getElementById("edge-operation").innerHTML = "Edit Edge";
-                    editEdgeWithoutDrag(data, callback);
-                }
-            }
-        };
-    }
-    setDataSet(filteredForVis, edges) {
-        this.nodesDataset = new _standalone.DataSet(filteredForVis);
-        this.edgesDataset = new _standalone.DataSet(edges);
-        const data = {
-            // nodes: nodes,
-            // edges: edges
-            nodes: this.nodesDataset,
-            edges: this.edgesDataset
-        };
-        return data;
-    }
-    draw(data) {
-        // console.log("draw()", this.container, data, this.options);
-        this.data = data;
-        this.network = new _standalone.Network(this.container, data, this.options);
-        // console.log("this.network", this.network)
-        // get a JSON object
-        // Used for neighbourhoodHighlight()
-        this.allNodes = this.nodesDataset.get({
-            returnType: "Object"
-        });
-        // this.networkCanvas = this.container.getElementsByTagName("canvas")[0];
-        this.network.once("beforeDrawing", ()=>{
-            this.network.focus(5, {
-                scale: 4
-            });
-        });
-        this.network.once("afterDrawing", ()=>{
-            this.network.fit({
-                animation: {
-                    duration: 1200,
-                    easingFunction: "easeOutQuart"
-                }
-            });
-        });
-        this.network.on("stabilized", ()=>{
-            console.log("Stabilized");
-            if (!this._settings.isStabilized) {
-                this.network.fit({
-                    animation: {
-                        duration: 1200,
-                        easingFunction: "easeOutQuart"
-                    }
-                });
-                this._settings.isStabilized = true;
-                let loaderScreen = document.getElementById('loader');
-                if (loaderScreen) {
-                    let parentNode = loaderScreen.parentNode;
-                    parentNode.removeChild(loaderScreen);
-                }
-            }
-        });
-        this.network.on("stabilizationProgress", function(params) {
-            console.log(params);
-        });
-        this.network.on("hoverNode", ()=>{
-            this.container.style.cursor = "pointer";
-        });
-        this.network.on("blurNode", ()=>{
-            this.container.style.cursor = "default";
-        //
-        });
-        this.network.on("hoverEdge", function() {
-        //
-        });
-        this.network.on("blurEdge", ()=>{
-            this.container.style.cursor = "default";
-        });
-        this.network.on("dragStart", ()=>{
-        //
-        });
-        this.network.on("dragging", ()=>{
-            this.container.style.cursor = "move";
-        });
-        this.network.on("dragEnd", ()=>{
-            this.container.style.cursor = "cursor";
-        });
-    /*
-		this.network.on("click", (e) => {
-			// console.log(e);
-			// console.log(network.body.nodes);
-			console.log(this.data);
-			if(e.nodes[0] && e.nodes[0] != undefined){
-				// console.log(getNodeById(network.body.nodes, e.nodes[0]));
-				// console.log( this.network.body.nodes[e.nodes[0]] );
-				displayPopupInfo(e.nodes[0]);
-				this._neighbourhoodHighlight(e);
-			}
-		});
-		*/ }
-    neighbourhoodHighlight(params) {
-        // if something is selected:
-        if (params.nodes.length > 0) {
-            this._highlightActive = true;
-            var i, j;
-            var selectedNode = params.nodes[0];
-            var degrees = 2;
-            // mark all nodes as hard to read.
-            for(var nodeId in this.allNodes)this.allNodes[nodeId].color = "rgba(130,130,130,1)";
-            var connectedNodes = this.network.getConnectedNodes(selectedNode);
-            var allConnectedNodes = [];
-            // get the second degree nodes
-            for(i = 1; i < degrees; i++)for(j = 0; j < connectedNodes.length; j++)allConnectedNodes = allConnectedNodes.concat(this.network.getConnectedNodes(connectedNodes[j]));
-            // all second degree nodes get a different color and their label back
-            for(i = 0; i < allConnectedNodes.length; i++){
-                this.allNodes[allConnectedNodes[i]].color = "#58FFFE";
-                this.allNodes[allConnectedNodes[i]].border = "#58FFFE";
-                this.allNodes[allConnectedNodes[i]].background = '#285352';
-            // if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
-            //   allNodes[allConnectedNodes[i]].label =
-            //     allNodes[allConnectedNodes[i]].hiddenLabel;
-            //   allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
-            // }
-            }
-            // all first degree nodes get their own color and their label back
-            for(i = 0; i < connectedNodes.length; i++)this.allNodes[connectedNodes[i]].color = undefined;
-            // the main node gets its own color and its label back.
-            this.allNodes[selectedNode].color = undefined;
-        // if (allNodes[selectedNode].hiddenLabel !== undefined) {
-        //   allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
-        //   allNodes[selectedNode].hiddenLabel = undefined;
-        // }
-        } else if (this._highlightActive === true) {
-            // reset all nodes
-            for(var nodeId in this.allNodes){
-                // allNodes[nodeId].color = undefined;
-                this.allNodes[nodeId].color = "#58FFFE";
-                this.allNodes[nodeId].font.color = "#58FFFE";
-                this.allNodes[nodeId].color.background = '#285352';
-                this.allNodes[nodeId].border = "#58FFFE";
-            // if (allNodes[nodeId].hiddenLabel !== undefined) {
-            //   allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
-            //   allNodes[nodeId].hiddenLabel = undefined;
-            // }
-            }
-            this._highlightActive = false;
-        }
-        // transform the object into an array
-        var updateArray = [];
-        for(nodeId in this.allNodes)if (this.allNodes.hasOwnProperty(nodeId)) updateArray.push(this.allNodes[nodeId]);
-        this.nodesDataset.update(updateArray);
-    }
-}
-
-},{"vis-network/standalone":"6Qvza","./constants":"63143","@parcel/transformer-js/src/esmodule-helpers.js":"3zvCE"}],"63143":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "DIR", ()=>DIR
-);
-parcelHelpers.export(exports, "options", ()=>options
-);
-const DIR = "../images/";
-const options = {
-    // manipulation: false,
-    height: '100%',
-    width: '100%',
-    locale: 'en',
-    layout: {
-        improvedLayout: true
-    },
-    nodes: {
-        shape: "box",
-        shapeProperties: {
-            borderRadius: 0
-        },
-        // shape: "image",
-        // image: DIR + "3.png",
-        // imagePadding: { left: 2, top: 10, right: 8, bottom: 20 },
-        color: {
-            border: '#58FFFE',
-            background: '#285352',
-            highlight: {
-                border: '#58FFFE',
-                background: '#58FFFE'
-            },
-            hover: {
-                border: '#58FFFE',
-                background: '#389895'
-            }
-        },
-        font: {
-            face: 'monospace',
-            color: '#58FFFE',
-            align: 'left'
-        },
-        // margin: {
-        //     top: 10,
-        //     left: 15,
-        //     bottom: 10,
-        //     right: 15
-        // },
-        widthConstraint: {
-            maximum: 300
-        },
-        physics: true,
-        chosen: {
-            label: function(values, id, selected, hovering) {
-                if (selected) values.color = '#222';
-                else values.color = '#58FFFE';
-            }
-        }
-    },
-    edges: {
-        // arrows: { to: true },
-        // arrows: {
-        //     to: {
-        //         enabled: true,
-        //         scaleFactor: 1,
-        //         type: "image",
-        //         imageHeight: 12,
-        //         imageWidth: 12,
-        //         src: "https://visjs.org/images/visjs_logo.png",
-        //     }
-        // },
-        color: {
-            color: '#FFF',
-            highlight: '#58FFFE',
-            hover: '#58FFFE',
-            inherit: 'from',
-            opacity: 1
-        },
-        font: {
-            size: 12
-        },
-        widthConstraint: {
-            maximum: 90
-        },
-        width: 2,
-        chosen: {
-            edge: function(values, id, selected, hovering) {
-                values.toArrow = true;
-            }
-        },
-        smooth: {
-            // type: "cubicBezier",
-            // roundness: 0.85
-            type: "discrete",
-            roundness: 0
-        }
-    },
-    groups: {
-        language: {
-            color: {
-                background: "#182026",
-                border: "white"
-            },
-            shape: "diamond"
-        },
-        framework: {
-            color: {
-                background: "#293742",
-                border: "white"
-            }
-        },
-        software: {
-            color: {
-                background: "#394B59",
-                border: "white"
-            }
-        },
-        stack: {
-            color: {
-                background: "#738694",
-                border: "white"
-            }
-        },
-        service: {
-            color: {
-                background: "#A7B6C2",
-                border: "white"
-            }
-        },
-        CLI: {
-            color: {
-                background: "#738694",
-                border: "white"
-            }
-        },
-        lib: {
-            shape: "box",
-            shapeProperties: {
-                borderRadius: 12
-            },
-            color: {
-                background: "#A7B6C2",
-                border: "white"
-            }
-        },
-        folder: {
-            shape: "image",
-            image: DIR + "folder.svg",
-            brokenImage: DIR + "folder.png",
-            color: {
-                background: "#BFCCD6",
-                border: "white"
-            },
-            font: {
-                color: '#58FFFE'
-            }
-        }
-    },
-    physics: {
-        enabled: true,
-        barnesHut: {
-            gravitationalConstant: -500,
-            centralGravity: 0.01,
-            springLength: 95,
-            springConstant: 0.6,
-            damping: 0.1,
-            avoidOverlap: 0.8
-        },
-        hierarchicalRepulsion: {
-            centralGravity: 0,
-            springLength: 100,
-            springConstant: 0.01,
-            nodeDistance: 200,
-            damping: 0.09,
-            avoidOverlap: 0.5
-        },
-        repulsion: {
-            centralGravity: 0.2,
-            springLength: 200,
-            springConstant: 0.05,
-            nodeDistance: 200,
-            damping: 0.09
-        },
-        solver: "repulsion",
-        stabilization: {
-            enabled: true,
-            iterations: 20,
-            updateInterval: 50,
-            onlyDynamicEdges: false,
-            fit: true
-        },
-        maxVelocity: 10
-    },
-    interaction: {
-        hover: true,
-        dragNodes: true,
-        hideEdgesOnDrag: false,
-        hoverConnectedEdges: true,
-        multiselect: true,
-        tooltipDelay: 100,
-        keyboard: {
-            enabled: true,
-            speed: {
-                x: 10,
-                y: 10,
-                zoom: 0.02
-            },
-            bindToWindow: true
-        }
-    },
-    manipulation: {
     }
 };
 

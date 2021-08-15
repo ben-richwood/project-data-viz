@@ -1,7 +1,7 @@
 import { DataSet, Network } from "vis-network/standalone";
 import { DIR, options } from './constants'
 
-export class Network {
+export class Connection {
 	constructor (domElements, settings){
 		this.container = domElements.container;
 		this.networkCanvas = undefined;

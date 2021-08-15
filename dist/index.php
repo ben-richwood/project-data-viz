@@ -144,7 +144,7 @@
 <body>
 	<?php include './loader.php'; ?>
 	<div id="networkCanvas"></div>
-	<div>
+	<div style="display:none;">
 	  <textarea id="input_output"></textarea>
 	  <input
 		type="button"
@@ -165,8 +165,8 @@
 		value="destroy"
 	  /> -->
 	</div>
-	<div> <a href="https://almende.github.io/vis/docs/network/#methodCanvas">visjs website</a> </div>
-	<div>
+	<div style="display:none;">
+		<div> <a href="https://almende.github.io/vis/docs/network/#methodCanvas">visjs website</a> </div>
 		<h3>Inspiration</h3>
 		<ul>
 			<li><a href="https://starcitizen.center/route-planner">Star Citizen - mapping & routes</a></li>
@@ -179,8 +179,10 @@
 			<p id="nodeTitle">{{ content.label }}</p>
 			<div>{{ content.description }}</div>
 			<div><a target="_blank" :href="content.link">{{ content.link }}</a></div>
-			{{content.x}}<br/>
-			{{content.y}}<br/>
+			<div class="coords">
+				{{ Math.round(content.x) }}<br/>
+				{{ Math.round(content.y) }}<br/>
+			</div>
 			{{content.price}}<br/>
 			{{content.pricing}}<br/>
 		</div>
@@ -262,22 +264,7 @@
 	</div>
 
 <!-- <script src="./assets/js/app.js"></script> -->
-<script src="/js/app.js"></script>
-<script>
-
-	// const height = window.innerHeight * 0.8;
-
-	// $( function() {
-	// 	$( "#listContainer" ).resizable({
-	// 		minWidth: 150,
-	// 		maxWidth: 600,
-	// 		minHeight: height,
-	// 		maxHeight: height,
-	// 	});
-	//   } );
-
-
-</script>
+<script src="./js/app.js"></script>
 
 </body>
 </html>
