@@ -451,7 +451,39 @@
       "id": "d0c39220-9e56-48ec-a24b-658e51336d66",
       "label":"deployment",
       "group": "folder",
-      "level":1
+      "level": 1
+    }, {
+      "id": "a446aaab-d21f-4f0c-9068-b1cabb724479",
+      "label":"Render",
+      "description": "Render is a unified platform to build and run all your apps and websites with free SSL, a global CDN, private networks and auto deploys from Git. Static website, webapp, API, Cron jobs, Docker containers...",
+      "group": "online service",
+      "pricing": "paid",
+      "link": "https://render.com/",
+			"price": "Starting at 0 for static website",
+      "level":2
+    }, {
+      "id": "5be4bd26-6da9-484f-8930-8262447de8d6",
+      "label":"CloudFlare",
+      "description": "Deploy serverless code to data centers across 200 cities in 90 countries to give it exceptional performance and reliability.",
+      "link": "https://workers.cloudflare.com/",
+      "group": "online service",
+      "pricing": "paid",
+			"price": "Starting at 0 for static website",
+      "level":2
+    }, {
+      "id": "1a645393-c0ea-4b0f-8498-6a877316af92",
+      "label":"Pritunl",
+      "description": "Enterprise Distributed OpenVPN, IPsec and WireGuard Server. Virtualize your private networks across datacenters and provide simple remote access in minutes. Open source BeyondCorp server from Pritunl providing zero trust security for privileged access to ssh and web applications",
+      "link": "https://pritunl.com/",
+      "group": "online service",
+      "level":2
+    }, {
+      "id": "e42dd0b8-0a94-4048-8d74-e3e6c3f8097c",
+      "label":"Google Cloud",
+      "description": "Scalable pay as you go Functions-as-a-Service (FaaS) to run your code with zero server management.",
+      "link": "https://cloud.google.com/",
+      "group": "online service",
+      "level":2
     }, {
       "id":54,
       "label":"DeployHQ",
@@ -555,6 +587,10 @@
     }, {
       "id":77,
       "label":"GraphCMS",
+      "link": "https://graphcms.com/",
+      "description": "Build Your GraphQL Content API. Instantly. GraphCMS gives you instant GraphQL Content APIs to create, enrich, unify, and deliver your content across platforms.",
+      "languages": ["GraphQL"],
+      "pricing": "freemium",
       "level":2
     }, {
       "id":"f586b740-07d0-0138-304d-245e60e6453d",
@@ -628,6 +664,33 @@
       "languages": ["PHP"],
       "pricing": "FOSS"
     }, {
+      "id":"e4b85aa2-da54-4129-afb2-d440fdc1ddb2",
+      "label":"Sulu",
+      "link": "https://sulu.io/",
+      "description": "Deliver awesome, robust, reliable websites with Sulu CMS (based on Symfony). The ideal combination of PHP developer experience and agency platform. Deliver complex sites and great user experiences for the content teams who work on your site every day.",
+      "group": "framework",
+      "level":3,
+      "languages": ["PHP"],
+      "pricing": "FOSS"
+    }, {
+      "id":"6d0cadfe-74d7-4caa-a6cd-8564312a6ab4",
+      "label":"Apostrophe",
+      "link": "https://apostrophecms.com/",
+      "description": "ApostropheCMS was created to bring happiness and productivity to web developers and content editors. It is used around the world by companies of all sizes to build and manage mission critical websites and applications. ApostropheCMS is free and open source for everyone, with enterprise products and services also available.",
+      "group": "framework",
+      "level":3,
+      "languages": ["PHP", "NodeJS", "MongoDB"],
+      "pricing": "FOSS"
+    }, {
+      "id":"09bab2e9-4d7c-4e34-82e8-c1d254a637c6",
+      "label":"Umbraco",
+      "link": "https://umbraco.com/",
+      "description": "With Umbraco, you get a content management system known and loved for its flexibility and great editing experience. Use the open source version of Umbraco for free and install, setup, and host it yourself or let us take care of it all for you on Umbraco Cloud. You get a free 14-day trial and if you get hooked, prices start from just $39/month.",
+      "group": "framework",
+			 "level":3,
+			"pricing": "FOSS",
+			"languages": ["ASP.NET"]
+    }, {
       "id":"090f783e-0eea-4eaa-8b96-262387b188dc",
       "label":"Cloud storage",
       "level":1
@@ -700,6 +763,8 @@
     }, {
       "id":96,
       "label":"mxtoolbox",
+      "link": "https://mxtoolbox.com/",
+      "description": "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly.",
       "level":2
     }, {
       "id":97,
@@ -829,9 +894,18 @@
     }, {
       "id": "9faaa410-1719-0138-fb1c-245e60e6453d",
       "label":"Book Stack",
-      "link": "bookstackapp",
+      "link": "https://www.bookstackapp.com/",
       "description": "BookStack is a simple, self-hosted, easy-to-use platform for organising and storing information.",
       "group": "online service",
+      "languages": ["PHP"],
+      "level": 3
+    }, {
+      "id": "b92b2e74-70ec-4b6e-ade4-99bbd32c08a1",
+      "label":"JS Wiki",
+      "link": "https://js.wiki/modules",
+      "description": "The most powerful and extensible open source Wiki software",
+      "group": "online service",
+      "languages": ["JS", "PostregSQL", "MySQL", "SQLite"],
       "level": 3
     }, {
       "id": "5c9ceab0-0b49-0138-86e1-245e60e6453d",
@@ -874,6 +948,47 @@
       "group": "framework",
       "level":2
     }, {
+      "id": "b74f3a7b-983f-488e-96b9-4e8843aff558",
+      "label":"HackerMD",
+      "description": "Real-time collaborate on project team technical personal documentation in markdown. Capture fleeting ideas and formalize tribal knowledge.",
+      "link": "https://hackmd.io/home#",
+      "group": "online service",
+      "level":2
+    }, {
+      "id": "e6fea107-d1ac-45f9-a685-a0cab90f7077",
+      "label":"Wikum",
+      "description": "Summarize disucssion threads. By harnessing the power of people backed by state-of-the-art human-computer interaction and machine learning techniques, users get",
+      "link": "http://wikum.csail.mit.edu/",
+      "group": "online service",
+      "level":2
+    }, {
+      "id": "7a5bc014-1323-4c1e-95d6-14d9b95d5c31",
+      "label":"Sphinx",
+      "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation",
+      "link": "https://www.sphinx-doc.org/",
+      "group": "lib",
+      "language": ["Python"],
+			"pricing": "FOSS",
+      "level":2
+    }, {
+      "id": "965087cf-0536-4b81-ad2e-fdb0fb3681b5",
+      "label":"OpenAPI/coreapi",
+      "description": "Swagger-generated API Reference Documentation",
+      "link": "https://github.com/core-api/python-client",
+      "group": "lib",
+      "language": ["Python"],
+			"pricing": "FOSS",
+      "level":2
+    }, {
+      "id": "ecf910c8-7492-4dac-90f4-9bc0d0e8d850",
+      "label":"ReDoc",
+      "description": "Auto generated API documentation for Django",
+      "link": "https://github.com/Redocly/redoc",
+      "group": "lib",
+      "language": ["Python"],
+			"pricing": "FOSS",
+      "level":2
+    }, {
       "id": "c8d863b0-077c-0138-5b99-245e60e6453d",
       "label":"Payment platform",
       "group": "folder",
@@ -913,7 +1028,29 @@
       "label":"Square UP",
       "link": "https://squareup.com/us/en",
       "description": "From payments to payroll, there are Square solutions for almost everything.",
-      "pricing": "Price: 2.9% + 30¢ per transaction",
+      "price": "Price: 2.9% + 30¢ per transaction",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":"bae9cee3-e1e8-4198-ba05-3c78b46cfef8",
+      "label":"Braintree",
+      "link": "https://www.braintreepayments.com/",
+      "description": "Reach more buyers and drive higher conversion with the only payments platform that delivers PayPal, Venmo (in the US), credit and debit cards, and popular digital wallets like Apple Pay and Google Pay in a single, seamless integration.",
+      "price": "1,9% + €0,30",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":"b2fee890-e0e8-4604-8efe-64bb1550d786",
+      "label":"Foxy",
+      "link": "https://www.foxy.io/",
+      "description": "Flexible Ecommerce for Your Website. Foxy’s hosted cart & payment page allow you to sell anything, using your existing website or platform.",
+      "level":2,
+      "group": "online service"
+    }, {
+      "id":"52642913-126f-4c86-a1ca-d1343bfae2ca",
+      "label":"Amazon Pay",
+      "link": "https://pay.amazon.com/",
+      "description": "Connect your business to new shoppers. Ignite your summer strategy and get up to speed for peak shopping with the Amazon Pay Business Accelerator Campaign.",
       "level":2,
       "group": "online service"
     }, {
@@ -1275,43 +1412,43 @@
       "group": "folder",
       "x": 43,
       "y": -1928,
-      "level":1
+      "level":2
     }, {
       "id":158,
       "label":"Vray",
       "company": "Chaos Group",
       "link": "http://www.chaosgroup.com/en/2/index.html",
-      "level":2
+      "level":3
     }, {
       "id":159,
       "label":"OctaneRender",
       "company": "Refractive Software",
       "link": "http://render.otoy.com/index.php",
-      "level":2
+      "level":3
     }, {
       "id":160,
       "label":"Cycle",
       "company": "Blender Foundation",
-      "level":2
+      "level":3
     }, {
       "id":161,
       "label":"MentalRay",
       "company": "Nvidia",
       "link": "http://www.nvidia-arc.com/products/nvidia-mental-ray/",
-      "level":2
+      "level":3
     }, {
       "id":162,
       "label":"Iray",
       "company": "Nvidia",
       "link": "http://www.nvidia.com/object/nvidia-iray.html",
-      "level":2
+      "level":3
     }, {
       "id":163,
       "label":"RenderMan",
       "company": "Pixar",
       "link": "http://renderman.pixar.com/view/renderman",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":164,
       "label":"Tractor",
@@ -1319,49 +1456,49 @@
       "description": "Tractor is a modern and robust solution for network rendering, capable of scaling up to the largest render farms",
       "link": "https://renderman.pixar.com/tractor",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":165,
       "label":"Keyshot",
       "company": "Luxion",
       "link": "https://www.keyshot.com/",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":166,
       "label":"Corona Render",
       "company": "Render Legion",
       "link": "https://corona-renderer.com/",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":167,
       "label":"Maxwell Render",
       "company": "Next Limit",
       "link": "http://www.maxwellrender.com/",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":168,
       "label":"Toolbag",
       "company": "Marmoset",
       "link": "http://www.marmoset.co/",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":169,
       "label":"Indigo Renderer",
       "company": "Glare Technologies",
       "link": "http://www.indigorenderer.com/",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":170,
       "label":"Arnold",
       "company": "Autodesk",
       "link": "https://www.arnoldrenderer.com/",
       "group": "software",
-      "level":2
+      "level":3
     }, {
       "id":171,
       "label":"Civil3D",
@@ -2348,7 +2485,8 @@
     }, {
       "id":308,
       "label":"Version Control System",
-      "group":"Allows to go back in history and control code quality",
+      "description":"Allows to go back in history and control code quality",
+      "group":"folder",
       "level":2
     }, {
       "id":309,
@@ -2556,11 +2694,15 @@
       "id":340,
       "label":"11ty",
       "link":"https://www.11ty.dev/",
-      "group":"online service",
+      "description": "Eleventy is a simpler static site generator. Eleventy was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options. Eleventy works with your project’s existing directory structure.",
+      "languages": ["JS"],
+      "group":"lib",
       "level":3
     }, {
       "id":341,
       "label":"Staticman",
+      "description": "Staticman is an Open Source application which enables static websites to accept dynamic content submissions, including things like comments. A simple REST API is exposed which accepts content and publishes it to the site.",
+      "link": "https://staticman.net/",
       "group":"online service",
       "level":3
     }, {
@@ -2587,7 +2729,7 @@
       "level":3
     }, {
       "id":345,
-      "label":"Bash",
+      "label":"Unix Terminal",
       "group":"folder",
       "level":2
     }, {
@@ -2625,11 +2767,13 @@
       "id":351,
       "label":"Awesome Window Manager",
       "group":"software",
+      "description": "awesome is a highly configurable, next generation framework window manager for X. It is very fast, extensible and licensed under the GNU GPLv2 license. It is primarily targeted at power users, developers and any people dealing with every day computing tasks and who want to have fine-grained control on their graphical environment.",
       "language": ["Lua"],
       "level":3
     }, {
       "id":352,
       "label":"xmonad",
+      "description": "A dynamically tiling X11 window manager that is written and configured in Haskell. In a normal WM, you spend half your time aligning and searching for windows. XMonad makes work easier, by automating this.",
       "group":"software",
       "pricing": "FOSS",
       "level":3
@@ -2663,11 +2807,15 @@
     }, {
       "id":357,
       "label":"Gnome",
+      "description": "An easy and elegant way to use your computer, GNOME 40 is designed to help you have the best possible computing experience.",
+      "link": "https://www.gnome.org/",
       "group":"software",
       "level":3
     }, {
       "id":358,
       "label":"xcfe",
+      "description": "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.",
+      "link": "https://xfce.org/",
       "group":"software",
       "level":3
     }, {
@@ -2704,10 +2852,9 @@
     }, {
       "id":364,
       "label":"RFDC",
-      "description": "Copy prototype properties as well as own properties into the new object. It's marginally faster to allow enumerable properties on the prototype to be copied into the cloned object (not onto it's prototype, directly onto the object).",
+      "description": "Stands for Really Fast Deep Copy - Copy prototype properties as well as own properties into the new object. It's marginally faster to allow enumerable properties on the prototype to be copied into the cloned object (not onto it's prototype, directly onto the object).",
       "group":"Lib",
       "link": "https://github.com/davidmarkclements/rfdc#readme",
-      "description": "Stands for Really Fast Deep Copy",
       "language": ["JS"],
       "level":3
     }, {
@@ -2836,6 +2983,245 @@
       "languages": ["python"],
       "pricing": "freemium",
       "level":3
+    }, {
+      "id": 381,
+      "label":"User feedback",
+      "group": "folder",
+      "level":2
+    }, {
+      "id":382,
+      "label":"Canny",
+      "link": "https://canny.io/",
+      "description": "Build better products with customer feedback. Capture, organize, and analyze product feedback in one place to inform your product decisions.",
+      "level":3,
+      "price": "$50/mo"
+    }, {
+      "id":383,
+      "label":"UserSnap",
+      "link": "https://usersnap.com/",
+      "description": "#1 Customer feedback software for growing SaaS companies. Build customer-centric products with abundant customer feedback: screen captures, surveys and feature requests.",
+      "level":3,
+      "price": "Starting at $9/mo"
+    }, {
+      "id":384,
+      "label":"Pastel",
+      "link": "https://www.usepastel.com/",
+      "description": "Cut website approval time in half. Review and comment on websites live. One click to share with clients and teammates.",
+      "level":3,
+      "pricing": "freemium",
+      "price": "Starting at $19/mo"
+    }, {
+      "id":385,
+      "label":"Userwell",
+      "link": "https://userwell.com/",
+      "description": "Gain Insights Into What Customers Really Want. Make the right product decisions by gathering and prioritizing user feedback. Build the product that your users want & love. Get started today!",
+      "level":3,
+      "pricing": "freemium",
+      "price": "Starting at $79/mo"
+    }, {
+      "id":386,
+      "label":"Marker",
+      "link": "https://marker.io/",
+      "description": "Bug reporting made easy for everyone. Collect website feedback from your team and clients, without driving developers crazy.",
+      "level":3,
+      "pricing": "freemium",
+      "price": "Starting at $39/mo"
+    }, {
+      "id":387,
+      "label":"Segment",
+      "group": "online service",
+      "link": "https://segment.com/",
+      "description": "The leading Customer Data Platform. Heap is the only tool that automatically captures all user interactions on your site, from the moment of installation forward. A single snippet grabs every click, swipe, tap, pageview, and fill — forever.",
+      "level":2,
+      "pricing": "paid",
+      "price": "Starts at $120/mo"
+    }, {
+      "id":388,
+      "label":"Looker",
+      "group": "online service",
+      "link": "https://looker.com/",
+      "description": "Find true power in your data. Drive better outcomes through smarter data-driven experiences. Part of Google Cloud. The Looker platform is designed to give everyone the power to discover the answers they need to sophisticated questions. Give teams the BI tools they need to have a deeper impact and create better outcomes.",
+      "level":2,
+      "pricing": "paid",
+      "price": "Not mentioned"
+    }, {
+      "id":389,
+      "label":"Woopra",
+      "group": "online service",
+      "link": "https://woopra.com/",
+      "description": "End-to-end Customer Journey Analytics.N https://www.pendo.io/o hours sank into aggregating and cleaning data. No complex SQL queries required. Just the answers teams need to make smarter decisions, fast. Now, that's data-driven.",
+      "level":2,
+      "pricing": "freemium",
+      "price": "Starts at $349/mo"
+    }, {
+      "id":390,
+      "label":"Pendo",
+      "group": "online service",
+      "link": "https://pendo.io/",
+      "description": "Building great software is hard. Getting people to use it should be simple. Insights to understand what users are doing across their product joru https://www.woopra.com/ney. Targeted messaging and walkthroughs in-app to improve onboarding and feature adoption. Centralize and prioritize product feedback to determine which features to build next. Create a connected digital experience across web and mobile",
+      "level":2,
+      "pricing": "freemium",
+      "price": "not mentioned"
+    }, {
+      "id":391,
+      "label":"Boomrang",
+      "group": "online service",
+      "link": "https://akamai.github.io/boomerang/",
+      "description": "boomerang is a JavaScript library that measures the page load time experienced by real users, commonly called RUM (Real User Measurement). It has the ability to send this data back to your server for further analysis. With boomerang, you find out exactly how fast your users think your site is.",
+      "level":2,
+      "pricing": "freemium",
+      "price": "N/C"
+    }, {
+      "id":392,
+      "label":"TabNine",
+      "group": "online service",
+      "link": "https://www.tabnine.com/",
+      "description": "TabNine uses deep learning to help you write code faster. TabNine uses documentation to infer this function's name, return type, and arguments. TabNine recognizes common patterns from libraries like React.",
+      "level":2,
+      "pricing": "freemium",
+      "price": "Starts $12/mo"
+    }, {
+      "id":393,
+      "label":"GitHub Copilot",
+      "group": "online service",
+      "link": "https://copilot.github.com/",
+      "description": "Your AI pair programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.",
+      "level":2,
+      "pricing": "freemium",
+      "price": "N/C"
+    }, {
+      "id":394,
+      "label":"Kite",
+      "group": "online service",
+      "link": "https://kite.com/",
+      "description": "Code Faster. Stay in Flow. Kite adds AI powered code completions to your code editor, giving developers superpowers.",
+      "level":2,
+      "pricing": "freemium",
+      "price": "$40/mo"
+    }, {
+      "id":395,
+      "label":"Koding",
+      "group": "online service",
+      "link": "https://koding.com/",
+      "description": "Flawlessly configure dev environments in one click. No matter how complex your project is, Koding for teams makes it easy to share your entire development stack with anyone, anywhere.",
+      "level":2,
+      "pricing": "freemium",
+      "price": "$40/mo"
+    }, {
+      "id":396,
+      "label":"Store & state management",
+      "group": "folder",
+      "description": "Manage complex states across entire applications",
+      "level":2
+    }, {
+      "id":397,
+      "label":"Vuex",
+      "group": "lib",
+      "link": "https://vuex.vuejs.org/",
+      "description": "The official store for Vue",
+      "level":3,
+      "pricing": "FOSS"
+    }, {
+      "id":398,
+      "label":"MobX",
+      "group": "lib",
+      "link": "https://mobx.js.org/",
+      "description": "MobX is a simple, scalable and battle tested state management solution. This tutorial will teach you all the important concepts of MobX in ten minutes. MobX is a standalone library, but most people are using it with React and this tutorial focuses on that combination.",
+      "level":3,
+      "pricing": "FOSS"
+    }, {
+      "id":399,
+      "label":"Redux",
+      "group": "lib",
+      "link": "https://redux.js.org/",
+      "description": "Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. You can use Redux together with React, or with any other view library.",
+      "level":3,
+      "pricing": "FOSS"
+    }, {
+      "id":400,
+      "label":"xState",
+      "group": "lib",
+      "link": "https://xstate.js.org/docs/",
+      "description": "JavaScript and TypeScript finite state machines (opens new window)and statecharts (opens new window)for the modern web. It has a dedicated packages for modern frameworks - e.g. Vue composition functions and utilities for using XState in Vue applications.",
+      "level":3,
+      "pricing": "FOSS"
+    }, {
+      "id":401,
+      "label":"flux",
+      "group": "lib",
+      "link": "https://facebook.github.io/flux/",
+      "description": "Flux is the application architecture that Facebook uses for building client-side web applications. The Flux project is in maintenance mode and there are many more sophisticated alternatives available (e.g. Redux, MobX) and we would recommend using them instead.",
+      "level":3,
+      "pricing": "FOSS"
+    }, {
+      "id":402,
+      "label":"UI components",
+      "group": "folder",
+      "description": "UI components for JS framework",
+      "level":3
+    }, {
+      "id":403,
+      "label":"Buefy",
+      "group": "lib",
+      "link": "https://buefy.org/",
+      "description": "Buefy (pronounced /ˈbyo͞oˌfī/, like beau-fy) is a user interface component library made on top of two fresh but very well known frameworks, them being Vue.js and Bulma. Buefy has two core principles: 1. keep stuff simple and 2. be lightweight.",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
+    }, {
+      "id":404,
+      "label":"Materialize",
+      "group": "lib",
+      "link": "https://materializecss.com/dropdown.html",
+      "description": "Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
+    }, {
+      "id":405,
+      "label":"Vuetify",
+      "group": "lib",
+      "link": "https://vuetifyjs.com/",
+      "description": "Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
+    }, {
+      "id":406,
+      "label":"Cube-UI",
+      "group": "lib",
+      "link": "https://didi.github.io/cube-ui/#/en-US",
+      "description": "A fantastic mobile ui lib implement by Vue.js",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
+    }, {
+      "id":407,
+      "label":"Element",
+      "group": "lib",
+      "link": "https://element.eleme.io/#/en-US/component/installation",
+      "description": "Element, a Vue 2.0 based component library for developers, designers and product managers",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
+    }, {
+      "id":408,
+      "label":"ANTdesign Vue",
+      "group": "lib",
+      "link": "https://www.antdv.com/",
+      "description": "Following the Ant Design specification, we developed a Vue UI library antd that contains a set of high quality components and demos for building rich, interactive user interfaces.",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
+    }, {
+      "id":409,
+      "label":"Quasar Vue",
+      "group": "lib",
+      "link": "https://quasar.dev/",
+      "description": "Effortlessly build high-performance & high-quality Vue.js 3 user interfaces in record time. A huge list of components",
+      "level":4,
+      "language": ["JS", "Vue"],
+      "pricing": "FOSS"
     }
   ],
 
@@ -2897,6 +3283,18 @@
     }, {
       "from":20,
       "to":27
+    }, {
+      "from":"d0c39220-9e56-48ec-a24b-658e51336d66",
+      "to": "a446aaab-d21f-4f0c-9068-b1cabb724479"
+    }, {
+    	"from":"d0c39220-9e56-48ec-a24b-658e51336d66",
+      "to": "5be4bd26-6da9-484f-8930-8262447de8d6"
+    }, {
+    	"from":"d0c39220-9e56-48ec-a24b-658e51336d66",
+      "to": "1a645393-c0ea-4b0f-8498-6a877316af92"
+    }, {
+      "from":"d0c39220-9e56-48ec-a24b-658e51336d66",
+      "to": "e42dd0b8-0a94-4048-8d74-e3e6c3f8097c"
     }, {
       "from":"d0c39220-9e56-48ec-a24b-658e51336d66",
       "to": 54
@@ -2986,7 +3384,13 @@
       "to": 42
     }, {
       "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 45
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
       "to": 46
+    }, {
+      "from":"9536b74f-4d31-467d-a75e-74aeb8da3e9c",
+      "to": 47
     }, {
       "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
       "to": 43
@@ -2995,13 +3399,7 @@
       "to": 44
     }, {
       "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
-      "to": 45
-    }, {
-      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
       "to": 46
-    }, {
-      "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
-      "to": 47
     }, {
       "from":"f72fe79c-9882-449f-93a6-edaefd1c14fb",
       "to": 48
@@ -3189,6 +3587,9 @@
     	"to": "618fb410-06b8-0138-5b95-245e60e6453d"
     }, {
     	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
+    	"to": 157
+    }, {
+    	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
     	"to": 152
     }, {
     	"from":"c5fec0d0-075f-0138-5b97-245e60e6453d",
@@ -3223,6 +3624,15 @@
     }, {
     	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
     	"to": "442b0b70-27c7-0138-e8a8-245e60e6453d"
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": "bae9cee3-e1e8-4198-ba05-3c78b46cfef8"
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": "b2fee890-e0e8-4604-8efe-64bb1550d786"
+    }, {
+    	"from":"c8d863b0-077c-0138-5b99-245e60e6453d",
+    	"to": "52642913-126f-4c86-a1ca-d1343bfae2ca"
     }, {
     	"from":172,
     	"to": 176,
@@ -3282,9 +3692,6 @@
     	"from":"8977ef00-077d-0138-5b9a-245e60e6453d",
     	"to": "23b15020-0b44-0138-86df-245e60e6453d"
   	}, {
-    	"from":"8977ef00-077d-0138-5b9a-245e60e6453d",
-    	"to": "dbad6f70-0db6-0138-c9a7-245e60e6453d"
-  	}, {
     	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
     	"to": 11
   	}, {
@@ -3293,6 +3700,15 @@
   	}, {
     	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
     	"to": 32
+    }, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": 72
+    }, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": 74
+    }, {
+    	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
+    	"to": 76
   	}, {
     	"from":"064cadb0-077e-0138-5b9b-245e60e6453d",
     	"to": "cf326d70-077e-0138-5b9d-245e60e6453d"
@@ -3308,6 +3724,42 @@
   	}, {
     	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
     	"to": "9faaa410-1719-0138-fb1c-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "b92b2e74-70ec-4b6e-ade4-99bbd32c08a1"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "5c9ceab0-0b49-0138-86e1-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "6e55aa70-0b49-0138-86e2-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "6442e0c0-85e7-0138-b426-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "32940fd0-85e9-0138-b428-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "848e9540-0b49-0138-86e3-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "dbad6f70-0db6-0138-c9a7-245e60e6453d"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "b74f3a7b-983f-488e-96b9-4e8843aff558"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "e6fea107-d1ac-45f9-a685-a0cab90f7077"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "7a5bc014-1323-4c1e-95d6-14d9b95d5c31"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "ecf910c8-7492-4dac-90f4-9bc0d0e8d850"
+    }, {
+    	"from":"ad88a5a0-077f-0138-5b9e-245e60e6453d",
+    	"to": "965087cf-0536-4b81-ad2e-fdb0fb3681b5"
   	}, {
     	"from":178,
     	"to": 1
@@ -3326,7 +3778,22 @@
   	}, {
     	"from":2,
     	"to": "2bd6cd00-07ce-0138-304c-245e60e6453d"
-  	}, {
+  	}, {"from":2, "to": 396
+  	}, {"from":396, "to": 397
+  	}, {"from":396, "to": 398
+  	}, {"from":396, "to": 399
+  	}, {"from":396, "to": 400
+  	}, {"from":396, "to": 401
+  	}, {"from":2, "to": 402
+  	}, {"from":402, "to": 403
+  	}, {"from":402, "to": 404
+  	}, {"from":402, "to": 405
+  	}, {"from":402, "to": 406
+  	}, {"from":402, "to": 407
+  	}, {"from":402, "to": 408
+  	}, {"from":402, "to": 409
+
+    }, {
     	"from":181,
     	"to": 182
   	}, {
@@ -3663,6 +4130,8 @@
   	}, {"from":281, "to": 285
   	}, {"from":281, "to": 286
   	}, {"from":281, "to": 287
+  	}, {"from":288, "to": 291
+  	}, {"from":288, "to": 289
   	}, {"from":292, "to": 293
   	}, {"from":292, "to": 299
   	}, {"from":292, "to": 294
@@ -3675,6 +4144,7 @@
   	}, {"from":299, "to": 36
   	}, {"from":299, "to": 33
   	}, {"from":299, "to": 28
+  	}, {"from":299, "to": "d65ec060-6a5a-0138-e99e-245e60e6453d"
   	}, {"from":294, "to": 300
   	}, {"from":294, "to": 111
   	}, {"from":294, "to": 301
@@ -3686,12 +4156,7 @@
   	}, {"from":308, "to": 309
   	}, {"from":308, "to": 310
   	}, {"from":308, "to": 311
-  	}, {"from":308, "to": 312
   	}, {"from":308, "to": 317
-  	}, {"from":312, "to": 313
-  	}, {"from":312, "to": 314
-  	}, {"from":312, "to": 315
-  	}, {"from":312, "to": 316
   	}, {"from":317, "to": 318
   	}, {"from":317, "to": 319
   	}, {"from":317, "to": 320
@@ -3738,6 +4203,9 @@
   	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "eb3d6040-4bc0-0138-77b7-245e60e6453d"
   	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "0fb5e3a0-7c61-0138-466b-245e60e6453d"
   	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "c09e8670-0e8d-0138-8cf3-245e60e6453d"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "e4b85aa2-da54-4129-afb2-d440fdc1ddb2"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "6d0cadfe-74d7-4caa-a6cd-8564312a6ab4"
+  	}, {"from":"f586b740-07d0-0138-304d-245e60e6453d", "to": "09bab2e9-4d7c-4e34-82e8-c1d254a637c6"
   	}, {"from":342, "to": 343
   	}, {"from":342, "to": 344
   	}, {"from":"f1da30c0-6a5b-0138-e99f-245e60e6453d", "to": 312
@@ -3751,6 +4219,20 @@
   	}, {"from":345, "to": 349
     }, {"from":378, "to": 379
     }, {"from":378, "to": 380
+    }, {"from":381, "to": 382
+    }, {"from":381, "to": 383
+    }, {"from":381, "to": 384
+    }, {"from":381, "to": 385
+    }, {"from":381, "to": 386
+    }, {"from":303, "to": 387
+    }, {"from":303, "to": 388
+    }, {"from":303, "to": 389
+    }, {"from":303, "to": 390
+    }, {"from":303, "to": 391
+    }, {"from":321, "to": 392
+    }, {"from":321, "to": 393
+    }, {"from":321, "to": 394
+    }, {"from":321, "to": 395
     }
   ]
 }

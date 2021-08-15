@@ -1,13 +1,27 @@
 
+
+"id":331,
+"label":"Date-fn",
+"group":"lib",
+"languages": ["JS"],
+"link": "https://date-fns.org/",
+"description": "date-fns provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js.",
+"level":3,
+"tags":["framework"],
+"price": "Starting at $9/mo",
+"pricing": "FOSS",
+
+"group":"online service", "folder", "CLI", "software", "lib"
+
+
 Technos
 https://awesomeopensource.com/
 https://roadmap.sh/
 Text editor
 
-=-=-=-=-=-=-=-=-=--==--=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
 
-https://akamai.github.io/boomerang/
-boomerang is a JavaScript library that measures the page load time experienced by real users, commonly called RUM (Real User Measurement). It has the ability to send this data back to your server for further analysis. With boomerang, you find out exactly how fast your users think your site is.
+
 
 https://github.com/filipelinhares/ress
 Modern CSS reset
@@ -23,15 +37,11 @@ https://platform.sh/
 PaaS
 Frontends. Backends. Websites. Apps. Share. Launch. Run. Scale. Evolve. From one app—to a fleet of thousands. Without thinking about infrastructure. Platform.sh delivers everything your team needs to build, run, and scale sites and apps
 
-Sphinx
-https://www.sphinx-doc.org/
-Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
-FOSS
 
 WireFlow
 https://wireflow.co/
 Wireflow is free, online and open source tool for creating beautiful user flow prototypes. No Photoshop skills required!
-FOSS
+"pricing": "FOSS",
 free
 
 Bottle
@@ -43,108 +53,118 @@ FastAPI
 https://fastapi.tiangolo.com/
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 ["Python"]
-FOSS
+"pricing": "FOSS",
 
 Web2Py
 http://www.web2py.com/
 Free open source full-stack framework for rapid development of fast, scalable, secure and portable database-driven web-based applications. Written and programmable in Python (version 3 and 2.7).
 ["Python"]
-FOSS
+"pricing": "FOSS",
 
 Hydra
 https://hydra.cc/
 This is a simple Hydra application that prints your configuration. The my_app function is a place holder for your code. We will slowly evolve this example to showcase more Hydra features.
 "company": "Facebook",
 ["Python"]
-FOSS
+"pricing": "FOSS",
 
-=-=-=-=-=-=-=-=-=--==--=-=-=-=-=-=-=-=-=-
+lokalise
+https://lokalise.com/
+A localization and translation management platform for agile teams. Embrace automation, workflow transparency, and fast project delivery.
+$90/mo
+
+bluegriffon
+http://bluegriffon.org/
+"description": "The next-gen Web and EPUB Editor based on the rendering engine of Firefox",-
+"pricing": "freemium"
+"tags":["EPUB", "PDF"],
+
+
+PaaS
+Vultr
+https://www.vultr.com/
+Easily deploy cloud servers, bare metal, and storage worldwide!
+
+CloudSigma
+https://www.cloudsigma.com/
+SWISS, EUROPEAN, US & APAC CLOUDS WITH FREE 24/7 SUPPORT. Next generation container-based cloud platform with certified runtimes for all popular stacks that helps you reduce your IT infrastructure management costs & efforts and let you focus on your business growth. Provision out-of-the-box Java, PHP, Ruby, Python, Node.js, .NET or Go environments as well as container clusters.
+
+CloudWays
+https://www.cloudways.com/en/home.php
+A Faster Website & Lower Costs …without The Learning Curve. Cloudways removes the technical headaches from cloud hosting your websites & apps, so you get world-class performance and complete control with 1-click simplicity.
+
+Kamatera
+https://www.kamatera.com/
+The most technologically advanced products on the market for your business
+Tailored customer service and support for you
+
+LoopBack
+https://loopback.io/
+A highly extensible Node.js and TypeScript framework for building APIs and microservices.
+"pricing": "FOSS",
+
+Highlight
+https://highlightjs.org/
+196 languages and 242 styles. Automatic language detection. Multi-language code highlighting, available for node.js, works with any markup, compatible with any js framework
+"pricing": "FOSS",
+
+CodeMirror
+https://codemirror.net/
+CodeMirror is a versatile text editor implemented in JavaScript for the browser. It is specialized for editing code, and comes with a number of language modes and addons that implement more advanced editing functionality.
+
+https://github.com/acode/copenhagen/
+
+Gitea
+https://gitea.com/
+A painless, self-hosted Git service. Simply run the binary for your platform, ship it with Docker, or get it packaged.Gitea has low minimal requirements and can run on an inexpensive Raspberry Pi. Save your machine energy! Go get code.gitea.io/gitea! Join us by contributing to make this project even better. Don't be shy to be a contributor!
+"pricing": "FOSS",
+
+JSPlumb
+https://jsplumbtoolkit.com/
+DataViz
+"pricing": "freemium",
+"price": "statrs at £1.995; 1-5 Developers",
+
+Layer0
+https://www.layer0.co/
+Instant-loading sites.
+Simple developer workflow. All-in-one Jamstack platform to develop, deploy, preview, split test and monitor your frontend
+Instant page, guess.js
+
+Hasura
+https://hasura.io/
+"description": "Instant realtime GraphQL on all your data. Hasura is an open source service that gives you production-grade APIs on your data without having to build, operate & scale a GraphQL server."
+"pricing": "paid"
+
 
 
 GApps 186
 
-CMS f586b740-07d0-0138-304d-245e60e6453d
-
-Umbraco https://umbraco.com/
- With Umbraco, you get a content management system known and loved for its flexibility and great editing experience. Use the open source version of Umbraco for free and install, setup, and host it yourself or let us take care of it all for you on Umbraco Cloud. You get a free 14-day trial and if you get hooked, prices start from just $39/month.
- "level":3,
-"pricing": "FOSS",
-"languages": ["ASP.NET"]
-
-FlyWheel
-https://getflywheel.com/
-Our intuitive dashboard makes it easy to manage your sites, collaborate with coworkers and clients, and focus on growing your business!
-"pricing": "paid",
-
-Documentation ad88a5a0-077f-0138-5b9e-245e60e6453d
-
-HackMD https://hackmd.io/home#
-Real-time collaborate on project team technical personal documentation in markdown. Capture fleeting ideas and formalize tribal knowledge.
-
-Wikum - http://wikum.csail.mit.edu/
-Summarize disucssion threads. By harnessing the power of people backed by state-of-the-art human-computer interaction and machine learning techniques, users get 
-
-Marker https://marker.io/
-Bug reporting made easy for everyone. Collect website feedback from your team and clients, without driving developers crazy.
-Starting at $49/mo
-
-Deployment -> d0c39220-9e56-48ec-a24b-658e51336d66
-Render https://render.com/
-Render is a unified platform to build and run all your apps and websites with free SSL, a global CDN, private networks and auto deploys from Git. Static website, webapp, API, Cron jobs, Docker containers...
-"pricing": "paid",
-"price": "Starting at 0 for static website"
-
-CloudFlare https://workers.cloudflare.com/
-Deploy serverless code to data centers across 200 cities in 90 countries to give it exceptional performance and reliability.
 
 
-pritunl https://pritunl.com/
-Enterprise Distributed OpenVPN, IPsec and WireGuard Server. Virtualize your private networks across datacenters and provide simple remote access in minutes. Open source BeyondCorp server from Pritunl providing zero trust security for privileged access to ssh and web applications
 
-Google Function https://cloud.google.com/functions
-Scalable pay as you go Functions-as-a-Service (FaaS) to run your code with zero server management.
+-------------------------
 
-Payment
-Braintree https://www.braintreepayments.com/
-Reach more buyers and drive higher conversion with the only payments platform that delivers PayPal, Venmo (in the US), credit and debit cards, and popular digital wallets like Apple Pay and Google Pay in a single, seamless integration.
+User feedback
 
-Foxy https://www.foxy.io/
-Flexible Ecommerce for Your Website. Foxy’s hosted cart & payment page allow you to sell anything, using your existing website or platform.
-
-ReDoc https://github.com/Redocly/redoc
-OpenAPI/Swagger-generated API Reference Documentation
+-------------------------
 
 
-Square squareup.com
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+NOCODE
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-AmazonPay https://pay.amazon.com/
-Connect your business to new shoppers
-Ignite your summer strategy and get up to speed for peak shopping
-with the Amazon Pay Business Accelerator Campaign.
+Autocode https://autocode.com/
+An online code editor with API autocomplete, instant hosting, and a Standard Library anybody can contribute to. Sync data, build bots and customize workflows. When AWS is overkill, use Autocode.
+"pricing": "freemium",
+Price: "100,000 Requests to Projects/mo"
 
-CMS
-
-Sulu https://sulu.io/
-Deliver awesome, robust, reliable websites with Sulu CMS (based on Symfony). The ideal combination of PHP developer experience and agency platform. Deliver complex sites and great user experiences for the content teams who work on your site every day.
-
-Apostrophe - https://apostrophecms.com/
-ApostropheCMS was created to bring happiness and productivity to web developers and content editors. It is used around the world by companies of all sizes to build and manage mission critical websites and applications. ApostropheCMS is free and open source for everyone, with enterprise products and services also available.
-Open source
-NodeJS, MongoDB, Express
+Airtable
 
 
-IDE
-
-Tab Nine https://www.tabnine.com/
-TabNine uses deep learning to help you write code faster. TabNine uses documentation to infer this function's name, return type, and arguments. TabNine recognizes common patterns from libraries like React.
-
-Kite https://kite.com/
-Kite is the AI assistant giving developers superpowers.
-
-Koding - https://www.koding.com/features
-Flawlessly configure dev environments in one click. No matter how complex your project is, Koding for teams makes it easy to share your entire development stack with anyone, anywhere.
-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 IMG
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 Imagemin https://imagemin.saasify.sh/
 Reduce image sizes by up to 60%
@@ -162,12 +182,6 @@ API
 Sassify https://docs.saasify.sh/#/resources
 The easiest way to monetize your API.
 
- 
-
-Autocode https://autocode.com/
-An online code editor with API autocomplete, instant hosting, and a Standard Library anybody can contribute to. Sync data, build bots and customize workflows. When AWS is overkill, use Autocode.
-"pricing": "freemium",
-Price: "100,000 Requests to Projects/mo"
 
 Okta - https://developer.okta.com/pricing/
 Everything you need to build or integrate authentication and user management. Authentication, Authorization, Token Authentication, OpenID Connect, Single Sign-On, MFA, Social login
@@ -179,8 +193,10 @@ Your data has a story. Share it with the world.
 Visualize and publish data on topics you care about. Explore and be inspired by creations from like-minded data enthusiasts.
 
 
-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 PDF
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 lightweightpdf https://lightweightpdf.com/
 Reduce the file size of your scanned PDF documents by up to 90%.
 "pricing": "free",
@@ -202,10 +218,11 @@ JotForm https://www.jotform.com/products/pdf-editor/
 Whether you need to create a contract, generate an invoice for payments, document event attendee registration information, or prepare an inspection report, JotForm PDF Editor helps you edit PDF files and automatically create polished documents with the data you collect.
 
 https://www.signaturit.com/
-Envoyez et signez des documents
-depuis n'importe quel dispositif et sans télécharger d'application. Facilitez la tâche de signature des contrats à vos clients en utilisant notre solution de signature électronique, optimisée pour les dispositifs mobiles, et ce en toute sécurité et avec une pleine valeur juridique.
+Envoyez et signez des documents depuis n'importe quel dispositif et sans télécharger d'application. Facilitez la tâche de signature des contrats à vos clients en utilisant notre solution de signature électronique, optimisée pour les dispositifs mobiles, et ce en toute sécurité et avec une pleine valeur juridique.
 
-## PRCESS MANAGER
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+## PROJECT MANAGER
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 pm2 - http://pm2.keymetrics.io/
 PM2 is a process manager for Node.js applications. It’s written in Node.js (JavaScript) itself and Shell. The utility also integrates a load balancer. You can keep application server processes alive and reload/restart them with zero downtime.
@@ -235,8 +252,9 @@ Terminalizer - https://terminalizer.com/
 Record your terminal and generate animated gif images or share a web player
 FOSS
 
-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Debug
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 HTTPie - https://httpie.io/
 HTTPie is a user-friendly command-line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget-like downloads, plugins, and more. 
@@ -377,7 +395,7 @@ https://mongoose-os.com/mos.html
 Arduino & Processing
 cyclonJS https://cylonjs.com/ JavaScript Robotics, By Your Command Next generation robotics framework with support for 43 different platforms
 Johnny Five http://johnny-five.io/ Johnny-Five is the JavaScript Robotics & IoT Platform. Released by Bocoup in 2012, Johnny-Five is maintained by a community of passionate software developers and hardware engineers. Over 75 developers have made contributions towards building a robust, extensible and composable ecosystem.
-   
+
 
 
 
