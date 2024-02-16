@@ -1,4 +1,47 @@
+34a8a6d0-06b8-0138-5b94-245e60e6453d -> 1531e1b2-0640-4808-af61-6175ed6c0f5c
+																		 -> d4045b9a-48bf-4576-be52-a9acc5bf2011
 
+f586b740-07d0-0138-304d-245e60e6453d -> 45225f5b-d332-43c9-b1f1-3eb35aaaf90d
+
+CMS
+34a8a6d0-06b8-0138-5b94-245e60e6453d -> dc52f17b-2abb-41a8-8bda-7a2af9582e0c
+
+Payment
+c8d863b0-077c-0138-5b99-245e60e6453d -> 2f27ffbf-6e16-41d4-bade-4f25985cd9d1
+
+eSignature
+418																	 -> 419
+   																	 -> 420
+   																	 -> 421
+   																	 -> 422
+   																	 -> 423
+   																	 -> 424
+
+BE infra
+411																	 -> 412
+   																	 -> 26e18460-3263-4ac3-89cb-81e2bf88a529
+   																	 -> 06db356f-9af0-4759-96ad-5b7a180283d4
+   																	 -> a44a992c-f02a-49d8-b1e2-2b7ce0bdb030
+ 																	   -> a43e1c8f-c9f2-43f2-9236-e01b7e8c6944
+ 																	   -> 4c647528-56c1-427a-a47d-df6dc1f39c2a
+
+
+imaging software
+425																	 -> 426
+   																	 -> 427
+   																	 -> 428
+FE framework
+2																	   -> 3f2b230b-93e3-4b01-9549-768682872bac
+ 																	   -> 582b8cd4-b534-4cf1-853e-56ac8b5962e4
+ 																	   -> 48d0d2f9-48d1-45f7-90f8-0e6dfe5a47ec
+
+
+
+
+imaging software
+429																	 -> 430
+   																	 -> 431
+   																	 -> 432
 
 "id":331,
 "label":"Date-fn",
@@ -20,8 +63,323 @@ https://roadmap.sh/
 Text editor
 
 =-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+## FE Framework (2)
+
+Lit
+https://lit.dev/
+Lit is a simple library for building fast, lightweight web components. At Lit's core is a boilerplate-killing component base class that provides reactive state, scoped styles, and a declarative template system that's tiny, fast and expressive. Building on top of the Web Components standards, Lit adds just what you need to be happy and productive: reactivity, declarative templates and a handful of thoughtful features to reduce boilerplate and make your job easier. Every Lit feature is carefully designed with web platform evolution in mind.
+
+Marko
+https://markojs.com/
+A declarative, HTML-based language that makes building web apps fun. Marko is HTML re-imagined as a language for building dynamic and reactive user interfaces. Just about any valid HTML is valid Marko, but Marko extends the HTML language to allow building modern applications in a declarative way.
+
+SolidJS
+https://www.solidjs.com/
+Simple and performant reactivity for building user interfaces. Consistently tops recognized UI speed and memory utilization benchmarks.
+
+Ionic
+https://ionicframework.com/
+Cross-platform apps. Powered by the Web. Free and open source, Ionic offers a library of mobile-optimized UI components, gestures, and tools for building fast, highly interactive apps.
 
 
+Capacitor
+https://capacitorjs.com/
+A cross-platform native runtime for web apps. Capacitor is an open source native runtime for building Web Native apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS.
+
+Astro
+https://astro.build/
+Build faster websites with less client-side Javascript. For a technology built on top of three different languages, the modern web seems to focus an awful lot on JavaScript. We don’t think it has to—and that’s certainly not a revolutionary concept. While we’re at it, it’s time to accept that the framework wars won’t have a winner—that’s why Astro lets you use any framework you want (or none at all). And if most sites only have islands of interactivity, shouldn’t our tools optimize for that? We’re not the first to ask the question, but we might be the first with an answer for every framework.
+
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+## Chat
+
+Stream
+https://getstream.io/
+Build In-App Chat + Feeds, Faster. Stream powers Chat Messaging and Activity Feeds for billions of global end-users across thousands of different apps. Chat Messaging API: Chat APIs, SDKs and UI/UX Kits, Global EDGE network and CDN, Activity Feeds API, Machine learning personalization, Enterprise scalability + reliability
+
+starts @ $59/mo
+
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+## graphical user interface library
+
+GTK+
+https://www.gtk.org/
+Offering a complete set of UI elements, GTK is suitable for projects ranging from small one-off tools to complete application suites. Develop your GTK app with your language of choice by using Language Bindings or wrappers and take full advantage of the official GNOME bindings which guarantee API stability and time-based releases. Integrations for Rapid Application Development
+Glade is a RAD tool that enables quick and easy development of user interfaces for the GTK toolkit and the GNOME desktop environment.
+["C", "Javascript", "Perl", "Python", "Rust", "Vala"]
+FOSS
+
+Dear ImGUI
+https://github.com/ocornut/imgui
+Dear ImGui is a bloat-free graphical user interface library for C++. It outputs optimized vertex buffers that you can render anytime in your 3D-pipeline enabled application. It is fast, portable, renderer agnostic and self-contained (no external dependencies). Dear ImGui is designed to enable fast iterations and to empower programmers to create content creation tools and visualization / debug tools (as opposed to UI for the average end-user). It favors simplicity and productivity toward this goal, and lacks certain features normally found in more high-level libraries.
+FOSS
+
+Iced-rs
+https://github.com/iced-rs/iced
+A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm. Simple, easy-to-use, batteries-included API; Type-safe, reactive programming model; Cross-platform support (Windows, macOS, Linux, and the Web); Responsive layout; Built-in widgets (including text inputs, scrollables, and more!); Debug overlay with performance metrics; First-class support for async actions (use futures!)
+FOSS
+
+Qt
+https://www.qt.io/
+One framework. One codebase. Any platform. Qt is the fastest and smartest way to produce industry-leading software that users love. Qt Design Studio closes the gap between designers and developers. Now they can work simultaneously with one unifying framework, one common language, fewer feedback loops, and faster iterations.
+$329/mo/user for commercial software
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Heroku alternative
+
+Vercel
+https://vercel.com/
+Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. Developers love Next.js, the open source React framework Vercel built together with Google and Facebook. Next.js powers the biggest websites like Patreon, for use cases in e-commerce, travel, news, and marketing. Vercel is the best place to deploy any frontend app. Start by deploying with zero configuration to our global edge network. Scale dynamically to millions of pages without breaking a sweat.
+
+Vultr
+https://www.vultr.com/
+Easily deploy cloud servers, bare metal, and storage worldwide.
+
+CapRover
+https://caprover.com/
+CapRover is an extremely easy to use app/database deployment & web server manager for your NodeJS, Python, PHP, ASP.NET, Ruby, MySQL, MongoDB, Postgres, WordPress (and etc...) applications! It's blazingly fast and very robust as it uses Docker, nginx, LetsEncrypt and NetData under the hood behind its simple-to-use interface.
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Tunnel
+
+Local Tunnel
+https://github.com/localtunnel/localtunnel
+localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes. Great for working with browser testing tools like browserling or external api callback services like twilio which require a public url for callbacks.
+
+Page Kite
+https://pagekite.net/
+Fast, reliable, secure: make your localhost part of the Web. Since 2010, PageKite has led the way in making local servers public. With relays on four continents, it works with any computer, any web server and any Internet connection. It's also 100% Open Source.
+FOSS
+
+Portmap
+https://portmap.io/
+Make your home PC available from Internet without real IP address. You create VPN tunnel from your PC to our server using free OpenVPN software and define port forwading rule to forward requests from Internet through our server to your local machine. It works even you do not have real IP address or your incoming traffic is blocked. You can forward HTTP traffic to your local web-server as well as any TCP or UDP traffic. If your web-server has virtual hosts configured, you can specify which one you are connecting to.
+Software
+Freemium
+
+LocalXpose
+https://localxpose.io/
+LocalXpose is a reverse proxy that enables you to expose your localhost to the internet.
+Software, CLI
+Freemium
+
+Localhost.run
+http://localhost.run/
+CLI
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Codesandbox
+
+Code Hike
+https://codehike.org/
+Not just a syntax highlighter. Write in MDX, Show in React. Build first-class code walkthroughs for the web. Whether you are writing blog posts, documentation, tutorials, coding videos, or any type of technical content, Code Hike helps you create a superior code reading experience.
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+CMS
+
+Strapi
+https://strapi.io/
+Design APIs fast, manage content easily. Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
+
+Medusa
+https://www.medusajs.com/
+Headless commerce platform built for developers. Headless open-source solution enabling you to set up a custom and flexible commerce setup early on in your growth journey
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+MAP
+
+Mapquest
+https://developer.mapquest.com
+Access the tools and resources you need to map the world.
+Join our network of over 34,000 developers and entrepreneurs who leverage the building blocks of our proven geospatial solution.
+FREEMIUM
+
+LocationIQ
+https://locationiq.com/
+Blazing fast Location APIs. Geocoding, Maps and Routing for everyone • Affordable • Scalable
+FREEMIUM
+
+Mapsforge
+https://github.com/mapsforge/mapsforge
+Mapsforge project uses a compact file format for fast ad-hoc rendering of OpenStreetMap data. We provide tools to compile your own maps with detailed instructions and also precompiled maps. It provides simple boilerplate code to build applications for Android that display OpenStreetMap-based maps. It provides a library to build standalone applications in Java (instructions). Mapsforge maps can be flexibly styled with XML style files (render themes).
+FOSS
+
+MapLibre GL JS
+https://maplibre.org/projects/#js
+Open-source JavaScript library for publishing maps on your websites. Fast displaying of maps is possible thanks to GPU-accelerated vector tile rendering. Originated as an open-source fork of mapbox-gl-js, the library is intended to be a drop-in replacement for the Mapbox’s version with additional functionality.
+FOSS
+JS
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+DB
+
+Apache CouchDB
+https://couchdb.apache.org/
+Apache CouchDB™ lets you access your data where you need it. The Couch Replication Protocol is implemented in a variety of projects and products that span every imaginable computing environment from globally distributed server-clusters, over mobile phones to web browsers.
+
+## DOC
+
+dbdocs
+https://dbdocs.io/
+ A free & simple tool to create web-based database documentation using DSL code. Designed for developers. Integrate seamlessly with your development workflow. Define database structure using DSL.
+Powered by the popular open-source database markup language DBML.
+
+SQLDBM
+https://app.sqldbm.com/MySQL/Draft/?sampleProject=true#
+Develop Databases Online without writing a single line of code. By importing your SQL script, you can automatically create a database model, make changes, and generate new SQL script, along with Alter scripts.
+$240/y
+
+Excalidraw
+https://excalidraw.com/
+Virtual whiteboard for sketching hand-drawn like diagrams.
+Collaborative and end-to-end encrypted. Collaborative whiteboarding made easy.
+Freemium $7/mo
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Package manager
+
+Conda
+https://docs.conda.io/projects/conda/en/latest/index.html
+Like Pip, specialized for data science or scientific computing. Conda is an open-source package management system and environment management system that runs on Windows, macOS, and Linux. Conda packages include Python libraries (NumPy or matplotlib), C libraries (libjpeg), and executables (like C compilers, and even the Python interpreter itself). Conda quickly installs, runs, and updates packages and their dependencies. Conda easily creates, saves, loads, and switches between environments on your local computer. It was created for Python programs but it can package and distribute software for any language.
+python
+
+
+Anaconda
+https://docs.conda.io/projects/conda/en/latest
+A downloadable, free, open-source, high-performance, and optimized Python and R distribution. Anaconda includes conda, conda-build, Python, and 250+ automatically installed, open-source scientific packages and their dependencies that have been tested to work well together, including SciPy, NumPy, and many others. Use the conda install command to easily install 7,500+ popular open-source packages for data science--including advanced and scientific analytics--from the Anaconda repository. Use the conda command to install thousands more open-source packages.
+python, R, C++
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+DASHBOARD
+
+AdminLTE
+https://adminlte.io/
+AdminLTE Bootstrap Admin Dashboard Template. Best open source admin dashboard & control panel theme. Built on top of Bootstrap, AdminLTE provides a range of responsive, reusable, and commonly used components. With Premium features
+FOSS
+Javascript
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+SECURITY
+
+PortSwigger
+https://portswigger.net/burp/pro
+Faster, more reliable security testing. The leading toolkit for web security testing. Speed up penetration testing, Catch critical bugs, Join the unrivaled Burp Suite user community
+standalone 349€
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+## KYC & Fraud detection
+
+Alloy
+https://www.alloy.com/
+KYC - For banks and fintech. Make sure the customer is always right – for you. Alloy is the Identity Decisioning Platform that helps banks and fintech companies automate their decisions for onboarding, transaction monitoring and credit underwriting.
+
+Checkr
+https://checkr.com/
+Build a Better Future With Fair Background Checks. We believe all candidates deserve a fair chance to work. Because a criminal record shouldn’t be a life sentence to unemployment, and a background check shouldn’t block the future.
+
+Clearbit
+https://clearbit.com/
+Know your customers, win your market. Clearbit is the marketing data platform behind the fastest-growing B2B companies. Apply real-time intelligence across your entire stack to improve acquisition, conversion, and operations.
+
+signifyd
+https://www.signifyd.com/
+We Protect Shopper Journeys Globally. Commerce protection that recognises the identity and intent behind every payment, restoring mutual trust between merchants and their customers
+
+-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Misc
+
+ILovePdf
+https://www.ilovepdf.com
+Every tool you need to work with PDFs in one place. Every tool you need to use PDFs, at your fingertips. All are 100% FREE and easy to use! Merge, split, compress, convert, rotate, unlock and watermark PDFs with just a few clicks. Tools like merge, split, compress, convert from/to Word/ppt/Excel, edit, sign...
+Freemium $4/mo
+online service
+
+Mux
+https://www.mux.com/
+How developers build online video. Mux Video is an API that enables developers to build unique live and on-demand video experiences.
+
+Shippo
+https://goshippo.com/
+The absolute best rates from top carriers and everything you need for professional shipping in one place. Get started immediately, no coding or volume requirements.
+
+Courier
+https://www.courier.com/
+Deploy notifications to different channels from the same location. With 20+ integrations, you can reach users on the channels they prefer –– all with the simple flip of a switch.
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+
+Pandas
+https://pandas.pydata.org/
+pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. When working with tabular data, such as data stored in spreadsheets or databases, pandas is the right tool for you. pandas will help you to explore, clean, and process your data. In pandas, a data table is called a DataFrame.
+program
+FOSS
+Python
+
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Scrapper
+
+webscraper
+https://www.webscraper.io/
+Making web data extraction easy and accessible for everyone. Point and click interface. Our goal is to make web data extraction as simple as possible. Configure scraper by simply pointing and clicking on elements. No coding required.
+Freemium
+starts at $50/mo
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+NAAS
+
+HomelabOS
+https://homelabos.com/
+Your offline-first privacy-centric personal data center. Includes over 100 services you can easily self-host. Keep your data under your control, and also stop spending money on all those different online services. Run your own services for you, your family, and your friends!
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+PAIEMENT
+
+Lemonway
+https://www.lemonway.com/
+Le paiement simplifié pour votre marketplace
+Une solution sécurisée, modulable et conforme pour simplifier vos transactions sur votre marketplace de produits et de services et votre plateforme de financement participatif.
+
+Finix
+https://www.finixpayments.com/
+Move Money. Make Money. From start-ups to publicly traded companies, Finix offers everything SaaS companies need to build a world-class payments experience. With one developer-friendly API, Finix helps companies accept payments, manage payouts, and onboard merchants—all in the same place.
+
+Checkout
+https://www.checkout.com/
+Payments for the digital economy. Grow your business with the help of our flexible payments platform and local expertise.
+
+Plaid
+https://plaid.com/
+The easiest way for people to connect their financial accounts to an app. A suite of APIs to enable developers to easily build great financial products.
+
+
+
+MessageBird
+telnyx
+Plivo
+
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
+Virtual assistant / AI
+
+OpenAI
+https://beta.openai.com/overview
+The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for everything from content generation to semantic search and classification.
+
+CLIP
+https://openai.com/blog/clip/
+Connecting Text and Images. We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision. CLIP can be applied to any visual classification benchmark by simply providing the names of the visual categories to be recognized, similar to the “zero-shot” capabilities of GPT-2 and GPT-3.
+
+
+DragonFire
+https://github.com/DragonComputer/Dragonfire
+the open-source virtual assistant for Ubuntu based Linux distributions
+
+DeepSpeech
+https://github.com/mozilla/DeepSpeech
+DeepSpeech is an open-source Speech-To-Text engine, using a model trained by machine learning techniques based on Baidu's Deep Speech research paper. Project DeepSpeech uses Google's TensorFlow to make the implementation easier.
+"company": "Mozilla"
 
 https://github.com/filipelinhares/ress
 Modern CSS reset
@@ -220,9 +578,7 @@ Whether you need to create a contract, generate an invoice for payments, documen
 https://www.signaturit.com/
 Envoyez et signez des documents depuis n'importe quel dispositif et sans télécharger d'application. Facilitez la tâche de signature des contrats à vos clients en utilisant notre solution de signature électronique, optimisée pour les dispositifs mobiles, et ce en toute sécurité et avec une pleine valeur juridique.
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-## PROJECT MANAGER
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-
 
 pm2 - http://pm2.keymetrics.io/
 PM2 is a process manager for Node.js applications. It’s written in Node.js (JavaScript) itself and Shell. The utility also integrates a load balancer. You can keep application server processes alive and reload/restart them with zero downtime.
@@ -321,7 +677,7 @@ CrowdFire https://www.crowdfireapp.com/ $7.48/mo
 dlvrit https://dlvrit.com/ freemium $8.29/mo
 hootsuite https://hootsuite.com/
 
-## Learning
+## Learning
 
 Egghead
 codeschool / Pluralsight (https://www.pluralsight.com/)
@@ -342,16 +698,29 @@ tuto.com https://fr.tuto.com/
 
 
 
-## Project management tools
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+## PROJECT MANAGER
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Zulip
+https://zulip.com/
+ Zulip combines the immediacy of real-time chat with an email threading model.
+With Zulip, you can catch up on important conversations while ignoring irrelevant ones.
+
+ftrack Studio
+https://www.ftrack.com/en/studio
+Project management for creative teams. Deliver on deadline with the Academy Award-winning project management, production tracking, and media review platform
 
 timeliner, dreamlr, SmartSheet, Trello, Elegantt, Trellogant, Zenkit, Zendesk, Zoho
 OpenProject (https://www.openproject.org) - GANTT, list view, Kanban, bug tracking, wiki
 Weekdone https://weekdone.com/
 
-Shape https://www.shape.space/
+Shape
+https://www.shape.space/
 Collaborate to tackle tough challenges using customer-centered, creative problem-solving methods.
 
-bloodhound https://bloodhound.apache.org/
+bloodhound
+https://bloodhound.apache.org/
 Manage software products. Keep track of features, tasks and bugs
 
 Allura https://allura.apache.org/
@@ -478,7 +847,7 @@ Bottle - 241
 TurboGear - 242
 Web2py - 243
 
-## PHP
+## PHP
 Laravel - 244
 Symfony - 245
 Lumen - 246
